@@ -5457,10 +5457,6 @@
           },
           {
             "source": "bash",
-            "target": "libcudss"
-          },
-          {
-            "source": "bash",
             "target": "libcufft"
           },
           {
@@ -6366,6 +6362,10 @@
           {
             "source": "bash",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "bash",
+            "target": "nvmath"
           },
           {
             "source": "bash",
@@ -10965,10 +10965,6 @@
           },
           {
             "source": "binutils",
-            "target": "libcudss"
-          },
-          {
-            "source": "binutils",
             "target": "libcxx"
           },
           {
@@ -11133,6 +11129,10 @@
           },
           {
             "source": "binutils",
+            "target": "nvmath"
+          },
+          {
+            "source": "binutils",
             "target": "nvmolkit"
           },
           {
@@ -11262,6 +11262,10 @@
           {
             "source": "binutils",
             "target": "python"
+          },
+          {
+            "source": "binutils",
+            "target": "pytorch-cpu"
           },
           {
             "source": "binutils",
@@ -15733,10 +15737,6 @@
           },
           {
             "source": "cctools-and-ld64",
-            "target": "libcudss"
-          },
-          {
-            "source": "cctools-and-ld64",
             "target": "libcxx"
           },
           {
@@ -15853,6 +15853,10 @@
           },
           {
             "source": "cctools-and-ld64",
+            "target": "nvmath"
+          },
+          {
+            "source": "cctools-and-ld64",
             "target": "nvmolkit"
           },
           {
@@ -15934,6 +15938,10 @@
           {
             "source": "cctools-and-ld64",
             "target": "pyscf"
+          },
+          {
+            "source": "cctools-and-ld64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "cctools-and-ld64",
@@ -18533,10 +18541,6 @@
           },
           {
             "source": "cmake",
-            "target": "libcudss"
-          },
-          {
-            "source": "cmake",
             "target": "libcxx"
           },
           {
@@ -19218,6 +19222,10 @@
           {
             "source": "cmake",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "cmake",
+            "target": "nvmath"
           },
           {
             "source": "cmake",
@@ -20941,10 +20949,6 @@
           },
           {
             "source": "compiler-rt",
-            "target": "libcudss"
-          },
-          {
-            "source": "compiler-rt",
             "target": "libcxx"
           },
           {
@@ -21097,6 +21101,10 @@
           },
           {
             "source": "compiler-rt",
+            "target": "nvmath"
+          },
+          {
+            "source": "compiler-rt",
             "target": "nvmolkit"
           },
           {
@@ -21210,6 +21218,10 @@
           {
             "source": "compiler-rt",
             "target": "pyside2"
+          },
+          {
+            "source": "compiler-rt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "compiler-rt",
@@ -22169,10 +22181,6 @@
           },
           {
             "source": "ctng-compilers",
-            "target": "libcudss"
-          },
-          {
-            "source": "ctng-compilers",
             "target": "libcxx"
           },
           {
@@ -22358,6 +22366,10 @@
           {
             "source": "ctng-compilers",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "ctng-compilers",
+            "target": "nvmath"
           },
           {
             "source": "ctng-compilers",
@@ -28129,10 +28141,6 @@
           },
           {
             "source": "gendef",
-            "target": "libcudss"
-          },
-          {
-            "source": "gendef",
             "target": "libmagma"
           },
           {
@@ -28245,6 +28253,10 @@
           },
           {
             "source": "gendef",
+            "target": "nvmath"
+          },
+          {
+            "source": "gendef",
             "target": "nvmolkit"
           },
           {
@@ -28326,6 +28338,10 @@
           {
             "source": "gendef",
             "target": "pyscf"
+          },
+          {
+            "source": "gendef",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gendef",
@@ -29085,10 +29101,6 @@
           },
           {
             "source": "gfortran_impl_osx-64",
-            "target": "libcudss"
-          },
-          {
-            "source": "gfortran_impl_osx-64",
             "target": "libmagma"
           },
           {
@@ -29201,6 +29213,10 @@
           },
           {
             "source": "gfortran_impl_osx-64",
+            "target": "nvmath"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
             "target": "nvmolkit"
           },
           {
@@ -29282,6 +29298,10 @@
           {
             "source": "gfortran_impl_osx-64",
             "target": "pyscf"
+          },
+          {
+            "source": "gfortran_impl_osx-64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gfortran_impl_osx-64",
@@ -29665,10 +29685,6 @@
           },
           {
             "source": "gfortran_osx-64",
-            "target": "libcudss"
-          },
-          {
-            "source": "gfortran_osx-64",
             "target": "libmagma"
           },
           {
@@ -29781,6 +29797,10 @@
           },
           {
             "source": "gfortran_osx-64",
+            "target": "nvmath"
+          },
+          {
+            "source": "gfortran_osx-64",
             "target": "nvmolkit"
           },
           {
@@ -29862,6 +29882,10 @@
           {
             "source": "gfortran_osx-64",
             "target": "pyscf"
+          },
+          {
+            "source": "gfortran_osx-64",
+            "target": "pytorch-cpu"
           },
           {
             "source": "gfortran_osx-64",
@@ -37933,10 +37957,6 @@
           },
           {
             "source": "libcublas",
-            "target": "libcudss"
-          },
-          {
-            "source": "libcublas",
             "target": "libcuest"
           },
           {
@@ -38006,14 +38026,6 @@
           {
             "source": "libcudla",
             "target": "cuda-python"
-          },
-          {
-            "source": "libcudss",
-            "target": "nvmath"
-          },
-          {
-            "source": "libcudss",
-            "target": "pytorch-cpu"
           },
           {
             "source": "libcufft",
@@ -38617,10 +38629,6 @@
           },
           {
             "source": "libcxx",
-            "target": "libcudss"
-          },
-          {
-            "source": "libcxx",
             "target": "libmagma"
           },
           {
@@ -38733,6 +38741,10 @@
           },
           {
             "source": "libcxx",
+            "target": "nvmath"
+          },
+          {
+            "source": "libcxx",
             "target": "nvmolkit"
           },
           {
@@ -38814,6 +38826,10 @@
           {
             "source": "libcxx",
             "target": "pyscf"
+          },
+          {
+            "source": "libcxx",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libcxx",
@@ -43777,10 +43793,6 @@
           },
           {
             "source": "libtool",
-            "target": "libcudss"
-          },
-          {
-            "source": "libtool",
             "target": "libcufft"
           },
           {
@@ -44682,6 +44694,10 @@
           {
             "source": "libtool",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "libtool",
+            "target": "nvmath"
           },
           {
             "source": "libtool",
@@ -50065,10 +50081,6 @@
           },
           {
             "source": "libxml2",
-            "target": "libcudss"
-          },
-          {
-            "source": "libxml2",
             "target": "libcxx"
           },
           {
@@ -50289,6 +50301,10 @@
           },
           {
             "source": "libxml2",
+            "target": "nvmath"
+          },
+          {
+            "source": "libxml2",
             "target": "nvmolkit"
           },
           {
@@ -50422,6 +50438,10 @@
           {
             "source": "libxml2",
             "target": "pyside2"
+          },
+          {
+            "source": "libxml2",
+            "target": "pytorch-cpu"
           },
           {
             "source": "libxml2",
@@ -51161,10 +51181,6 @@
           },
           {
             "source": "llvmdev",
-            "target": "libcudss"
-          },
-          {
-            "source": "llvmdev",
             "target": "libcxx"
           },
           {
@@ -51329,6 +51345,10 @@
           },
           {
             "source": "llvmdev",
+            "target": "nvmath"
+          },
+          {
+            "source": "llvmdev",
             "target": "nvmolkit"
           },
           {
@@ -51446,6 +51466,10 @@
           {
             "source": "llvmdev",
             "target": "pyside2"
+          },
+          {
+            "source": "llvmdev",
+            "target": "pytorch-cpu"
           },
           {
             "source": "llvmdev",
@@ -55153,10 +55177,6 @@
           },
           {
             "source": "nccl",
-            "target": "libcudss"
-          },
-          {
-            "source": "nccl",
             "target": "libnvshmem"
           },
           {
@@ -56321,10 +56341,6 @@
           },
           {
             "source": "ninja",
-            "target": "libcudss"
-          },
-          {
-            "source": "ninja",
             "target": "libcxx"
           },
           {
@@ -56806,6 +56822,10 @@
           {
             "source": "ninja",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "ninja",
+            "target": "nvmath"
           },
           {
             "source": "ninja",
@@ -60917,10 +60937,6 @@
           },
           {
             "source": "openmpi",
-            "target": "libcudss"
-          },
-          {
-            "source": "openmpi",
             "target": "libmed"
           },
           {
@@ -60993,6 +61009,10 @@
           },
           {
             "source": "openmpi",
+            "target": "nvmath"
+          },
+          {
+            "source": "openmpi",
             "target": "opensees"
           },
           {
@@ -61022,6 +61042,10 @@
           {
             "source": "openmpi",
             "target": "pymdi"
+          },
+          {
+            "source": "openmpi",
+            "target": "pytorch-cpu"
           },
           {
             "source": "openmpi",
@@ -61086,10 +61110,6 @@
           {
             "source": "openmp",
             "target": "ldc"
-          },
-          {
-            "source": "openmp",
-            "target": "libcudss"
           },
           {
             "source": "openmp",
@@ -61246,6 +61266,10 @@
           {
             "source": "openmp",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "openmp",
+            "target": "nvmath"
           },
           {
             "source": "openmp",
@@ -72918,10 +72942,6 @@
           {
             "source": "python",
             "target": "libcst"
-          },
-          {
-            "source": "python",
-            "target": "libcudss"
           },
           {
             "source": "python",
@@ -91769,10 +91789,6 @@
           },
           {
             "source": "shellcheck",
-            "target": "libcudss"
-          },
-          {
-            "source": "shellcheck",
             "target": "libfabric"
           },
           {
@@ -91889,6 +91905,10 @@
           },
           {
             "source": "shellcheck",
+            "target": "nvmath"
+          },
+          {
+            "source": "shellcheck",
             "target": "nvmolkit"
           },
           {
@@ -91974,6 +91994,10 @@
           {
             "source": "shellcheck",
             "target": "pyscf"
+          },
+          {
+            "source": "shellcheck",
+            "target": "pytorch-cpu"
           },
           {
             "source": "shellcheck",
@@ -95245,10 +95269,6 @@
           },
           {
             "source": "ucrt",
-            "target": "libcudss"
-          },
-          {
-            "source": "ucrt",
             "target": "libmagma"
           },
           {
@@ -95361,6 +95381,10 @@
           },
           {
             "source": "ucrt",
+            "target": "nvmath"
+          },
+          {
+            "source": "ucrt",
             "target": "nvmolkit"
           },
           {
@@ -95442,6 +95466,10 @@
           {
             "source": "ucrt",
             "target": "pyscf"
+          },
+          {
+            "source": "ucrt",
+            "target": "pytorch-cpu"
           },
           {
             "source": "ucrt",
@@ -98973,10 +99001,6 @@
           },
           {
             "source": "winpthreads",
-            "target": "libcudss"
-          },
-          {
-            "source": "winpthreads",
             "target": "libmagma"
           },
           {
@@ -99089,6 +99113,10 @@
           },
           {
             "source": "winpthreads",
+            "target": "nvmath"
+          },
+          {
+            "source": "winpthreads",
             "target": "nvmolkit"
           },
           {
@@ -99170,6 +99198,10 @@
           {
             "source": "winpthreads",
             "target": "pyscf"
+          },
+          {
+            "source": "winpthreads",
+            "target": "pytorch-cpu"
           },
           {
             "source": "winpthreads",
@@ -104493,10 +104525,6 @@
           },
           {
             "source": "zlib",
-            "target": "libcudss"
-          },
-          {
-            "source": "zlib",
             "target": "libcups"
           },
           {
@@ -104918,6 +104946,10 @@
           {
             "source": "zlib",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "zlib",
+            "target": "nvmath"
           },
           {
             "source": "zlib",
@@ -106653,10 +106685,6 @@
           },
           {
             "source": "zstd",
-            "target": "libcudss"
-          },
-          {
-            "source": "zstd",
             "target": "libcxx"
           },
           {
@@ -106926,6 +106954,10 @@
           {
             "source": "zstd",
             "target": "nvimgcodec"
+          },
+          {
+            "source": "zstd",
+            "target": "nvmath"
           },
           {
             "source": "zstd",
@@ -122006,12 +122038,6 @@
             "id": "openpmix",
             "payload": {
               "__lazy_json__": "node_attrs/openpmix.json"
-            }
-          },
-          {
-            "id": "libcudss",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcudss.json"
             }
           },
           {
