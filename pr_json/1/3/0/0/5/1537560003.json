@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"6c872a68c1ba4a12670fa7df7e0ef1e55140c912ac987c505219a619e543fe29\"",
+  "ETag": "W/\"897b1bb2370b974de7c3c9c06f5d1faab715fe3a7f2725441cf8e3b58ca334a7\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/libsmu-feedstock/pull/14",
   "id": 1537560003,
   "labels": [],
-  "last_fetched": "2026-09-04T18:34:59.421976",
+  "last_fetched": "2026-09-11T19:54:17.658873",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
