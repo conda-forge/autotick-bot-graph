@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"71e86911355301c97afa0eeb3856bed227241e9bb22bf8428d4264909c497916\"",
+  "Last-Modified": "Fri, 11 Sep 2026 21:03:47 GMT",
   "base": {
     "repo": {
       "name": "dm-tree-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/dm-tree-feedstock/pull/51",
   "id": 4509716611,
   "labels": [],
-  "last_fetched": "2026-09-11T21:01:56.099989",
+  "last_fetched": "2026-09-11T22:39:55.780265",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 51,
   "state": "open",
-  "updated_at": "2026-09-11T21:01:55Z"
+  "updated_at": "2026-09-11T21:03:47Z"
 }
