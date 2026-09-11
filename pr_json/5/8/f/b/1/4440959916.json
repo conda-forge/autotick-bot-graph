@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"c4f1045e1398c79ccef2de2ebd7412d6d4c3b6dda5e3006eb40ec8b9327f0835\"",
+  "ETag": "W/\"6d9717d72cbfaf66a8ddfe5b52ad7d3d2554a1cf03d3439831082a5ae2ea3d17\"",
   "Last-Modified": "Fri, 04 Sep 2026 09:29:11 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/libuwebsockets-feedstock/pull/49",
   "id": 4440959916,
   "labels": [],
-  "last_fetched": "2026-09-04T09:32:45.225306",
+  "last_fetched": "2026-09-11T22:34:11.652671",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
