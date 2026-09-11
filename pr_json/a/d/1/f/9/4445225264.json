@@ -1,17 +1,17 @@
 {
-  "ETag": "W/\"9ce12b9e5d7de4900aff0d24d8bc5f8e3a082da8433e780883e449d067c0842b\"",
-  "Last-Modified": "Fri, 11 Sep 2026 22:54:57 GMT",
+  "ETag": "W/\"93edf416c0dcff96de228bdc93cec3c5735a552068ccac7d5926427269202702\"",
+  "Last-Modified": "Fri, 11 Sep 2026 23:05:33 GMT",
   "base": {
     "repo": {
       "name": "soapysdr-feedstock"
     }
   },
-  "closed_at": null,
+  "closed_at": "2026-09-11T23:05:33Z",
   "created_at": "2026-09-04T17:56:47Z",
   "draft": false,
   "e_tag": "\"5cf2431ef4283941d62366b38ee0d7038c98bbc5640ca6557e3e9117613351a3\"",
   "head": {
-    "ref": "rebuild-python315-0-1_h2a363b"
+    "ref": "this_is_not_a_branch"
   },
   "html_url": "https://github.com/conda-forge/soapysdr-feedstock/pull/22",
   "id": 4445225264,
@@ -26,13 +26,13 @@
       "url": "https://api.github.com/repos/conda-forge/soapysdr-feedstock/labels/automerge"
     }
   ],
-  "last_fetched": "2026-09-11T22:56:08.564683",
+  "last_fetched": "2026-09-11T23:10:49.573893",
   "last_modified": null,
-  "mergeable": true,
-  "mergeable_state": "unstable",
-  "merged": false,
-  "merged_at": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": true,
+  "merged_at": "2026-09-11T23:05:33Z",
   "number": 22,
-  "state": "open",
-  "updated_at": "2026-09-11T22:54:57Z"
+  "state": "closed",
+  "updated_at": "2026-09-11T23:05:37Z"
 }
