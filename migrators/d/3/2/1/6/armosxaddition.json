@@ -48,12 +48,6 @@
             "payload": {
               "__lazy_json__": "node_attrs/proj4.json"
             }
-          },
-          {
-            "id": "r-secretbase",
-            "payload": {
-              "__lazy_json__": "node_attrs/r-secretbase.json"
-            }
           }
         ]
       }
