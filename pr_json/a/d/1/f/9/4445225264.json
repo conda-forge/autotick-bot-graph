@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"e82e6f1be9039ae3d83fc8db91a498d3f2aad483bca3c3e5fd0db5a3280a0023\"",
-  "Last-Modified": "Fri, 04 Sep 2026 17:58:23 GMT",
+  "ETag": "W/\"9ce12b9e5d7de4900aff0d24d8bc5f8e3a082da8433e780883e449d067c0842b\"",
+  "Last-Modified": "Fri, 11 Sep 2026 22:54:57 GMT",
   "base": {
     "repo": {
       "name": "soapysdr-feedstock"
@@ -15,8 +15,18 @@
   },
   "html_url": "https://github.com/conda-forge/soapysdr-feedstock/pull/22",
   "id": 4445225264,
-  "labels": [],
-  "last_fetched": "2026-09-05T01:03:22.979247",
+  "labels": [
+    {
+      "color": "0e8a16",
+      "default": false,
+      "description": "Merge the PR when CI passes",
+      "id": 2126370199,
+      "name": "automerge",
+      "node_id": "MDU6TGFiZWwyMTI2MzcwMTk5",
+      "url": "https://api.github.com/repos/conda-forge/soapysdr-feedstock/labels/automerge"
+    }
+  ],
+  "last_fetched": "2026-09-11T22:56:08.564683",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
@@ -24,5 +34,5 @@
   "merged_at": null,
   "number": 22,
   "state": "open",
-  "updated_at": "2026-09-04T17:58:23Z"
+  "updated_at": "2026-09-11T22:54:57Z"
 }
