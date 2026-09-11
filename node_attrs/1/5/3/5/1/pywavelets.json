@@ -1,7 +1,17 @@
 {
   "archived": false,
   "branch": "main",
-  "ci_support_linux_64_python3.12.____cpython.yaml": "c_compiler:\n- gcc\nc_compiler_version:\n- '15'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\nchannel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npin_run_as_build:\n  python:\n    min_pin: x.x\n    max_pin: x.x\npython:\n- 3.12.* *_cpython\ntarget_platform:\n- linux-64\n",
+  "ci_support_linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.15.____cp315.yaml": "c_compiler:\n- gcc\nc_compiler_version:\n- '15'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\nchannel_sources:\n- conda-forge,conda-forge/label/python_rc\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npin_run_as_build:\n  python:\n    min_pin: x.x\n    max_pin: x.x\npython:\n- 3.15.* *_cp315\ntarget_platform:\n- linux-64\nzip_keys:\n- - python\n  - channel_sources\n",
+  "ci_support_migrations": {
+    "python314t": {
+      "migration_number": 1,
+      "migrator_ts": 1755739493
+    },
+    "python315": {
+      "migration_number": 1,
+      "migrator_ts": 1755739490
+    }
+  },
   "conda-forge.yml": {
     "bot": {
       "inspection": "update-grayskull"
@@ -27,8 +37,8 @@
     },
     "test": "native_and_emulated"
   },
-  "feedstock_hash": "8d546bc2eb3dd38d9c69822dc1af39747c53a777",
-  "feedstock_hash_ts": 1788876777,
+  "feedstock_hash": "376120a2595c94dbb85b5440ee994d9417f4c0ac",
+  "feedstock_hash_ts": 1789166999,
   "feedstock_name": "pywavelets",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -41,7 +51,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -58,6 +68,46 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
@@ -291,7 +341,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -308,6 +358,51 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_linux-aarch64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
@@ -571,7 +666,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -588,6 +683,51 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_linux-ppc64le",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
@@ -851,7 +991,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -1034,6 +1174,136 @@
         "name": "pywavelets",
         "requirements": {
           "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_linux-aarch64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_linux-aarch64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
             "python",
             "cross-python_linux-aarch64",
             "cython >=3.0.4",
@@ -1170,7 +1440,7 @@
         "requirements": {
           "build": [
             "python",
-            "cross-python_linux-aarch64",
+            "cross-python_linux-ppc64le",
             "cython >=3.0.4",
             "numpy",
             "ninja",
@@ -1575,7 +1845,7 @@
         "requirements": {
           "build": [
             "python",
-            "cross-python_osx-arm64",
+            "cross-python_osx-64",
             "cython >=3.0.4",
             "numpy",
             "ninja",
@@ -1714,6 +1984,140 @@
             "cython >=3.0.4",
             "numpy",
             "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_osx-arm64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_osx-arm64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_win-64",
+            "cython >=3.0.4",
+            "numpy",
             "c_compiler_stub",
             "c_stdlib_stub"
           ],
@@ -1974,7 +2378,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -1991,6 +2395,51 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_osx-64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
@@ -2254,7 +2703,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir",
@@ -2271,6 +2720,51 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_osx-arm64",
+            "cython >=3.0.4",
+            "numpy",
+            "ninja",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
@@ -2542,7 +3036,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/pywavelets.json"
   },
-  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  version: \"1.10.0\"\n\npackage:\n  name: pywavelets\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/p/pywavelets/pywavelets-${{ version }}.tar.gz\n  sha256: f3cb8640225a8f3fdcbc3f6f3bd112c78927c9407cbfa65a5ff303990a6a3e32\n\nbuild:\n  number: 0\n  skip: match(python, \"<3.12\")\n  script:\n    - mkdir builddir\n    - if: unix\n      then: ${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir\n      else: ${{ PYTHON }} -m mesonbuild.mesonmain setup %MESON_ARGS% builddir\n    - ${{ PYTHON }} -m build --wheel --no-isolation --skip-dependency-check -Cbuilddir=builddir\n    - ${{ PYTHON }} -m pip install --find-links dist pywavelets\n\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - python\n        - cross-python_${{ target_platform }}\n        - cython >=3.0.4\n        - numpy\n        - if: unix\n          then: ninja\n    - ${{ compiler(\"c\") }}\n    - ${{ stdlib(\"c\") }}\n  host:\n    - python\n    - cython >=3.2.5\n    - meson-python >=0.18.0\n    - numpy >=2.0.0\n    - pip\n    - python-build\n  run:\n    - python\n    - numpy >=1.26.4,<3\n\ntests:\n  - python:\n      imports:\n        - pywt\n      pip_check: true\n  - requirements:\n      run:\n        - pytest\n    script:\n      - pytest --pyargs pywt\n\nabout:\n  summary: PyWavelets, wavelet transform module\n  license: MIT\n  license_file: LICENSE\n  homepage: https://pypi.org/project/PyWavelets/\n  documentation: https://pythonhosted.org/PyWavelets/\n\nextra:\n  recipe-maintainers:\n    - grlee77\n    - jakirkham\n    - ocefpaf\n    - rgommers\n",
+  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  version: \"1.10.0\"\n\npackage:\n  name: pywavelets\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/p/pywavelets/pywavelets-${{ version }}.tar.gz\n  sha256: f3cb8640225a8f3fdcbc3f6f3bd112c78927c9407cbfa65a5ff303990a6a3e32\n\nbuild:\n  number: 1\n  skip: match(python, \"<3.12\")\n  script:\n    - mkdir builddir\n    - if: unix\n      then: ${{ PYTHON }} -m mesonbuild.mesonmain setup $MESON_ARGS builddir\n      else: ${{ PYTHON }} -m mesonbuild.mesonmain setup %MESON_ARGS% builddir\n    - ${{ PYTHON }} -m build --wheel --no-isolation --skip-dependency-check -Cbuilddir=builddir\n    - ${{ PYTHON }} -m pip install --find-links dist pywavelets\n\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - python\n        - cross-python_${{ target_platform }}\n        - cython >=3.0.4\n        - numpy\n        - if: unix\n          then: ninja\n    - ${{ compiler(\"c\") }}\n    - ${{ stdlib(\"c\") }}\n  host:\n    - python\n    - cython >=3.2.5\n    - meson-python >=0.18.0\n    - numpy >=2.0.0\n    - pip\n    - python-build\n  run:\n    - python\n    - numpy >=1.26.4,<3\n\ntests:\n  - python:\n      imports:\n        - pywt\n      pip_check: true\n  - requirements:\n      run:\n        - pytest\n    script:\n      - pytest --pyargs pywt\n\nabout:\n  summary: PyWavelets, wavelet transform module\n  license: MIT\n  license_file: LICENSE\n  homepage: https://pypi.org/project/PyWavelets/\n  documentation: https://pythonhosted.org/PyWavelets/\n\nextra:\n  recipe-maintainers:\n    - grlee77\n    - jakirkham\n    - ocefpaf\n    - rgommers\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -2670,7 +3164,7 @@
       "summary": "PyWavelets, wavelet transform module"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mkdir builddir",
         "${{ PYTHON }} -m mesonbuild.mesonmain setup %MESON_ARGS% builddir",
@@ -2687,6 +3181,50 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "pywavelets",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_win-64",
+            "cython >=3.0.4",
+            "numpy",
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "cython >=3.2.5",
+            "meson-python >=0.18.0",
+            "numpy >=2.0.0",
+            "pip",
+            "python-build"
+          ],
+          "run": [
+            "python",
+            "numpy >=1.26.4,<3"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "pywt"
+              ]
+            }
+          },
+          {
+            "requirements": {
+              "run": [
+                "pytest"
+              ]
+            },
+            "script": "pytest --pyargs pywt"
+          }
+        ],
+        "version": "1.10.0"
+      },
       {
         "build": null,
         "name": "pywavelets",
