@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"36d37f12b9be207c4deb37b992afd1e1ddbf56560ced6f3880b0dd3bd8b11068\"",
+  "ETag": "W/\"aff40c95711c05b7b150faffa7cc16d8bec77eb16ba92e240387bacce52b5dd6\"",
   "Last-Modified": "Fri, 04 Sep 2026 20:17:55 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/cspell-feedstock/pull/44",
   "id": 4446263724,
   "labels": [],
-  "last_fetched": "2026-09-04T22:26:07.649349",
+  "last_fetched": "2026-09-11T23:27:04.715084",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
