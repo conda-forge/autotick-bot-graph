@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "imagecodecs-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-11T21:10:58Z",
+  "draft": false,
+  "e_tag": "\"b64b1c47862c388c39bcdb353517137c213aaaafeec4af408e18dc437ef3ccfd\"",
+  "head": {
+    "ref": "rebuild-python315-0-1_habbeec"
+  },
+  "html_url": "https://github.com/conda-forge/imagecodecs-feedstock/pull/167",
+  "id": 4509770962,
+  "labels": [],
+  "last_fetched": "2026-09-11T21:10:59.436001",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 167,
+  "state": "open",
+  "updated_at": "2026-09-11T21:10:58Z"
+}
