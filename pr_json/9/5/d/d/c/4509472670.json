@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"3735d3632c9e365bc3ca8fd331d8c93737fb7fad45d40576d37cbf7726a75e6a\"",
+  "Last-Modified": "Fri, 11 Sep 2026 20:24:15 GMT",
   "base": {
     "repo": {
       "name": "rivet-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/rivet-feedstock/pull/17",
   "id": 4509472670,
   "labels": [],
-  "last_fetched": "2026-09-11T20:22:37.848701",
+  "last_fetched": "2026-09-11T20:30:21.093748",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "unstable",
   "merged": false,
   "merged_at": null,
   "number": 17,
   "state": "open",
-  "updated_at": "2026-09-11T20:22:37Z"
+  "updated_at": "2026-09-11T20:24:15Z"
 }
