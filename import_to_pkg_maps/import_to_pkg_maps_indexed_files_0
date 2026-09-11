@@ -19977,6 +19977,7 @@ linux-64/njoy2016-2016.70-py310he3c497b_0.conda
 linux-64/njoy2016-2016.71-py38h3c16f5f_0.conda
 linux-64/nlohmann_fifo_map-1.0.0-0.tar.bz2
 linux-64/nlopt-2.10.0-py310h1e313bd_0.conda
+linux-64/nlopt-2.11.0-np2py311h1a37cdc_2.conda
 linux-64/nlopt-2.4.2-py34_0.tar.bz2
 linux-64/nlopt-2.4.2-py35_0.tar.bz2
 linux-64/nlopt-2.7.0-py37ha06c867_1.tar.bz2
@@ -21504,6 +21505,8 @@ linux-64/oracledb-1.3.1-py310h2372a71_0.conda
 linux-64/oracledb-2.1.1-py311h459d7ec_0.conda
 linux-64/oracledb-2.5.1-py39h8cd3c5a_0.conda
 linux-64/oracledb-26.0.0-py311h194be0f_0.conda
+linux-64/oracledb-26.0.0-py311h194be0f_1.conda
+linux-64/oracledb-26.0.0-py312h1b36aeb_1.conda
 linux-64/oracledb-3.1.0-py313h536fd9c_0.conda
 linux-64/oracledb-3.4.1-py310h7c4b9e2_0.conda
 linux-64/oracledb-4.0.1-py314h3f2afee_0.conda
@@ -52062,6 +52065,7 @@ linux-aarch64/pymol-open-source-3.1.0-py313ha3200e0_6.conda
 linux-aarch64/pymomentum-0.1.110-cuda130_py312_pt212_h6a29319_5.conda
 linux-aarch64/pymomentum-0.1.112-cuda129_py313_pt212_h46bf19b_0.conda
 linux-aarch64/pymomentum-0.1.113-cuda129_py314_pt212_h11c15ea_0.conda
+linux-aarch64/pymomentum-0.1.114-cuda129_py311_pt213_h463cc28_3.conda
 linux-aarch64/pymomentum-0.1.114-cuda130_py312_pt213_h31c5001_2.conda
 linux-aarch64/pymomentum-0.1.114-cuda130_py314_pt213_h9756fc3_1.conda
 linux-aarch64/pymomentum-0.1.21-cpu_py311_h7d2a9fa_2.conda
@@ -54409,6 +54413,7 @@ linux-aarch64/scipy-tests-1.16.1-py313he5bcb21_1.conda
 linux-aarch64/scipy-tests-1.16.3-py314h8d0d2ea_2.conda
 linux-aarch64/scipy-tests-1.16.3-py314hd30f180_2.conda
 linux-aarch64/scipy-tests-1.18.0-py314h34f1ec5_0.conda
+linux-aarch64/scipy-tests-1.18.1-py312h3e7234c_0.conda
 linux-aarch64/scitokens-cpp-1.1.1-ha0e8111_0.conda
 linux-aarch64/scons-4.0.1-py37hc8dfbb8_1.tar.bz2
 linux-aarch64/scons-4.3.0-py37h4bcbb9b_0.tar.bz2
@@ -72637,6 +72642,7 @@ noarch/cdflib-1.2.1-pyhd8ed1ab_0.conda
 noarch/cdk8s-2.70.76-pyhcf101f3_0.conda
 noarch/cdk8s-2.70.83-pyhcf101f3_0.conda
 noarch/cdk8s-2.70.90-pyhcf101f3_0.conda
+noarch/cdp-use-1.4.5-pyh5ded981_0.conda
 noarch/cdsapi-0.1.6-py_0.tar.bz2
 noarch/cdsdashboards-singleuser-0.5.5-hd8ed1ab_0.tar.bz2
 noarch/cdsodatacli-2025.10.22-pyhd8ed1ab_0.conda
@@ -106053,6 +106059,7 @@ osx-64/nlopt-2.10.0-py313h9881e93_2.conda
 osx-64/nlopt-2.10.1-np2py314h40c2f6d_1.conda
 osx-64/nlopt-2.10.1-py314h8cd6f41_0.conda
 osx-64/nlopt-2.11.0-np2py313h2589dda_0.conda
+osx-64/nlopt-2.11.0-np2py313h5a54fc1_2.conda
 osx-64/nlopt-2.4.2-py34_1.tar.bz2
 osx-64/nlopt-2.7.1-py312h088d15e_5.conda
 osx-64/nlopt-2.7.1-py38h677a455_2.tar.bz2
@@ -121562,6 +121569,7 @@ osx-64/vispy-0.15.1-py310h81c9179_0.conda
 osx-64/vispy-0.15.2-py313h38fb729_1.conda
 osx-64/vispy-0.16.0-py310hc16436e_0.conda
 osx-64/vispy-0.16.2-py312h779b3a5_0.conda
+osx-64/vispy-0.17.0-py313hb9d0cdc_1.conda
 osx-64/vispy-0.6.4-py38h3562b2f_0.tar.bz2
 osx-64/vispy-0.7.0-py38h6c39612_0.tar.bz2
 osx-64/vispy-0.7.0-py39h7c35a4d_1.tar.bz2
@@ -153242,6 +153250,7 @@ win-64/nlopt-2.10.0-py311h996f8db_0.conda
 win-64/nlopt-2.10.1-np2py310h7578f05_0.conda
 win-64/nlopt-2.10.1-np2py314h4d5b9a1_0.conda
 win-64/nlopt-2.11.0-np2py312h7c90ba1_1.conda
+win-64/nlopt-2.11.0-np2py315h0f535c4_2.conda
 win-64/nlopt-2.7.0-py310hbe8c574_2.tar.bz2
 win-64/nlopt-2.7.0-py38hdf70f8e_1.tar.bz2
 win-64/nlopt-2.7.0-py39h6714f1b_1.tar.bz2
@@ -154167,6 +154176,7 @@ win-64/oracledb-1.1.0-py38h91455d4_0.tar.bz2
 win-64/oracledb-1.2.2-py310h8d17308_0.conda
 win-64/oracledb-2.1.0-py312he70551f_0.conda
 win-64/oracledb-2.5.1-py313ha7868ed_0.conda
+win-64/oracledb-26.0.0-py312he5662c2_1.conda
 win-64/oracledb-26.0.0-py314h8f04a7f_0.conda
 win-64/oracledb-3.0.0-py39ha55e580_0.conda
 win-64/oracledb-3.1.0-py311he736701_0.conda
@@ -157558,6 +157568,7 @@ win-64/pymomentum-gpu-0.1.110-cuda130_py312_pt211_he0ca20c_4.conda
 win-64/pymomentum-gpu-0.1.111-cuda130_py312_pt212_h741a040_2.conda
 win-64/pymomentum-gpu-0.1.111-cuda130_py313_pt212_hfc35c85_1.conda
 win-64/pymomentum-gpu-0.1.111-cuda130_py314_pt212_h5fd74b5_1.conda
+win-64/pymomentum-gpu-0.1.114-cuda129_py314_pt213_hf2b93a1_3.conda
 win-64/pymomentum-gpu-0.1.114-cuda130_py313_pt212_hb5ebe9b_0.conda
 win-64/pymomentum-gpu-0.1.114-cuda130_py313_pt213_h7e81b6a_1.conda
 win-64/pymomentum-gpu-0.1.98-cuda129_py313_h40d1eb3_1.conda
@@ -164626,6 +164637,7 @@ win-64/umap-learn-0.5.4-py38haa244fe_0.conda
 win-64/umf-0.10.0-h5f7dc08_356.conda
 win-64/uncertainties-2.4.8.1-py34_1.tar.bz2
 win-64/uncrustify-0.70.1-0.tar.bz2
+win-64/undoc-0.11.0-h18a1a76_0.conda
 win-64/undoc-0.3.1-h18a1a76_0.conda
 win-64/unicodedata2-13.0.0.post2-py37h179b583_3.tar.bz2
 win-64/unicodedata2-14.0.0-py38h294d835_0.tar.bz2
