@@ -1,28 +1,28 @@
 {
-  "ETag": "W/\"46f7e4f8bbbc28b38098b48a625a9f0bf5d289932d37e0bf2312d6f4852dc2b6\"",
-  "Last-Modified": "Fri, 11 Sep 2026 22:38:38 GMT",
+  "ETag": "W/\"509dc232bd52d388c2f88a8812f80b5b203a4f771e4e742084d4d332f818f603\"",
+  "Last-Modified": "Fri, 11 Sep 2026 22:32:07 GMT",
   "base": {
     "repo": {
       "name": "snowflake-ml-python-feedstock"
     }
   },
-  "closed_at": "2026-09-11T22:38:38Z",
+  "closed_at": null,
   "created_at": "2026-09-11T06:09:24Z",
   "draft": false,
   "e_tag": "\"25541681e968138cd9ab82daceef917f81a7c05a48861faf4920cb7a9aa6e911\"",
   "head": {
-    "ref": "this_is_not_a_branch"
+    "ref": "2.0.0_hdfbfa5"
   },
   "html_url": "https://github.com/conda-forge/snowflake-ml-python-feedstock/pull/157",
   "id": 4503068305,
   "labels": [],
-  "last_fetched": "2026-09-11T22:39:19.229787",
+  "last_fetched": "2026-09-11T22:36:17.262833",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
-  "merged": true,
-  "merged_at": "2026-09-11T22:38:38Z",
+  "mergeable": true,
+  "mergeable_state": "clean",
+  "merged": false,
+  "merged_at": null,
   "number": 157,
-  "state": "closed",
-  "updated_at": "2026-09-11T22:38:38Z"
+  "state": "open",
+  "updated_at": "2026-09-11T22:32:07Z"
 }
