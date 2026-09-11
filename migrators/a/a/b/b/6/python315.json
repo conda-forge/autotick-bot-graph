@@ -1519,6 +1519,12 @@
             }
           },
           {
+            "id": "citeproc-py",
+            "payload": {
+              "__lazy_json__": "node_attrs/citeproc-py.json"
+            }
+          },
+          {
             "id": "spire-pipeline",
             "payload": {
               "__lazy_json__": "node_attrs/spire-pipeline.json"
