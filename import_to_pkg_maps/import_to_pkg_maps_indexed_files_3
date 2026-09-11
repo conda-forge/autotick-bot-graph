@@ -21400,6 +21400,7 @@ linux-64/oracledb-2.1.2-py310h2372a71_0.conda
 linux-64/oracledb-2.2.1-py38hfb59056_0.conda
 linux-64/oracledb-2.4.1-py312h66e93f0_0.conda
 linux-64/oracledb-26.0.0-py314h92e9576_0.conda
+linux-64/oracledb-26.0.0-py314hfe1a184_1.conda
 linux-64/oracledb-3.0.0-py310ha75aee5_0.conda
 linux-64/oracledb-3.0.0-py311h9ecbd09_0.conda
 linux-64/oracledb-3.3.0-py312h4c3975b_0.conda
@@ -52148,6 +52149,7 @@ linux-aarch64/pymomentum-0.1.111-cpu_py314_pt212_h3aacba7_1.conda
 linux-aarch64/pymomentum-0.1.111-cpu_py314_pt212_hd2cf0d4_2.conda
 linux-aarch64/pymomentum-0.1.111-cuda130_py314_pt212_hb354d5c_2.conda
 linux-aarch64/pymomentum-0.1.114-cuda129_py314_pt212_h18f9768_0.conda
+linux-aarch64/pymomentum-0.1.114-cuda130_py311_pt213_h41be7cb_3.conda
 linux-aarch64/pymomentum-0.1.26-cpu_py312_hec7fccb_0.conda
 linux-aarch64/pymomentum-0.1.29-cpu_py312_h4bb8aef_4.conda
 linux-aarch64/pymomentum-0.1.31-cpu_py310_hf6a13a4_0.conda
@@ -67186,6 +67188,7 @@ linux-ppc64le/pyproj-3.4.0-py39h7716ec6_1.tar.bz2
 linux-ppc64le/pyproj-3.6.1-py39h527c419_4.conda
 linux-ppc64le/pyproj-3.7.2-py311hf729889_5.conda
 linux-ppc64le/pyproj-3.7.2-py312he198aa4_5.conda
+linux-ppc64le/pyproj-3.8.0-py313h86c6727_1.conda
 linux-ppc64le/pyqt-5.15.9-py38h0f762fb_5.conda
 linux-ppc64le/pyqt5-sip-12.13.0-py312h239da9a_0.conda
 linux-ppc64le/pyqtchart-5.15.10-py310h41771f5_0.conda
@@ -78527,6 +78530,7 @@ noarch/kim-query-4.0.0-pyhd8ed1ab_0.conda
 noarch/kineticstoolkit-0.13.1-pyh96a1ffd_1.conda
 noarch/kinisi-2.0.1-pyhd8ed1ab_0.conda
 noarch/kinisi-2.0.5-pyhd8ed1ab_0.conda
+noarch/kisiac-2.1.0-pyhd8ed1ab_0.conda
 noarch/kit4dl-2023.9b2-pyhd8ed1ab_0.conda
 noarch/kitchen-1.2.6-pyh9f0ad1d_0.tar.bz2
 noarch/kiwipy-0.7.7-pyh6c4a22f_0.conda
@@ -79514,6 +79518,7 @@ noarch/lume-gpt-0.6.1-pyhd8ed1ab_0.conda
 noarch/lume-gpt-0.7.7-pyhd8ed1ab_0.conda
 noarch/lume-gpt-0.8.4-pyhd8ed1ab_0.conda
 noarch/lume-gpt-0.9.6-pyhd8ed1ab_0.conda
+noarch/lume-impact-0.12.1-pyhd8ed1ab_1.conda
 noarch/lumen-0.6.0-pyhd8ed1ab_0.conda
 noarch/lumen-0.6.2-pyhd8ed1ab_0.conda
 noarch/lumen-ai-bedrock-1.3.0-pyhd8ed1ab_0.conda
@@ -137476,6 +137481,7 @@ osx-arm64/scipy-1.16.2-py313hb866432_0.conda
 osx-arm64/scipy-1.16.3-py314h9dec0e9_0.conda
 osx-arm64/scipy-1.17.0-py311he9931d0_0.conda
 osx-arm64/scipy-1.17.0-py311he9931d0_1.conda
+osx-arm64/scipy-1.18.1-py314h23e603c_0.conda
 osx-arm64/scipy-1.6.0-py38hdf044fb_0.tar.bz2
 osx-arm64/scipy-1.7.0-py38hd0c9ec0_0.tar.bz2
 osx-arm64/scipy-tests-1.13.0-py39h3b37697_0.conda
@@ -137483,6 +137489,7 @@ osx-arm64/scipy-tests-1.14.0-py311hceeca8c_2.conda
 osx-arm64/scipy-tests-1.14.1-py312hab791f0_2.conda
 osx-arm64/scipy-tests-1.14.1-py313h27102e2_1.conda
 osx-arm64/scipy-tests-1.16.3-py313h29d7d31_2.conda
+osx-arm64/scipy-tests-1.18.1-py314hd9f3d4e_0.conda
 osx-arm64/scirooplot-3.3.1-py312h4d52540_0.conda
 osx-arm64/scirooplot-3.3.1-py312h7dc22ac_0.conda
 osx-arm64/scirooplot-3.3.2-py312h78367de_0.conda
@@ -138889,6 +138896,7 @@ osx-arm64/vispy-0.12.1-py310hb614ae6_0.tar.bz2
 osx-arm64/vispy-0.14.0-py38h8b9ce89_0.conda
 osx-arm64/vispy-0.14.3-py310he14dec4_0.conda
 osx-arm64/vispy-0.16.1-py310haa3c8e0_0.conda
+osx-arm64/vispy-0.17.0-py312h957bfda_1.conda
 osx-arm64/vispy-0.8.1-py39h5861bad_0.tar.bz2
 osx-arm64/vitables-3.1.0-py310h3f5953d_0.conda
 osx-arm64/vitables-3.1.0-py313h5e73f7c_2.conda
@@ -153366,6 +153374,7 @@ win-64/nlohmann_json-3.10.5-h39d44d4_1.tar.bz2
 win-64/nlohmann_json-3.12.0-h5112557_2.conda
 win-64/nlopt-2.10.0-py314h4068a07_3.conda
 win-64/nlopt-2.10.1-np2py311hf2e69b3_0.conda
+win-64/nlopt-2.11.0-np2py311h46e8ea1_2.conda
 win-64/nlopt-2.6.1-py37hf92ba0c_2.tar.bz2
 win-64/nlopt-2.6.2-py36hb8e8622_1.tar.bz2
 win-64/nlopt-2.7.0-py38h8e1f723_2.tar.bz2
