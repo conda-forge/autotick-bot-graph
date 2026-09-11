@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"8d8b4c0edda6c60220db0fbc60b13d26bb49d41dffadd4c5e7f7a014f256db78\"",
+  "ETag": "W/\"d69ca5bba031bd6da6c55e97942f430419255dddfb146e3caeb47b7526c5c2d6\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/vcpkg-feedstock/pull/37",
   "id": 1447502661,
   "labels": [],
-  "last_fetched": "2026-09-04T22:27:26.145708",
+  "last_fetched": "2026-09-11T23:29:58.226363",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
