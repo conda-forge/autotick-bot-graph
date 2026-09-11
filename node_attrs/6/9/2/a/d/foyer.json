@@ -1,7 +1,8 @@
 {
   "archived": false,
   "branch": "main",
-  "ci_support_linux_64_.yaml": "channel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npython_min:\n- '3.10'\n",
+  "ci_support_linux_64_.yaml": "channel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npython_min:\n- '3.11'\n",
+  "ci_support_migrations": {},
   "conda-forge.yml": {
     "conda_build": {
       "pkg_format": "2"
@@ -12,8 +13,8 @@
       "tooling_branch_name": "main"
     }
   },
-  "feedstock_hash": "11f25b47628b479fdc2eb589894fe88fceee72bb",
-  "feedstock_hash_ts": 1784903161,
+  "feedstock_hash": "e44b9d93c9874fb39389761ae8134b14770679c7",
+  "feedstock_hash_ts": 1789163269,
   "feedstock_name": "foyer",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
