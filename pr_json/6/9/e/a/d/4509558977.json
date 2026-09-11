@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"bf10c4c1dd77a6d0e76b222afdb9780be9d2b90fb76bc1750a0b0a2485c823ea\"",
+  "Last-Modified": "Fri, 11 Sep 2026 20:38:11 GMT",
   "base": {
     "repo": {
       "name": "r-secretbase-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/r-secretbase-feedstock/pull/20",
   "id": 4509558977,
   "labels": [],
-  "last_fetched": "2026-09-11T20:36:29.562846",
+  "last_fetched": "2026-09-11T22:38:31.407659",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 20,
   "state": "open",
-  "updated_at": "2026-09-11T20:36:28Z"
+  "updated_at": "2026-09-11T20:38:11Z"
 }
