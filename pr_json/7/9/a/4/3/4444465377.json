@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"e13d3b14ade41fc3ff2bc9dfe82846c8df2463be3fbcc5b231560036e39ebe2c\"",
+  "ETag": "W/\"da932f27c0c2970ccb0362c0dc2aca5a19fd6ec228ab5f582d1843c793b5c255\"",
   "Last-Modified": "Fri, 04 Sep 2026 16:17:09 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/openbabel-feedstock/pull/61",
   "id": 4444465377,
   "labels": [],
-  "last_fetched": "2026-09-04T16:33:02.449057",
+  "last_fetched": "2026-09-11T22:38:45.844472",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
