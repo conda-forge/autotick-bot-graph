@@ -1,15 +1,23 @@
 {
   "archived": false,
   "branch": "main",
-  "ci_support_linux_64_python3.10.____cpython.yaml": "c_compiler:\n- gcc\nc_compiler_version:\n- '14'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\nchannel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ncxx_compiler:\n- gxx\ncxx_compiler_version:\n- '14'\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma9\npin_run_as_build:\n  python:\n    min_pin: x.x\n    max_pin: x.x\npython:\n- 3.10.* *_cpython\ntarget_platform:\n- linux-64\nzip_keys:\n- - c_compiler_version\n  - cxx_compiler_version\n",
+  "ci_support_linux_64_channel_sourcesconda-forgeconda-forgelabelpython_rcpython3.15.____cp315.yaml": "c_compiler:\n- gcc\nc_compiler_version:\n- '15'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\nchannel_sources:\n- conda-forge,conda-forge/label/python_rc\nchannel_targets:\n- conda-forge main\ncxx_compiler:\n- gxx\ncxx_compiler_version:\n- '15'\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npin_run_as_build:\n  python:\n    min_pin: x.x\n    max_pin: x.x\npython:\n- 3.15.* *_cp315\ntarget_platform:\n- linux-64\nzip_keys:\n- - c_compiler_version\n  - cxx_compiler_version\n- - python\n  - channel_sources\n",
+  "ci_support_migrations": {
+    "python314t": {
+      "migration_number": 1,
+      "migrator_ts": 1755739493
+    },
+    "python315": {
+      "migration_number": 1,
+      "migrator_ts": 1755739490
+    }
+  },
   "conda-forge.yml": {
     "bot": {
       "automerge": true
     },
     "build_platform": {
-      "linux_aarch64": "linux_64",
-      "linux_ppc64le": "linux_64",
-      "osx_arm64": "osx_64"
+      "linux_ppc64le": "linux_64"
     },
     "conda_build": {
       "pkg_format": "2"
@@ -21,10 +29,14 @@
       "branch_name": "main",
       "tooling_branch_name": "main"
     },
+    "provider": {
+      "linux_aarch64": "default",
+      "osx_arm64": "default"
+    },
     "test": "native_and_emulated"
   },
-  "feedstock_hash": "426f0de4f338ce9980553358fd6cf72cfc0cebcf",
-  "feedstock_hash_ts": 1777049503,
+  "feedstock_hash": "5b89c49b796fd69616c4e5f49087e5f5e39d73c2",
+  "feedstock_hash_ts": 1789162405,
   "feedstock_name": "iminuit",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -39,7 +51,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv"
@@ -438,7 +450,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv"
@@ -853,7 +865,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv"
@@ -1268,7 +1280,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv",
@@ -3224,7 +3236,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv"
@@ -3639,7 +3651,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}",
         "${{ PYTHON }} -m pip install . -vv"
@@ -4060,7 +4072,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/iminuit.json"
   },
-  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  name: iminuit\n  version: \"2.32.0\"\n\npackage:\n  name: ${{ name|lower }}\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz\n  sha256: a32b34d18665959be75ad6bdb1dd80459bb94466c62b455631c00568accdf7d2\n\nbuild:\n  number: 0\n  script:\n    - if: unix\n      then: export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}\n    - if: win\n      then: set CMAKE_BUILD_PARALLEL_LEVEL=%CPU_COUNT%\n    - ${{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - python\n        - cross-python_${{ target_platform }}\n    - ${{ compiler('c') }}\n    - ${{ stdlib(\"c\") }}\n    - ${{ compiler('cxx') }}\n    - cmake >=3.15\n    - if: unix\n      then: make\n  host:\n    - python\n    - pip\n    - scikit-build-core\n    - pybind11 >=3\n  run:\n    - python\n    - numpy\n\ntests:\n  - python:\n      imports:\n        - iminuit\n  - files:\n      source:\n        - tests\n        - pyproject.toml\n    requirements:\n      run:\n        - pytest\n        - pip\n    script:\n      - python -m pytest tests\n      - pip check\n\nabout:\n  license: LGPL-2.0-or-later\n  license_file: LICENSE\n  summary: Interactive Minimization Tools based on MINUIT\n  description: |\n    iminuit is designed from ground up to be fast, interactive and cython\n    friendly. iminuit extract function signature very permissively starting\n    from checking func_code down to last resort of parsing docstring (or you\n    could tell iminuit to stop looking and take your answer). The interface is\n    inspired heavily by PyMinuit and the status printout is inspired by ROOT\n    Minuit. iminuit is mostly compatible with PyMinuit (with few exceptions).\n    Existing PyMinuit code can be ported to iminuit by just changing the\n    import statement.\n  homepage: https://github.com/scikit-hep/iminuit\n  repository: https://github.com/scikit-hep/iminuit\n  documentation: http://iminuit.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n    - bsipocz\n    - HDembinski\n    - chrisburr\n    - henryiii\n",
+  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  name: iminuit\n  version: \"2.32.0\"\n\npackage:\n  name: ${{ name|lower }}\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz\n  sha256: a32b34d18665959be75ad6bdb1dd80459bb94466c62b455631c00568accdf7d2\n\nbuild:\n  number: 1\n  script:\n    - if: unix\n      then: export CMAKE_BUILD_PARALLEL_LEVEL=${CPU_COUNT}\n    - if: win\n      then: set CMAKE_BUILD_PARALLEL_LEVEL=%CPU_COUNT%\n    - ${{ PYTHON }} -m pip install . -vv\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - python\n        - cross-python_${{ target_platform }}\n    - ${{ compiler('c') }}\n    - ${{ stdlib(\"c\") }}\n    - ${{ compiler('cxx') }}\n    - cmake >=3.15\n    - if: unix\n      then: make\n  host:\n    - python\n    - pip\n    - scikit-build-core\n    - pybind11 >=3\n  run:\n    - python\n    - numpy\n\ntests:\n  - python:\n      imports:\n        - iminuit\n  - files:\n      source:\n        - tests\n        - pyproject.toml\n    requirements:\n      run:\n        - pytest\n        - pip\n    script:\n      - python -m pytest tests\n      - pip check\n\nabout:\n  license: LGPL-2.0-or-later\n  license_file: LICENSE\n  summary: Interactive Minimization Tools based on MINUIT\n  description: |\n    iminuit is designed from ground up to be fast, interactive and cython\n    friendly. iminuit extract function signature very permissively starting\n    from checking func_code down to last resort of parsing docstring (or you\n    could tell iminuit to stop looking and take your answer). The interface is\n    inspired heavily by PyMinuit and the status printout is inspired by ROOT\n    Minuit. iminuit is mostly compatible with PyMinuit (with few exceptions).\n    Existing PyMinuit code can be ported to iminuit by just changing the\n    import statement.\n  homepage: https://github.com/scikit-hep/iminuit\n  repository: https://github.com/scikit-hep/iminuit\n  documentation: http://iminuit.readthedocs.io\n\nextra:\n  recipe-maintainers:\n    - mwcraig\n    - bsipocz\n    - HDembinski\n    - chrisburr\n    - henryiii\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -4189,7 +4201,7 @@
       "summary": "Interactive Minimization Tools based on MINUIT"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "set CMAKE_BUILD_PARALLEL_LEVEL=%CPU_COUNT%",
         "${{ PYTHON }} -m pip install . -vv"
