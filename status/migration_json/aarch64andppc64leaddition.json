@@ -12,7 +12,7 @@
         "r-praznik",
         "simsimd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/_openmp_mutex-feedstock",
       "pre_pr_migrator_status": {}
@@ -683,7 +683,7 @@
       "immediate_children": [
         "libacl"
       ],
-      "num_descendants": 769,
+      "num_descendants": 768,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/attr-feedstock",
       "pre_pr_migrator_status": {}
@@ -950,7 +950,7 @@
         "zeromq",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/autoconf-feedstock",
       "pre_pr_migrator_status": {}
@@ -1256,7 +1256,7 @@
         "yoda",
         "zeromq"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/automake-feedstock",
       "pre_pr_migrator_status": {}
@@ -2008,7 +2008,6 @@
         "libconfig",
         "libcublas",
         "libcudla",
-        "libcudss",
         "libcufft",
         "libcufile",
         "libcuobjclient",
@@ -2236,6 +2235,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-dune",
         "ocaml-findlib",
@@ -3211,7 +3211,7 @@
         "zstd",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/bash-feedstock",
       "pre_pr_migrator_status": {}
@@ -3524,7 +3524,6 @@
         "lalsimulation",
         "laura",
         "ldc",
-        "libcudss",
         "libcxx",
         "libmagma",
         "libnvpl-tensor",
@@ -3566,6 +3565,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-dune",
         "ocaml-findlib",
@@ -3599,6 +3599,7 @@
         "pyscf",
         "pyside2",
         "python",
+        "pytorch-cpu",
         "pywinpty",
         "quippy",
         "r-base",
@@ -3661,7 +3662,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/binutils-feedstock",
       "pre_pr_migrator_status": {}
@@ -3747,7 +3748,7 @@
         "vala",
         "yarp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/bison-feedstock",
       "pre_pr_migrator_status": {}
@@ -4554,7 +4555,7 @@
         "tokyocabinet",
         "z5py"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/bzip2-feedstock",
       "pre_pr_migrator_status": {}
@@ -4571,7 +4572,7 @@
         "ray-packages",
         "tensorflow"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/c-ares-feedstock",
       "pre_pr_migrator_status": {}
@@ -4793,7 +4794,7 @@
         "yt",
         "z5py"
       ],
-      "num_descendants": 2528,
+      "num_descendants": 2527,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cargo-auditable-feedstock",
       "pre_pr_migrator_status": {}
@@ -4985,7 +4986,7 @@
         "zenoh-c",
         "zenoh-plugin-webserver"
       ],
-      "num_descendants": 2528,
+      "num_descendants": 2527,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cargo-bundle-licenses-feedstock",
       "pre_pr_migrator_status": {}
@@ -5139,7 +5140,7 @@
         "cuda-cccl",
         "xgboost"
       ],
-      "num_descendants": 738,
+      "num_descendants": 737,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cccl-feedstock",
       "pre_pr_migrator_status": {}
@@ -5213,7 +5214,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libcxx",
         "libmagma",
         "libnvpl-tensor",
@@ -5243,6 +5243,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -5264,6 +5265,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -5309,7 +5311,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cctools-and-ld64-feedstock",
       "pre_pr_migrator_status": {}
@@ -5740,7 +5742,7 @@
         "litellm",
         "pymupdf"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "dirty",
       "pr_url": "https://github.com/conda-forge/clang-compiler-activation-feedstock/pull/85",
       "pre_pr_migrator_status": {},
@@ -6160,7 +6162,6 @@
         "libcbor",
         "libcint",
         "libcrc32c",
-        "libcudss",
         "libcxx",
         "libdate",
         "libde265",
@@ -6332,6 +6333,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "nvtx-c",
         "ocaml-findlib",
@@ -6667,7 +6669,7 @@
         "zfpy",
         "zlib-ng"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cmake-feedstock",
       "pre_pr_migrator_status": {}
@@ -6680,7 +6682,7 @@
         "libuv",
         "zstd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cmake-no-system-feedstock",
       "pre_pr_migrator_status": {}
@@ -6936,7 +6938,6 @@
         "lalsimulation",
         "laura",
         "ldc",
-        "libcudss",
         "libcxx",
         "libmagma",
         "libnvpl-tensor",
@@ -6975,6 +6976,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -7004,6 +7006,7 @@
         "pykdtree",
         "pyscf",
         "pyside2",
+        "pytorch-cpu",
         "pywinpty",
         "quippy",
         "r-base",
@@ -7065,7 +7068,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/compiler-rt-feedstock",
       "pre_pr_migrator_status": {}
@@ -7207,7 +7210,7 @@
         "systemd",
         "tensorflow"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/coreutils-feedstock",
       "pre_pr_migrator_status": {}
@@ -7570,7 +7573,6 @@
         "laura",
         "ldc",
         "libcst",
-        "libcudss",
         "libcxx",
         "libmagma",
         "libnvpl-tensor",
@@ -7618,6 +7620,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -7748,7 +7751,7 @@
         "z5py",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ctng-compilers-feedstock",
       "pre_pr_migrator_status": {}
@@ -7761,7 +7764,7 @@
         "nvmath",
         "tensorflow"
       ],
-      "num_descendants": 737,
+      "num_descendants": 736,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cuda-cccl-feedstock",
       "pre_pr_migrator_status": {}
@@ -7852,7 +7855,7 @@
         "ucx-split",
         "warp-lang"
       ],
-      "num_descendants": 736,
+      "num_descendants": 735,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cuda-cudart-feedstock",
       "pre_pr_migrator_status": {}
@@ -7951,7 +7954,7 @@
         "triton",
         "warp-lang"
       ],
-      "num_descendants": 634,
+      "num_descendants": 633,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cuda-nvcc-impl-feedstock",
       "pre_pr_migrator_status": {}
@@ -7979,7 +7982,7 @@
         "ucc",
         "ucx-split"
       ],
-      "num_descendants": 716,
+      "num_descendants": 715,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cuda-nvml-dev-feedstock",
       "pre_pr_migrator_status": {}
@@ -8026,7 +8029,7 @@
         "tensorflow",
         "warp-lang"
       ],
-      "num_descendants": 634,
+      "num_descendants": 633,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cuda-nvrtc-feedstock",
       "pre_pr_migrator_status": {}
@@ -8250,7 +8253,7 @@
         "yambo",
         "zchunk"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/curl-feedstock",
       "pre_pr_migrator_status": {}
@@ -9303,7 +9306,7 @@
         "memray",
         "systemd"
       ],
-      "num_descendants": 781,
+      "num_descendants": 780,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/elfutils-feedstock",
       "pre_pr_migrator_status": {}
@@ -9517,7 +9520,7 @@
         "wxwidgets",
         "xorg-libxft"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/expat-feedstock",
       "pre_pr_migrator_status": {}
@@ -10015,7 +10018,7 @@
         "ocaml-findlib",
         "pnpm"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/file-feedstock",
       "pre_pr_migrator_status": {}
@@ -10152,7 +10155,7 @@
         "vala",
         "yarp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/flex-feedstock",
       "pre_pr_migrator_status": {}
@@ -10309,7 +10312,7 @@
         "wxwidgets",
         "xorg-libxft"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/fontconfig-feedstock",
       "pre_pr_migrator_status": {}
@@ -10492,7 +10495,7 @@
         "wxwidgets",
         "xorg-libxft"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/freetype-feedstock",
       "pre_pr_migrator_status": {}
@@ -10617,7 +10620,7 @@
         "texinfo",
         "xkeyboard-config"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gawk-feedstock",
       "pre_pr_migrator_status": {}
@@ -10840,7 +10843,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -10869,6 +10871,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -10890,6 +10893,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -10935,7 +10939,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gendef-feedstock",
       "pre_pr_migrator_status": {}
@@ -11097,7 +11101,7 @@
         "xorg-xproto",
         "xsel"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gettext-feedstock",
       "pre_pr_migrator_status": {}
@@ -11204,7 +11208,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -11233,6 +11236,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -11254,6 +11258,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -11299,7 +11304,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gfortran_impl_osx-64-feedstock",
       "pre_pr_migrator_status": {}
@@ -11357,7 +11362,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -11386,6 +11390,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -11407,6 +11412,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -11452,7 +11458,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gfortran_osx-64-feedstock",
       "pre_pr_migrator_status": {}
@@ -11639,7 +11645,7 @@
         "yt",
         "z5py"
       ],
-      "num_descendants": 697,
+      "num_descendants": 696,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/git-feedstock",
       "pre_pr_migrator_status": {}
@@ -11820,7 +11826,7 @@
         "vala",
         "wxwidgets"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/glib-feedstock",
       "pre_pr_migrator_status": {}
@@ -11989,7 +11995,7 @@
         "texlive-core",
         "zn_poly"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gmp-feedstock",
       "pre_pr_migrator_status": {}
@@ -12319,7 +12325,7 @@
         "seccomp-split",
         "systemd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/gperf-feedstock",
       "pre_pr_migrator_status": {}
@@ -12593,7 +12599,7 @@
         "rivet",
         "yoda"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/grep-feedstock",
       "pre_pr_migrator_status": {}
@@ -13544,7 +13550,7 @@
         "sympow",
         "texinfo"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/help2man-feedstock",
       "pre_pr_migrator_status": {}
@@ -13988,7 +13994,7 @@
         "texlive-core",
         "xerces-c"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/icu-feedstock",
       "pre_pr_migrator_status": {}
@@ -14266,7 +14272,7 @@
         "gfortran_impl_osx-64",
         "islpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/isl-feedstock",
       "pre_pr_migrator_status": {}
@@ -14450,7 +14456,7 @@
         "minio-server",
         "oidc-agent"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/jq-feedstock",
       "pre_pr_migrator_status": {}
@@ -14591,7 +14597,7 @@
       "immediate_children": [
         "krb5"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/keyutils-feedstock",
       "pre_pr_migrator_status": {}
@@ -14689,7 +14695,7 @@
         "xrootd",
         "zeromq"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/krb5-feedstock",
       "pre_pr_migrator_status": {}
@@ -15443,7 +15449,7 @@
         "hdf5",
         "systemd"
       ],
-      "num_descendants": 768,
+      "num_descendants": 767,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libacl-feedstock",
       "pre_pr_migrator_status": {}
@@ -15500,7 +15506,7 @@
         "rhumba",
         "tesseract"
       ],
-      "num_descendants": 787,
+      "num_descendants": 786,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libarchive-feedstock",
       "pre_pr_migrator_status": {}
@@ -15600,7 +15606,7 @@
         "slirp4netns",
         "systemd"
       ],
-      "num_descendants": 770,
+      "num_descendants": 769,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcap-feedstock",
       "pre_pr_migrator_status": {}
@@ -15673,7 +15679,6 @@
         "jaxlib",
         "kaolin",
         "libcublasmp",
-        "libcudss",
         "libcuest",
         "libcusolver",
         "libmagma",
@@ -15689,7 +15694,7 @@
         "tensorflow",
         "torchvision"
       ],
-      "num_descendants": 631,
+      "num_descendants": 630,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcublas-feedstock",
       "pre_pr_migrator_status": {}
@@ -15712,16 +15717,6 @@
       "num_descendants": 15,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcudla-feedstock",
-      "pre_pr_migrator_status": {}
-    },
-    "libcudss": {
-      "immediate_children": [
-        "nvmath",
-        "pytorch-cpu"
-      ],
-      "num_descendants": 616,
-      "pr_status": "",
-      "pr_url": "https://github.com/conda-forge/libcudss-feedstock",
       "pre_pr_migrator_status": {}
     },
     "libcuest": {
@@ -15773,7 +15768,7 @@
         "libcuobjclient",
         "pytorch-cpu"
       ],
-      "num_descendants": 740,
+      "num_descendants": 739,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcufile-feedstock",
       "pre_pr_migrator_status": {}
@@ -15823,7 +15818,7 @@
         "slepc",
         "tensorflow"
       ],
-      "num_descendants": 739,
+      "num_descendants": 738,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcurand-feedstock",
       "pre_pr_migrator_status": {}
@@ -15945,7 +15940,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -15974,6 +15968,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -15995,6 +15990,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -16041,7 +16037,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libcxx-feedstock",
       "pre_pr_migrator_status": {}
@@ -16138,7 +16134,7 @@
       "immediate_children": [
         "cctools-and-ld64"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libdispatch-feedstock",
       "pre_pr_migrator_status": {}
@@ -16185,7 +16181,7 @@
         "unixodbc",
         "yarp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libedit-feedstock",
       "pre_pr_migrator_status": {}
@@ -16205,7 +16201,7 @@
         "gevent",
         "nghttp2"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libev-feedstock",
       "pre_pr_migrator_status": {}
@@ -16219,7 +16215,7 @@
         "thrift-cpp",
         "tmux"
       ],
-      "num_descendants": 715,
+      "num_descendants": 714,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libevent-feedstock",
       "pre_pr_migrator_status": {}
@@ -16239,7 +16235,7 @@
         "openmpi",
         "plumed"
       ],
-      "num_descendants": 712,
+      "num_descendants": 711,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libfabric-feedstock",
       "pre_pr_migrator_status": {}
@@ -16260,7 +16256,7 @@
         "ruby",
         "wayland"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libffi-feedstock",
       "pre_pr_migrator_status": {}
@@ -16342,7 +16338,7 @@
         "ntbtls",
         "systemd"
       ],
-      "num_descendants": 776,
+      "num_descendants": 775,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libgcrypt-feedstock",
       "pre_pr_migrator_status": {}
@@ -16511,7 +16507,7 @@
         "npth",
         "ntbtls"
       ],
-      "num_descendants": 783,
+      "num_descendants": 782,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libgpg-error-feedstock",
       "pre_pr_migrator_status": {}
@@ -16613,7 +16609,7 @@
         "spral",
         "tbb"
       ],
-      "num_descendants": 733,
+      "num_descendants": 732,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libhwloc-feedstock",
       "pre_pr_migrator_status": {}
@@ -16686,7 +16682,7 @@
         "unixodbc",
         "wxwidgets"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libiconv-feedstock",
       "pre_pr_migrator_status": {}
@@ -16698,7 +16694,7 @@
         "inetutils",
         "wget"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libidn2-feedstock",
       "pre_pr_migrator_status": {}
@@ -17097,7 +17093,7 @@
         "rdma-core",
         "shs-libcxi"
       ],
-      "num_descendants": 746,
+      "num_descendants": 745,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libnl-feedstock",
       "pre_pr_migrator_status": {}
@@ -17501,7 +17497,7 @@
         "xeus-octave",
         "yarp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libpng-feedstock",
       "pre_pr_migrator_status": {}
@@ -17560,7 +17556,7 @@
         "libsoup",
         "micromamba"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libpsl-feedstock",
       "pre_pr_migrator_status": {}
@@ -17835,7 +17831,7 @@
         "micromamba",
         "r-git2r"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libssh2-feedstock",
       "pre_pr_migrator_status": {}
@@ -17863,7 +17859,7 @@
         "gnutls",
         "p11-kit"
       ],
-      "num_descendants": 775,
+      "num_descendants": 774,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libtasn1-feedstock",
       "pre_pr_migrator_status": {}
@@ -17961,7 +17957,7 @@
         "r-tkrplot",
         "tktable"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pre_pr_migrator_status": {}
     },
     "libtool": {
@@ -18379,7 +18375,6 @@
         "libconfig",
         "libcublas",
         "libcudla",
-        "libcudss",
         "libcufft",
         "libcufile",
         "libcuobjclient",
@@ -18606,6 +18601,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-dune",
         "ocaml-findlib",
@@ -19581,7 +19577,7 @@
         "zstd",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libtool-feedstock",
       "pre_pr_migrator_status": {}
@@ -19614,7 +19610,7 @@
         "libidn2",
         "wget"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libunistring-feedstock",
       "pre_pr_migrator_status": {}
@@ -19722,7 +19718,7 @@
         "xorg-libsm",
         "xrootd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libuuid-feedstock",
       "pre_pr_migrator_status": {}
@@ -19740,7 +19736,7 @@
         "ttyd",
         "uvloop"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libuv-feedstock",
       "pre_pr_migrator_status": {}
@@ -19876,7 +19872,7 @@
         "xcb-util-wm",
         "xorg-libx11"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libxcb-feedstock",
       "pre_pr_migrator_status": {}
@@ -20023,7 +20019,7 @@
         "xerces-c",
         "xrootd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libxcrypt-feedstock",
       "pre_pr_migrator_status": {}
@@ -20139,7 +20135,6 @@
         "laura",
         "ldc",
         "libarchive",
-        "libcudss",
         "libcxx",
         "libhwloc",
         "libiio",
@@ -20195,6 +20190,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -20229,6 +20225,7 @@
         "pymol-open-source",
         "pyscf",
         "pyside2",
+        "pytorch-cpu",
         "pyvips",
         "pywinpty",
         "qt-main",
@@ -20306,7 +20303,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libxml2-feedstock",
       "pre_pr_migrator_status": {}
@@ -20594,7 +20591,6 @@
         "lalsimulation",
         "laura",
         "ldc",
-        "libcudss",
         "libcxx",
         "libmagma",
         "libnvpl-tensor",
@@ -20636,6 +20632,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -20666,6 +20663,7 @@
         "pykdtree",
         "pyscf",
         "pyside2",
+        "pytorch-cpu",
         "pywinpty",
         "quippy",
         "r-base",
@@ -20728,7 +20726,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/llvmdev-feedstock",
       "pre_pr_migrator_status": {}
@@ -20928,7 +20926,7 @@
         "vtk",
         "z5py"
       ],
-      "num_descendants": 1324,
+      "num_descendants": 1323,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/lz4-c-feedstock",
       "pre_pr_migrator_status": {}
@@ -20942,7 +20940,7 @@
         "squashfs-tools",
         "squashfuse"
       ],
-      "num_descendants": 792,
+      "num_descendants": 791,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/lzo-feedstock",
       "pre_pr_migrator_status": {}
@@ -21013,7 +21011,7 @@
         "xcb-util-wm",
         "yambo"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/m4-feedstock",
       "pre_pr_migrator_status": {}
@@ -21792,7 +21790,7 @@
         "sagelib",
         "symengine"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/mpc-feedstock",
       "pre_pr_migrator_status": {}
@@ -21801,7 +21799,7 @@
       "immediate_children": [
         "python"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/mpdecimal-feedstock",
       "pre_pr_migrator_status": {}
@@ -21861,7 +21859,7 @@
         "symengine",
         "texlive-core"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/mpfr-feedstock",
       "pre_pr_migrator_status": {}
@@ -22489,7 +22487,6 @@
         "horovod",
         "jaxlib",
         "libcublasmp",
-        "libcudss",
         "libnvshmem",
         "lightgbm",
         "nccl4py",
@@ -22499,7 +22496,7 @@
         "ucc",
         "xgboost"
       ],
-      "num_descendants": 713,
+      "num_descendants": 712,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/nccl-feedstock",
       "pre_pr_migrator_status": {}
@@ -22599,7 +22596,7 @@
         "xrootd",
         "zsh"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ncurses-feedstock",
       "pre_pr_migrator_status": {}
@@ -22720,7 +22717,7 @@
         "micromamba",
         "nodejs"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/nghttp2-feedstock",
       "pre_pr_migrator_status": {}
@@ -22950,7 +22947,6 @@
         "libbson",
         "libcint",
         "libcrc32c",
-        "libcudss",
         "libcxx",
         "libdate",
         "libde265",
@@ -23072,6 +23068,7 @@
         "numsa",
         "nvidia-apex",
         "nvimgcodec",
+        "nvmath",
         "nvtx-c",
         "ocaml-findlib",
         "occt",
@@ -23281,7 +23278,7 @@
         "zeromq",
         "zstd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ninja-feedstock",
       "pre_pr_migrator_status": {}
@@ -23607,7 +23604,7 @@
         "linux-perf",
         "shs-libcxi"
       ],
-      "num_descendants": 745,
+      "num_descendants": 744,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/numactl-feedstock",
       "pre_pr_migrator_status": {}
@@ -24350,7 +24347,7 @@
         "php",
         "slang"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/oniguruma-feedstock",
       "pre_pr_migrator_status": {}
@@ -24677,7 +24674,6 @@
         "lalsimulation",
         "laura",
         "ldc",
-        "libcudss",
         "libcxx",
         "libint",
         "libmagma",
@@ -24717,6 +24713,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -24810,7 +24807,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openmp-feedstock",
       "pre_pr_migrator_status": {}
@@ -24839,7 +24836,6 @@
         "lalinference",
         "lammps",
         "libboost-mpi",
-        "libcudss",
         "libmed",
         "libnetcdf",
         "libomm",
@@ -24857,6 +24853,7 @@
         "netcdf-fortran",
         "netcdf4",
         "ntpoly",
+        "nvmath",
         "opensees",
         "parallelio",
         "parmetis",
@@ -24865,6 +24862,7 @@
         "pexsi",
         "plumed",
         "pymdi",
+        "pytorch-cpu",
         "scalapack",
         "scotch",
         "slepc",
@@ -24873,7 +24871,7 @@
         "trexio",
         "yambo"
       ],
-      "num_descendants": 710,
+      "num_descendants": 709,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openmpi-feedstock",
       "pre_pr_migrator_status": {}
@@ -24891,7 +24889,7 @@
       "immediate_children": [
         "openmpi"
       ],
-      "num_descendants": 711,
+      "num_descendants": 710,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openpmix-feedstock",
       "pre_pr_migrator_status": {}
@@ -25180,7 +25178,7 @@
         "z5py",
         "zchunk"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openssl-feedstock",
       "pre_pr_migrator_status": {}
@@ -25400,7 +25398,7 @@
         "gnutls",
         "systemd"
       ],
-      "num_descendants": 774,
+      "num_descendants": 773,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/p11-kit-feedstock",
       "pre_pr_migrator_status": {}
@@ -25685,7 +25683,7 @@
         "yt",
         "z5py"
       ],
-      "num_descendants": 767,
+      "num_descendants": 766,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pandoc-feedstock",
       "pre_pr_migrator_status": {}
@@ -25784,7 +25782,7 @@
         "texlive-core",
         "tmux"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/patch-feedstock",
       "pre_pr_migrator_status": {}
@@ -25854,7 +25852,7 @@
         "wget",
         "wxwidgets"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pcre2-feedstock",
       "pre_pr_migrator_status": {}
@@ -27475,7 +27473,7 @@
         "zstd",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pkg-config-feedstock",
       "pre_pr_migrator_status": {}
@@ -27985,7 +27983,7 @@
         "xorg-libxrandr",
         "xorg-libxxf86vm"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pthread-stubs-feedstock",
       "pre_pr_migrator_status": {}
@@ -29693,7 +29691,6 @@
         "libblst",
         "libcint",
         "libcst",
-        "libcudss",
         "libcxx",
         "libdicom",
         "libdrm",
@@ -30385,7 +30382,7 @@
         "zstandard",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/python-feedstock",
       "pre_pr_migrator_status": {}
@@ -37974,7 +37971,7 @@
         "ucc",
         "ucx-split"
       ],
-      "num_descendants": 743,
+      "num_descendants": 742,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/rdma-core-feedstock",
       "pre_pr_migrator_status": {}
@@ -38042,7 +38039,7 @@
         "util-linux",
         "xrootd"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/readline-feedstock",
       "pre_pr_migrator_status": {}
@@ -38308,7 +38305,7 @@
       "immediate_children": [
         "cmake"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/rhash-feedstock",
       "pre_pr_migrator_status": {}
@@ -38329,7 +38326,7 @@
         "mongodb",
         "python"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ripgrep-feedstock",
       "pre_pr_migrator_status": {}
@@ -38685,7 +38682,7 @@
         "tblite",
         "xtb"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ruby-feedstock",
       "pre_pr_migrator_status": {}
@@ -39239,7 +39236,7 @@
         "systemd",
         "universal-ctags"
       ],
-      "num_descendants": 773,
+      "num_descendants": 772,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/seccomp-split-feedstock",
       "pre_pr_migrator_status": {}
@@ -39509,7 +39506,7 @@
         "z5py",
         "zip"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/sed-feedstock",
       "pre_pr_migrator_status": {}
@@ -39673,7 +39670,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libfabric",
         "libmagma",
         "libnvpl-tensor",
@@ -39703,6 +39699,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -39725,6 +39722,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -39770,7 +39768,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/shellcheck-feedstock",
       "pre_pr_migrator_status": {}
@@ -39795,7 +39793,7 @@
       "immediate_children": [
         "cctools-and-ld64"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/sigtool-feedstock",
       "pre_pr_migrator_status": {}
@@ -40341,7 +40339,7 @@
         "xeus-sqlite",
         "yarp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/sqlite-feedstock",
       "pre_pr_migrator_status": {}
@@ -40632,7 +40630,7 @@
         "sfml",
         "shs-libcxi"
       ],
-      "num_descendants": 767,
+      "num_descendants": 766,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/systemd-feedstock",
       "pre_pr_migrator_status": {}
@@ -40703,7 +40701,7 @@
       "immediate_children": [
         "cctools-and-ld64"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/tapi-feedstock",
       "pre_pr_migrator_status": {}
@@ -40975,7 +40973,7 @@
         "udunits2",
         "zsh"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/texinfo-feedstock",
       "pre_pr_migrator_status": {}
@@ -41784,7 +41782,7 @@
       "immediate_children": [
         "openmpi"
       ],
-      "num_descendants": 711,
+      "num_descendants": 710,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ucc-feedstock",
       "pre_pr_migrator_status": {}
@@ -41842,7 +41840,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -41871,6 +41868,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -41892,6 +41890,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -41938,7 +41937,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2510,
+      "num_descendants": 2509,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ucrt-feedstock",
       "pre_pr_migrator_status": {}
@@ -41953,7 +41952,7 @@
         "openmpi",
         "ucc"
       ],
-      "num_descendants": 713,
+      "num_descendants": 712,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ucx-split-feedstock",
       "pre_pr_migrator_status": {}
@@ -42156,7 +42155,7 @@
         "tensorflow",
         "tiledb"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/unzip-feedstock",
       "pre_pr_migrator_status": {}
@@ -42215,7 +42214,7 @@
         "php",
         "systemd"
       ],
-      "num_descendants": 771,
+      "num_descendants": 770,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/util-linux-feedstock",
       "pre_pr_migrator_status": {}
@@ -43177,7 +43176,7 @@
         "nco",
         "sirius-ms"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/wget-feedstock",
       "pre_pr_migrator_status": {}
@@ -43258,7 +43257,6 @@
         "lalpulsar",
         "lalsimulation",
         "laura",
-        "libcudss",
         "libmagma",
         "libnvpl-tensor",
         "libomm",
@@ -43287,6 +43285,7 @@
         "ntpoly",
         "numba",
         "numsa",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "octave",
@@ -43308,6 +43307,7 @@
         "pyg-lib",
         "pykdtree",
         "pyscf",
+        "pytorch-cpu",
         "quippy",
         "r-base",
         "r-clusterr",
@@ -43352,7 +43352,7 @@
         "yt",
         "zfpy"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/winpthreads-feedstock",
       "pre_pr_migrator_status": {}
@@ -44001,7 +44001,7 @@
         "xorg-libxxf86vm",
         "xsel"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libx11-feedstock",
       "pre_pr_migrator_status": {}
@@ -44025,7 +44025,7 @@
         "tktable",
         "xorg-libxp"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libxau-feedstock",
       "pre_pr_migrator_status": {}
@@ -44121,7 +44121,7 @@
         "graphicsmagick",
         "libxcb"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libxdmcp-feedstock",
       "pre_pr_migrator_status": {}
@@ -44275,7 +44275,7 @@
         "tktable",
         "vtk"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libxft-feedstock",
       "pre_pr_migrator_status": {}
@@ -44407,7 +44407,7 @@
         "xorg-libxft",
         "xorg-libxrandr"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libxrender-feedstock",
       "pre_pr_migrator_status": {}
@@ -44671,7 +44671,7 @@
         "xorg-xineramaproto",
         "xorg-xproto"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-util-macros-feedstock",
       "pre_pr_migrator_status": {}
@@ -45002,7 +45002,7 @@
         "wxwidgets",
         "z5py"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xz-feedstock",
       "pre_pr_migrator_status": {}
@@ -45148,7 +45148,7 @@
         "yt",
         "z5py"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/yaml-feedstock",
       "pre_pr_migrator_status": {}
@@ -45346,7 +45346,7 @@
         "tiledb",
         "tktable"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zip-feedstock",
       "pre_pr_migrator_status": {}
@@ -45537,7 +45537,6 @@
         "lftp",
         "libarchive",
         "libass",
-        "libcudss",
         "libcups",
         "libcxx",
         "libfido2",
@@ -45644,6 +45643,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-findlib",
         "oclgrind",
@@ -45869,7 +45869,7 @@
         "zstd",
         "zziplib"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zlib-feedstock",
       "pre_pr_migrator_status": {}
@@ -46137,7 +46137,6 @@
         "ldc",
         "libarchive",
         "libcst",
-        "libcudss",
         "libcxx",
         "libiio",
         "libmagma",
@@ -46206,6 +46205,7 @@
         "nushell",
         "nutpie",
         "nvimgcodec",
+        "nvmath",
         "nvmolkit",
         "ocaml-dune",
         "ocaml-findlib",
@@ -46376,7 +46376,7 @@
         "zfpy",
         "zstandard"
       ],
-      "num_descendants": 2509,
+      "num_descendants": 2508,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zstd-feedstock",
       "pre_pr_migrator_status": {}
@@ -48165,7 +48165,6 @@
     "libmagma",
     "libcusolver",
     "libcuest",
-    "libcudss",
     "libcublasmp",
     "cutensor",
     "cudnn",
