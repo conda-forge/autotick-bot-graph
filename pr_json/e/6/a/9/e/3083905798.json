@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"83bcf14252793b69695f4417c56f28a3f8071e06503a589683a8705e3d2dda8d\"",
+  "ETag": "W/\"cb0af15ff6273abc8ad67d49a0c55cba1dfa8ba6a3bc5ef0853442a9ca9ab4cc\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/pyhash-feedstock/pull/4",
   "id": 3083905798,
   "labels": [],
-  "last_fetched": "2026-09-04T21:26:11.186977",
+  "last_fetched": "2026-09-11T22:37:45.502072",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
