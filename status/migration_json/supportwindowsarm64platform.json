@@ -184,10 +184,10 @@
         "conda-forge-ci-setup"
       ],
       "num_descendants": 1,
-      "pr_status": "unstable",
+      "pr_status": "unknown",
       "pr_url": "https://github.com/conda-forge/conda-feedstock/pull/321",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-10T18:53:42+00:00"
+      "updated_at": "2026-09-11T21:14:17+00:00"
     },
     "conda-forge-ci-setup": {
       "immediate_children": [],
@@ -405,6 +405,13 @@
       "pre_pr_migrator_status": {},
       "updated_at": "2026-09-10T09:25:26+00:00"
     },
+    "getopt-win32": {
+      "immediate_children": [
+        "ttyd"
+      ],
+      "num_descendants": 2,
+      "pre_pr_migrator_status": {}
+    },
     "gettext": {
       "immediate_children": [
         "fontconfig",
@@ -556,6 +563,17 @@
       "pr_url": "https://github.com/conda-forge/isl-feedstock/pull/33",
       "pre_pr_migrator_status": {},
       "updated_at": "2026-09-09T00:28:03+00:00"
+    },
+    "json-c": {
+      "created_at": "2026-07-17T20:28:21+00:00",
+      "immediate_children": [
+        "ttyd"
+      ],
+      "num_descendants": 2,
+      "pr_status": "unstable",
+      "pr_url": "https://github.com/conda-forge/json-c-feedstock/pull/26",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-07-17T20:30:07+00:00"
     },
     "krb5": {
       "immediate_children": [
@@ -838,9 +856,11 @@
     "libuv": {
       "immediate_children": [
         "cmake",
-        "r-fs"
+        "libwebsockets",
+        "r-fs",
+        "ttyd"
       ],
-      "num_descendants": 4,
+      "num_descendants": 7,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libuv-feedstock",
       "pre_pr_migrator_status": {}
@@ -872,6 +892,17 @@
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libwebp-base-feedstock",
       "pre_pr_migrator_status": {}
+    },
+    "libwebsockets": {
+      "created_at": "2026-07-17T20:29:46+00:00",
+      "immediate_children": [
+        "ttyd"
+      ],
+      "num_descendants": 2,
+      "pr_status": "unstable",
+      "pr_url": "https://github.com/conda-forge/libwebsockets-feedstock/pull/47",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-07-17T20:31:22+00:00"
     },
     "libxcb": {
       "immediate_children": [
@@ -1173,14 +1204,16 @@
         "krb5",
         "libarchive",
         "libssh2",
+        "libwebsockets",
         "mamba",
         "micromamba",
         "python",
         "rattler-index",
         "rsync",
-        "sigtool"
+        "sigtool",
+        "ttyd"
       ],
-      "num_descendants": 115,
+      "num_descendants": 117,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openssl-feedstock",
       "pre_pr_migrator_status": {}
@@ -1835,6 +1868,17 @@
       "pre_pr_migrator_status": {},
       "updated_at": "2026-09-08T21:01:12+00:00"
     },
+    "ttyd": {
+      "created_at": "2026-08-11T15:13:21+00:00",
+      "immediate_children": [
+        "vhs"
+      ],
+      "num_descendants": 1,
+      "pr_status": "clean",
+      "pr_url": "https://github.com/conda-forge/ttyd-feedstock/pull/25",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-08-11T15:15:19+00:00"
+    },
     "ucrt": {
       "immediate_children": [
         "binutils",
@@ -2118,10 +2162,11 @@
         "r-xml2",
         "rsync",
         "tktable",
+        "ttyd",
         "zlib-ng",
         "zstd"
       ],
-      "num_descendants": 128,
+      "num_descendants": 129,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zlib-feedstock",
       "pre_pr_migrator_status": {}
@@ -2210,11 +2255,12 @@
     "r-backports",
     "r-languageserver",
     "gobject-introspection",
-    "conda-forge-ci-setup",
     "ffmpeg",
     "vhs"
   ],
-  "awaiting-pr": [],
+  "awaiting-pr": [
+    "conda-forge-ci-setup"
+  ],
   "bot-error": [],
   "done": [
     "zlib",
@@ -2298,6 +2344,7 @@
     "msgpack-c",
     "graphite2",
     "giflib",
+    "getopt-win32",
     "fribidi",
     "fmt",
     "spdlog",
@@ -2373,9 +2420,12 @@
     "x264",
     "winpthreads",
     "perl",
+    "libwebsockets",
     "zeromq",
+    "json-c",
     "isl",
     "gmp",
+    "ttyd",
     "duckdb-split",
     "tornado",
     "pywinpty",
