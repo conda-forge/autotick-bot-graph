@@ -97,7 +97,7 @@
         ]
       }
     },
-    "new_pin_version": "261.2",
+    "new_pin_version": "261.3",
     "package_name": "libsystemd",
     "pin_impact": 9,
     "pin_spec": "x",
