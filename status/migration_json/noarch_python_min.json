@@ -78085,7 +78085,7 @@
       "pr_status": "unstable",
       "pr_url": "https://github.com/conda-forge/spdx-license-matcher-feedstock/pull/13",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-05-03T16:07:34+00:00"
+      "updated_at": "2026-09-11T20:00:47+00:00"
     },
     "spdx-tools": {
       "immediate_children": [],
