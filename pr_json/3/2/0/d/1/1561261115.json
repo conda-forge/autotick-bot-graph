@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"7f3d7c3556d1744a072ed57b44f170564e484465b81242494af3071f50380389\"",
+  "ETag": "W/\"49f126f93e3ea5010eb201fb1a66cd069441d5800875a40ad7a53694878369e8\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/polly-feedstock/pull/6",
   "id": 1561261115,
   "labels": [],
-  "last_fetched": "2026-09-04T17:26:54.666659",
+  "last_fetched": "2026-09-11T22:36:03.219849",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
