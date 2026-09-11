@@ -33181,6 +33181,7 @@ linux-64/scipy-1.15.0-py313h750cbce_1.conda
 linux-64/scipy-1.15.1-py313h750cbce_0.conda
 linux-64/scipy-1.16.2-py313h11c21cd_0.conda
 linux-64/scipy-1.16.3-py314hf5b80f4_0.conda
+linux-64/scipy-1.18.1-py312h106c528_0.conda
 linux-64/scipy-1.2.0-py27_blas_openblash1522bff_1200.tar.bz2
 linux-64/scipy-1.3.1-py37h921218d_1.tar.bz2
 linux-64/scipy-1.4.1-py37h921218d_0.tar.bz2
@@ -66774,6 +66775,9 @@ linux-ppc64le/pyproj-3.7.2-py311h099bb6c_2.conda
 linux-ppc64le/pyproj-3.7.2-py311hbab7e43_0.conda
 linux-ppc64le/pyproj-3.7.2-py313h258f7e6_4.conda
 linux-ppc64le/pyproj-3.7.2-py314ha2d6ce4_4.conda
+linux-ppc64le/pyproj-3.8.0-py312he198aa4_1.conda
+linux-ppc64le/pyproj-3.8.0-py314he8521a4_1.conda
+linux-ppc64le/pyproj-3.8.0-py314hf3a9b30_1.conda
 linux-ppc64le/pypy3.9-7.3.9-h80351e3_1.tar.bz2
 linux-ppc64le/pyqt5-sip-12.11.0-py39h89b8a7f_3.conda
 linux-ppc64le/pyqt5-sip-12.12.2-py39h6bf436c_4.conda
@@ -86163,6 +86167,7 @@ noarch/r-zoib-1.5.4-r36h6115d3f_1.tar.bz2
 noarch/r-zoib-1.6.1-r44hc72bb7e_1.conda
 noarch/r-ztable-0.2.3-r42hc72bb7e_1.tar.bz2
 noarch/radarx-0.2.4-pyhd8ed1ab_0.conda
+noarch/radclss-2026.9.11-pyh332efcf_0.conda
 noarch/radian-0.6.12-pyhd8ed1ab_0.conda
 noarch/radiant-mlhub-0.4.0-pyhd8ed1ab_0.tar.bz2
 noarch/radical.pilot-1.103.0-pyhd8ed1ab_0.conda
@@ -125723,6 +125728,7 @@ osx-arm64/dials-3.24.0-py311hb50536c_0.conda
 osx-arm64/dials-3.24.0-py312hdfcc091_0.conda
 osx-arm64/dials-3.28.0-py312h989ac92_0.conda
 osx-arm64/dials-3.30.0-py311h287fd8a_1.conda
+osx-arm64/diffle-0.1.3-hd1b9f45_0.conda
 osx-arm64/difit-3.1.0-h62e8f66_0.conda
 osx-arm64/difit-3.1.7-h62e8f66_0.conda
 osx-arm64/digital_rf-2.6.12-py313h50ed65a_1.conda
