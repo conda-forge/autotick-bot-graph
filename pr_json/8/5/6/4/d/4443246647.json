@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"a603ae642ede8f39be6622baa75c0f4b4e7bbca1557fa7b1cf2cdf3bc13740ff\"",
+  "ETag": "W/\"527612e88b7ee164fbec3bf0437da49c42c0eb7c41ab9fb8148161cdbac69da7\"",
   "Last-Modified": "Fri, 04 Sep 2026 14:05:05 GMT",
   "base": {
     "repo": {
@@ -16,10 +16,10 @@
   "html_url": "https://github.com/conda-forge/conda-forge-pinning-feedstock/pull/8918",
   "id": 4443246647,
   "labels": [],
-  "last_fetched": "2026-09-04T14:28:35.807576",
+  "last_fetched": "2026-09-11T21:30:07.508536",
   "last_modified": null,
-  "mergeable": true,
-  "mergeable_state": "clean",
+  "mergeable": null,
+  "mergeable_state": "unknown",
   "merged": false,
   "merged_at": null,
   "number": 8918,
