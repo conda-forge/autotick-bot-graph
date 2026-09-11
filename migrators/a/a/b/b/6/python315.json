@@ -55,6 +55,18 @@
         "multigraph": false,
         "nodes": [
           {
+            "id": "astropy-healpix",
+            "payload": {
+              "__lazy_json__": "node_attrs/astropy-healpix.json"
+            }
+          },
+          {
+            "id": "astroscrappy",
+            "payload": {
+              "__lazy_json__": "node_attrs/astroscrappy.json"
+            }
+          },
+          {
             "id": "aubio",
             "payload": {
               "__lazy_json__": "node_attrs/aubio.json"
@@ -289,6 +301,12 @@
             }
           },
           {
+            "id": "pyregion",
+            "payload": {
+              "__lazy_json__": "node_attrs/pyregion.json"
+            }
+          },
+          {
             "id": "pysdl2",
             "payload": {
               "__lazy_json__": "node_attrs/pysdl2.json"
@@ -298,6 +316,12 @@
             "id": "pyspharm",
             "payload": {
               "__lazy_json__": "node_attrs/pyspharm.json"
+            }
+          },
+          {
+            "id": "python-cpl",
+            "payload": {
+              "__lazy_json__": "node_attrs/python-cpl.json"
             }
           },
           {
@@ -346,6 +370,12 @@
             "id": "sep",
             "payload": {
               "__lazy_json__": "node_attrs/sep.json"
+            }
+          },
+          {
+            "id": "spherical-geometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/spherical-geometry.json"
             }
           },
           {
@@ -637,6 +667,12 @@
             }
           },
           {
+            "id": "cygrid",
+            "payload": {
+              "__lazy_json__": "node_attrs/cygrid.json"
+            }
+          },
+          {
             "id": "opcua",
             "payload": {
               "__lazy_json__": "node_attrs/opcua.json"
@@ -844,6 +880,12 @@
             "id": "p4p",
             "payload": {
               "__lazy_json__": "node_attrs/p4p.json"
+            }
+          },
+          {
+            "id": "astrometry",
+            "payload": {
+              "__lazy_json__": "node_attrs/astrometry.json"
             }
           },
           {
@@ -1285,6 +1327,12 @@
             }
           },
           {
+            "id": "protozfits",
+            "payload": {
+              "__lazy_json__": "node_attrs/protozfits.json"
+            }
+          },
+          {
             "id": "fast3tree",
             "payload": {
               "__lazy_json__": "node_attrs/fast3tree.json"
@@ -1294,6 +1342,12 @@
             "id": "arraykit",
             "payload": {
               "__lazy_json__": "node_attrs/arraykit.json"
+            }
+          },
+          {
+            "id": "cdshealpix",
+            "payload": {
+              "__lazy_json__": "node_attrs/cdshealpix.json"
             }
           },
           {
@@ -1345,6 +1399,12 @@
             }
           },
           {
+            "id": "ellc",
+            "payload": {
+              "__lazy_json__": "node_attrs/ellc.json"
+            }
+          },
+          {
             "id": "pystencils",
             "payload": {
               "__lazy_json__": "node_attrs/pystencils.json"
@@ -1372,6 +1432,12 @@
             "id": "polyagamma",
             "payload": {
               "__lazy_json__": "node_attrs/polyagamma.json"
+            }
+          },
+          {
+            "id": "pysynphot",
+            "payload": {
+              "__lazy_json__": "node_attrs/pysynphot.json"
             }
           },
           {
@@ -1816,6 +1882,12 @@
             "id": "encor",
             "payload": {
               "__lazy_json__": "node_attrs/encor.json"
+            }
+          },
+          {
+            "id": "casa_formats_io",
+            "payload": {
+              "__lazy_json__": "node_attrs/casa_formats_io.json"
             }
           },
           {
