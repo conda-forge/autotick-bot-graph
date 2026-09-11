@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"cac422eea16e7477f4ad207ca08de8c131b507e4f007984ae82b85821f7724e2\"",
+  "ETag": "W/\"8857c6fb1559bbd37daf6a9b64c62fa44d50580b68b52b2cdbf45ed8273ddfa5\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,10 +16,10 @@
   "html_url": "https://github.com/conda-forge/smallestai-feedstock/pull/4",
   "id": 2683385150,
   "labels": [],
-  "last_fetched": "2026-09-04T21:26:33.310861",
+  "last_fetched": "2026-09-11T22:38:26.668976",
   "last_modified": null,
   "mergeable": true,
-  "mergeable_state": "unstable",
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 4,
