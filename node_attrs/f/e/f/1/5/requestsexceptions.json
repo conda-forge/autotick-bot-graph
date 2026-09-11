@@ -1,6 +1,7 @@
 {
   "archived": false,
   "branch": "main",
+  "ci_support_migrations": {},
   "conda-forge.yml": {
     "conda_build": {
       "pkg_format": "2"
@@ -21,7 +22,7 @@
       "home": "https://github.com/openstack-infra/requestsexceptions",
       "license": "Apache 2.0",
       "license_family": "Apache",
-      "license_file": "/tmp/tmphcaa6adv/LICENSE",
+      "license_file": "/tmp/tmpf4msyqn6/LICENSE",
       "summary": "Import exceptions from potentially bundled packages in requests."
     },
     "build": {
@@ -89,7 +90,7 @@
       "home": "https://github.com/openstack-infra/requestsexceptions",
       "license": "Apache 2.0",
       "license_family": "Apache",
-      "license_file": "/tmp/tmpqolgkjfu/LICENSE",
+      "license_file": "/tmp/tmpdnphi94z/LICENSE",
       "summary": "Import exceptions from potentially bundled packages in requests."
     },
     "build": {
@@ -134,7 +135,7 @@
       "home": "https://github.com/openstack-infra/requestsexceptions",
       "license": "Apache 2.0",
       "license_family": "Apache",
-      "license_file": "/tmp/tmpo7cbvjb9/LICENSE",
+      "license_file": "/tmp/tmpyagt3x4i/LICENSE",
       "summary": "Import exceptions from potentially bundled packages in requests."
     },
     "build": {
@@ -280,7 +281,7 @@
       "home": "https://github.com/openstack-infra/requestsexceptions",
       "license": "Apache 2.0",
       "license_family": "Apache",
-      "license_file": "/tmp/tmpqolgkjfu/LICENSE",
+      "license_file": "/tmp/tmpdnphi94z/LICENSE",
       "summary": "Import exceptions from potentially bundled packages in requests."
     },
     "build": {
