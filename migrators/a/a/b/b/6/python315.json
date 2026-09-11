@@ -661,6 +661,12 @@
             }
           },
           {
+            "id": "vim",
+            "payload": {
+              "__lazy_json__": "node_attrs/vim.json"
+            }
+          },
+          {
             "id": "segyio",
             "payload": {
               "__lazy_json__": "node_attrs/segyio.json"
