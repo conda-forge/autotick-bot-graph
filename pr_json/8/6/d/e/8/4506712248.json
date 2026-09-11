@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"eaa5564cfd092557815eeec0b81de183bb083969ec28e86d6404518c59d532d7\"",
+  "Last-Modified": "Fri, 11 Sep 2026 14:22:01 GMT",
   "base": {
     "repo": {
       "name": "r-segmented-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/r-segmented-feedstock/pull/39",
   "id": 4506712248,
   "labels": [],
-  "last_fetched": "2026-09-11T14:17:41.742913",
+  "last_fetched": "2026-09-11T20:31:52.803515",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "unstable",
   "merged": false,
   "merged_at": null,
   "number": 39,
   "state": "open",
-  "updated_at": "2026-09-11T14:17:40Z"
+  "updated_at": "2026-09-11T14:22:01Z"
 }
