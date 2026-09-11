@@ -2,6 +2,7 @@
   "archived": false,
   "branch": "main",
   "ci_support_linux_64_python3.11.____cpython.yaml": "channel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npin_run_as_build:\n  python:\n    min_pin: x.x\n    max_pin: x.x\npython:\n- 3.11.* *_cpython\ntarget_platform:\n- linux-64\n",
+  "ci_support_migrations": {},
   "conda-forge.yml": {
     "build_platform": {
       "linux_aarch64": "linux_64",
@@ -20,12 +21,14 @@
     },
     "provider": {
       "linux_aarch64": "default",
-      "linux_ppc64le": "default"
+      "linux_ppc64le": "default",
+      "linux_riscv64": "default",
+      "win_arm64": "default"
     },
     "test": "native_and_emulated"
   },
-  "feedstock_hash": "d5f90342bf14024e6cecfaf632ec7f5b4adc285c",
-  "feedstock_hash_ts": 1788876670,
+  "feedstock_hash": "3ad85af91ff57ca9d75ed1375b5c2a3fa9e7c2f0",
+  "feedstock_hash_ts": 1789161255,
   "feedstock_name": "conda",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -3055,6 +3058,76 @@
           }
         ],
         "version": "26.7.2"
+      },
+      {
+        "build": null,
+        "name": "conda",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_win-arm64",
+            "m2-filesystem",
+            "m2-bash",
+            "m2-base"
+          ],
+          "host": [
+            "python",
+            "pip",
+            "hatchling >=1.12.2",
+            "hatch-vcs >=0.2.0",
+            "boltons >=23.0.0",
+            "frozendict >=2.4.2",
+            "menuinst >=2",
+            "platformdirs >=3.10.0",
+            "requests >=2.28.0,<3",
+            "ruamel.yaml >=0.11.14,<0.20",
+            "tqdm >=4"
+          ],
+          "run": [
+            "archspec >=0.2.3",
+            "boltons >=23.0.0",
+            "charset-normalizer",
+            "conda-package-handling >=2.2.0",
+            "distro >=1.5.0",
+            "frozendict >=2.4.2",
+            "menuinst >=2",
+            "msgpack-python >=1.1.1",
+            "packaging >=23.0",
+            "platformdirs >=3.10.0",
+            "pluggy >=1.6.0",
+            "pycosat >=0.6.3",
+            "python",
+            "requests >=2.28.0,<3",
+            "ruamel.yaml >=0.11.14,<0.20",
+            "setuptools >=60.0.0",
+            "tqdm >=4",
+            "truststore >=0.8.0",
+            "conda-libmamba-solver >=26.4.1",
+            "conda-lockfiles >=0.2.0",
+            "conda-pypi >=0.10.1",
+            "conda-rattler-solver >=0.1.1",
+            "conda-self >=0.2.0"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "conda"
+              ],
+              "pip_check": false
+            }
+          },
+          {
+            "files": {
+              "recipe": [
+                "run_test.bat"
+              ]
+            },
+            "script": "run_test.bat"
+          }
+        ],
+        "version": "26.7.2"
       }
     ],
     "package": {
@@ -3064,7 +3137,7 @@
     "requirements": {
       "build": [
         "python",
-        "cross-python_win-64",
+        "cross-python_win-arm64",
         "m2-filesystem",
         "m2-bash",
         "m2-base"
@@ -3969,7 +4042,8 @@
     "linux_ppc64le",
     "osx_64",
     "osx_arm64",
-    "win_64"
+    "win_64",
+    "win_arm64"
   ],
   "pr_info": {
     "__lazy_json__": "pr_info/conda.json"
@@ -3993,6 +4067,7 @@
       "cross-python_osx-64",
       "cross-python_osx-arm64",
       "cross-python_win-64",
+      "cross-python_win-arm64",
       "distro",
       "frozendict",
       "hatch-vcs",
@@ -4024,6 +4099,7 @@
         "cross-python_osx-64",
         "cross-python_osx-arm64",
         "cross-python_win-64",
+        "cross-python_win-arm64",
         "m2-base",
         "m2-bash",
         "m2-filesystem",
@@ -4094,6 +4170,7 @@
         "cross-python_osx-64",
         "cross-python_osx-arm64",
         "cross-python_win-64",
+        "cross-python_win-arm64",
         "m2-base",
         "m2-bash",
         "m2-filesystem",
@@ -4564,6 +4641,229 @@
       "elements": [
         "archspec",
         "backports.zstd",
+        "boltons",
+        "charset-normalizer",
+        "conda-libmamba-solver",
+        "conda-lockfiles",
+        "conda-package-handling",
+        "conda-pypi",
+        "conda-rattler-solver",
+        "conda-self",
+        "distro",
+        "frozendict",
+        "menuinst",
+        "msgpack-python",
+        "packaging",
+        "platformdirs",
+        "pluggy",
+        "pycosat",
+        "python",
+        "requests",
+        "ruamel.yaml",
+        "setuptools",
+        "tqdm",
+        "truststore"
+      ]
+    },
+    "test": {
+      "__set__": true,
+      "elements": [
+        "pip"
+      ]
+    }
+  },
+  "win_arm64_meta_yaml": {
+    "about": {
+      "description": "Conda is an open source package management system and environment\nmanagement system for installing multiple versions of software packages\nand their dependencies and switching easily between them. It works on\nLinux, OS X and Windows, and was created for Python programs but can\npackage and distribute any software.",
+      "dev_url": "https://github.com/conda/conda",
+      "doc_url": "https://docs.conda.io/projects/conda/en/stable/",
+      "home": "https://conda.io/",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD-3-Clause",
+      "license_file": "conda-src/LICENSE",
+      "summary": "OS-agnostic, system-level binary package and environment manager."
+    },
+    "build": {
+      "number": "1",
+      "script": {
+        "content": [
+          "rm -rf conda-src/tests/",
+          "${{ PYTHON }} -m pip install conda-src/ --no-deps --no-build-isolation -vv && ${{ PYTHON }} -m conda init --install"
+        ]
+      }
+    },
+    "extra": {
+      "recipe-maintainers": [
+        "dbast",
+        "isuruf",
+        "jakirkham",
+        "jezdez",
+        "kenodegard",
+        "mbargull",
+        "ocefpaf",
+        "beeankha"
+      ]
+    },
+    "outputs": [
+      {
+        "build": null,
+        "name": "conda",
+        "requirements": {
+          "build": [
+            "python",
+            "cross-python_win-arm64",
+            "m2-filesystem",
+            "m2-bash",
+            "m2-base"
+          ],
+          "host": [
+            "python",
+            "pip",
+            "hatchling >=1.12.2",
+            "hatch-vcs >=0.2.0",
+            "boltons >=23.0.0",
+            "frozendict >=2.4.2",
+            "menuinst >=2",
+            "platformdirs >=3.10.0",
+            "requests >=2.28.0,<3",
+            "ruamel.yaml >=0.11.14,<0.20",
+            "tqdm >=4"
+          ],
+          "run": [
+            "archspec >=0.2.3",
+            "boltons >=23.0.0",
+            "charset-normalizer",
+            "conda-package-handling >=2.2.0",
+            "distro >=1.5.0",
+            "frozendict >=2.4.2",
+            "menuinst >=2",
+            "msgpack-python >=1.1.1",
+            "packaging >=23.0",
+            "platformdirs >=3.10.0",
+            "pluggy >=1.6.0",
+            "pycosat >=0.6.3",
+            "python",
+            "requests >=2.28.0,<3",
+            "ruamel.yaml >=0.11.14,<0.20",
+            "setuptools >=60.0.0",
+            "tqdm >=4",
+            "truststore >=0.8.0",
+            "conda-libmamba-solver >=26.4.1",
+            "conda-lockfiles >=0.2.0",
+            "conda-pypi >=0.10.1",
+            "conda-rattler-solver >=0.1.1",
+            "conda-self >=0.2.0"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "conda"
+              ],
+              "pip_check": false
+            }
+          },
+          {
+            "files": {
+              "recipe": [
+                "run_test.bat"
+              ]
+            },
+            "script": "run_test.bat"
+          }
+        ],
+        "version": "26.7.2"
+      }
+    ],
+    "package": {
+      "name": "conda",
+      "version": "26.7.2"
+    },
+    "requirements": {
+      "build": [
+        "python",
+        "cross-python_win-arm64",
+        "m2-filesystem",
+        "m2-bash",
+        "m2-base"
+      ],
+      "host": [
+        "python",
+        "pip",
+        "hatchling >=1.12.2",
+        "hatch-vcs >=0.2.0",
+        "boltons >=23.0.0",
+        "frozendict >=2.4.2",
+        "menuinst >=2",
+        "platformdirs >=3.10.0",
+        "requests >=2.28.0,<3",
+        "ruamel.yaml >=0.11.14,<0.20",
+        "tqdm >=4"
+      ],
+      "run": [
+        "archspec >=0.2.3",
+        "boltons >=23.0.0",
+        "charset-normalizer",
+        "conda-package-handling >=2.2.0",
+        "distro >=1.5.0",
+        "frozendict >=2.4.2",
+        "menuinst >=2",
+        "msgpack-python >=1.1.1",
+        "packaging >=23.0",
+        "platformdirs >=3.10.0",
+        "pluggy >=1.6.0",
+        "pycosat >=0.6.3",
+        "python",
+        "requests >=2.28.0,<3",
+        "ruamel.yaml >=0.11.14,<0.20",
+        "setuptools >=60.0.0",
+        "tqdm >=4",
+        "truststore >=0.8.0",
+        "conda-libmamba-solver >=26.4.1",
+        "conda-lockfiles >=0.2.0",
+        "conda-pypi >=0.10.1",
+        "conda-rattler-solver >=0.1.1",
+        "conda-self >=0.2.0"
+      ]
+    },
+    "schema_version": 1,
+    "source": {
+      "sha256": "3b9ba0833a52a65960bfd9c40238f9700f673a70a540351b5c6312eedc97ab98",
+      "url": "https://github.com/conda/conda/releases/download/26.7.2/conda-26.7.2.tar.gz"
+    }
+  },
+  "win_arm64_requirements": {
+    "build": {
+      "__set__": true,
+      "elements": [
+        "cross-python_win-arm64",
+        "m2-base",
+        "m2-bash",
+        "m2-filesystem",
+        "python"
+      ]
+    },
+    "host": {
+      "__set__": true,
+      "elements": [
+        "boltons",
+        "frozendict",
+        "hatch-vcs",
+        "hatchling",
+        "menuinst",
+        "pip",
+        "platformdirs",
+        "python",
+        "requests",
+        "ruamel.yaml",
+        "tqdm"
+      ]
+    },
+    "run": {
+      "__set__": true,
+      "elements": [
+        "archspec",
         "boltons",
         "charset-normalizer",
         "conda-libmamba-solver",
