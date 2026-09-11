@@ -1195,12 +1195,6 @@
             }
           },
           {
-            "id": "dm-tree",
-            "payload": {
-              "__lazy_json__": "node_attrs/dm-tree.json"
-            }
-          },
-          {
             "id": "ndd",
             "payload": {
               "__lazy_json__": "node_attrs/ndd.json"
