@@ -1202,10 +1202,10 @@
         "torchvision"
       ],
       "num_descendants": 42,
-      "pr_status": "unstable",
+      "pr_status": "clean",
       "pr_url": "https://github.com/conda-forge/av-feedstock/pull/106",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T07:04:47+00:00"
+      "updated_at": "2026-09-11T13:07:23+00:00"
     },
     "av2": {
       "immediate_children": [],
@@ -2156,10 +2156,10 @@
         "napari-tiler"
       ],
       "num_descendants": 4,
-      "pr_status": "unknown",
+      "pr_status": "unstable",
       "pr_url": "https://github.com/conda-forge/bermuda-feedstock/pull/16",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T08:55:59+00:00"
+      "updated_at": "2026-09-11T08:57:54+00:00"
     },
     "bertha": {
       "created_at": "2026-09-06T09:54:28+00:00",
@@ -15347,7 +15347,6 @@
       "updated_at": "2026-09-05T07:19:15+00:00"
     },
     "nlopt": {
-      "created_at": "2026-09-11T14:32:55+00:00",
       "immediate_children": [
         "ambertools",
         "atomicrex",
@@ -15372,10 +15371,9 @@
         "wisdem"
       ],
       "num_descendants": 24,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/nlopt-feedstock/pull/76",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T14:44:06+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/nlopt-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "nmslib": {
       "immediate_children": [
@@ -24584,7 +24582,6 @@
       "updated_at": "2026-09-07T15:59:50+00:00"
     },
     "pytables": {
-      "created_at": "2026-09-11T13:21:28+00:00",
       "immediate_children": [
         "asapdiscovery",
         "astromodels",
@@ -24623,10 +24620,9 @@
         "zipline-reloaded"
       ],
       "num_descendants": 51,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/pytables-feedstock/pull/129",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T15:10:04+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/pytables-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "pytalises": {
       "immediate_children": [],
