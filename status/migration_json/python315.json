@@ -6480,10 +6480,10 @@
         "simclr"
       ],
       "num_descendants": 14,
-      "pr_status": "unknown",
+      "pr_status": "clean",
       "pr_url": "https://github.com/conda-forge/dm-tree-feedstock/pull/51",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T21:01:55+00:00"
+      "updated_at": "2026-09-11T21:03:47+00:00"
     },
     "dmri-amico": {
       "immediate_children": [],
@@ -30012,10 +30012,10 @@
         "gnuradio-osmosdr"
       ],
       "num_descendants": 8,
-      "pr_status": "unstable",
+      "pr_status": "unknown",
       "pr_url": "https://github.com/conda-forge/soapysdr-feedstock/pull/22",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-04T17:58:23+00:00"
+      "updated_at": "2026-09-11T23:05:37+00:00"
     },
     "social-analyzer": {
       "immediate_children": [],
@@ -36941,6 +36941,7 @@
     "zfpy",
     "shapely",
     "rapidfuzz",
+    "pywavelets",
     "pyproj",
     "pyepics",
     "nlopt",
@@ -37390,7 +37391,6 @@
     "opensees",
     "warp-lang",
     "spglib",
-    "pywavelets",
     "pycifrw",
     "partsegcore-compiled-backend",
     "ml_dtypes",
