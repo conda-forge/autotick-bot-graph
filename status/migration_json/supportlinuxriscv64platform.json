@@ -2122,9 +2122,7 @@
     "r-backports",
     "r-languageserver"
   ],
-  "awaiting-pr": [
-    "wrapt"
-  ],
+  "awaiting-pr": [],
   "bot-error": [],
   "done": [
     "zlib",
@@ -2223,6 +2221,7 @@
     "nghttp2",
     "bzip2",
     "python",
+    "wrapt",
     "ujson",
     "tornado",
     "ruamel.yaml.clib",
