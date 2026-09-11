@@ -698,9 +698,9 @@
 <!-- r&#45;secretbase -->
 <g id="node66" class="node">
 <title>r&#45;secretbase</title>
-<g id="a_node66"><a xlink:href="https://github.com/conda-forge/r-secretbase-feedstock/pull/20" xlink:title="r secretbase ❎">
-<ellipse fill="#31688e" stroke="black" cx="124.86" cy="-942" rx="88.56" ry="18"/>
-<text xml:space="preserve" text-anchor="middle" x="124.86" y="-937.33" font-family="Times,serif" font-size="14.00" fill="white">r secretbase ❎</text>
+<g id="a_node66"><a xlink:href="https://github.com/conda-forge/r-secretbase-feedstock/pull/20" xlink:title="r secretbase ✓">
+<ellipse fill="#31688e" stroke="black" cx="124.86" cy="-942" rx="81.2" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="124.86" y="-937.33" font-family="Times,serif" font-size="14.00" fill="white">r secretbase ✓</text>
 </a>
 </g>
 </g>
