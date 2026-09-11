@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"798b50af3f47259c22e055384ea009235a648351181d6d9aa3e0eb82f9fa29dd\"",
+  "ETag": "W/\"0fb231236940c2d83ee8ccea38078a6886504193c80ffc950ded925fa3b809a4\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/astropy-sphinx-theme-feedstock/pull/5",
   "id": 3527863110,
   "labels": [],
-  "last_fetched": "2026-09-04T21:24:44.689921",
+  "last_fetched": "2026-09-11T21:26:44.274020",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
