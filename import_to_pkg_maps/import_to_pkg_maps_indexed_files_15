@@ -37600,6 +37600,7 @@ linux-64/vispy-0.15.2-py312hd5d8cf4_1.conda
 linux-64/vispy-0.16.0-py313h607069c_0.conda
 linux-64/vispy-0.16.1-py312hd5d8cf4_0.conda
 linux-64/vispy-0.17.0-py314he33f6f6_0.conda
+linux-64/vispy-0.17.0-py314he33f6f6_1.conda
 linux-64/vispy-0.6.2-py27hf5ce8a7_0.tar.bz2
 linux-64/vispy-0.6.6-py38h2c54fc0_0.tar.bz2
 linux-64/vispy-0.7.0-py36h17d0008_0.tar.bz2
@@ -54374,6 +54375,7 @@ linux-aarch64/scipy-tests-1.15.2-py311h7375b75_0.conda
 linux-aarch64/scipy-tests-1.16.3-py311h33b5a33_0.conda
 linux-aarch64/scipy-tests-1.16.3-py314h606f636_0.conda
 linux-aarch64/scipy-tests-1.16.3-py314h606f636_1.conda
+linux-aarch64/scipy-tests-1.18.1-py314h205c185_0.conda
 linux-aarch64/scitokens-cpp-0.6.3-haec273f_1.tar.bz2
 linux-aarch64/scons-4.0.1-py36h9f0ad1d_0.tar.bz2
 linux-aarch64/scons-4.0.1-py36hc560c46_0.tar.bz2
@@ -107411,6 +107413,7 @@ osx-64/oracledb-1.4.1-py38hcafd530_0.conda
 osx-64/oracledb-1.4.2-py310hb372a2b_0.conda
 osx-64/oracledb-2.1.2-py310hb372a2b_0.conda
 osx-64/oracledb-2.4.1-py311h3336109_0.conda
+osx-64/oracledb-26.0.0-py313h4b81b55_1.conda
 osx-64/oracledb-3.0.0-py39h80efdc8_0.conda
 osx-64/oracledb-4.0.1-py311h15eb09d_0.conda
 osx-64/oracledb-4.0.2-py311h15eb09d_0.conda
@@ -132214,6 +132217,7 @@ osx-arm64/njoy2016-2016.76-py39h290d35a_0.conda
 osx-arm64/nlohmann_json-3.11.3-h00cdb27_1.conda
 osx-arm64/nlopt-2.10.1-np2py312h60fbb24_1.conda
 osx-arm64/nlopt-2.10.1-py313he9cd5d3_0.conda
+osx-arm64/nlopt-2.11.0-np2py313h5da2372_2.conda
 osx-arm64/nlopt-2.7.1-py310h8dc9a4b_0.tar.bz2
 osx-arm64/nlopt-2.8.0-py312h857dc0a_2.conda
 osx-arm64/nng-1.11-h286801f_0.conda
@@ -154284,6 +154288,7 @@ win-64/oracledb-2.4.1-py311he736701_1.conda
 win-64/oracledb-2.4.1-py312h4389bb4_1.conda
 win-64/oracledb-2.5.0-py313ha7868ed_0.conda
 win-64/oracledb-2.5.1-py39ha55e580_0.conda
+win-64/oracledb-26.0.0-py314h8f04a7f_1.conda
 win-64/oracledb-3.1.1-py310ha8f682b_0.conda
 win-64/oracledb-3.3.0-py311h3485c13_1.conda
 win-64/oracledb-3.4.0-py310h29418f3_0.conda
@@ -157844,6 +157849,7 @@ win-64/pymomentum-gpu-0.1.107-cuda129_py314_pt210_h4bda402_1.conda
 win-64/pymomentum-gpu-0.1.110-cuda129_py313_pt210_h4bda402_0.conda
 win-64/pymomentum-gpu-0.1.111-cuda129_py314_pt212_hdc219db_2.conda
 win-64/pymomentum-gpu-0.1.111-cuda130_py313_pt212_h636b03c_0.conda
+win-64/pymomentum-gpu-0.1.114-cuda129_py311_pt213_h8264d90_3.conda
 win-64/pymongo-3.11.0-py37hf2a7229_4.tar.bz2
 win-64/pymongo-3.13.0-py313h5813708_1.conda
 win-64/pymongo-3.13.0-py39ha51f57c_1.conda
@@ -165085,6 +165091,7 @@ win-64/vispy-0.16.0-py310h8f3aa81_0.conda
 win-64/vispy-0.16.0-py314h2dcd201_0.conda
 win-64/vispy-0.16.1-py313h0591002_1.conda
 win-64/vispy-0.16.2-py311h17033d2_0.conda
+win-64/vispy-0.17.0-py314h2dcd201_1.conda
 win-64/vispy-0.5.3-py36_0.tar.bz2
 win-64/vispy-0.6.3-py36hc8d92b1_0.tar.bz2
 win-64/vispy-0.6.5-py37h3a3b6f7_1.tar.bz2
