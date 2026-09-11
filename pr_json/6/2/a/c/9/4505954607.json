@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"40ee1148090b24549bca0c1c3ab635fba5703cd572b86234a6ff7e9d995b0e4b\"",
+  "Last-Modified": "Fri, 11 Sep 2026 12:48:21 GMT",
   "base": {
     "repo": {
       "name": "debugpy-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/debugpy-feedstock/pull/68",
   "id": 4505954607,
   "labels": [],
-  "last_fetched": "2026-09-11T12:46:41.791313",
+  "last_fetched": "2026-09-11T20:35:54.860171",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 68,
   "state": "open",
-  "updated_at": "2026-09-11T12:46:41Z"
+  "updated_at": "2026-09-11T12:48:21Z"
 }
