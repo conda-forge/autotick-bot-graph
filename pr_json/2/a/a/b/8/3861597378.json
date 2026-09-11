@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"0387fbb8bcc52922a916c4ede6d6f9c82fa6c81bff3b0273b306d1c70f5ebf0c\"",
+  "ETag": "W/\"e50f01a2a0dd932f05163f50f799c00c23fb19f76842390fa8e807216eb66c6b\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/graspologic-native-feedstock/pull/11",
   "id": 3861597378,
   "labels": [],
-  "last_fetched": "2026-09-04T21:28:31.894246",
+  "last_fetched": "2026-09-11T22:37:45.919593",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
