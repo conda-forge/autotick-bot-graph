@@ -3432,7 +3432,6 @@
     "conda-forge-tick": "2026.9.68",
     "crc32c": "2.9.post0",
     "curifactory": "0.20.5",
-    "dagster": "1.13.22",
     "dagster-cloud": "1.13.22",
     "dashlab": "0.3.21",
     "databricks-sdk": "0.138.0",
