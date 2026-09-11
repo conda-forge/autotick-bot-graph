@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"ee69778502cd31afa6fedf6043726d70d0f050bba142867af764346c28e343b4\"",
+  "Last-Modified": "Fri, 11 Sep 2026 20:31:30 GMT",
   "base": {
     "repo": {
       "name": "ostaphep-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/ostaphep-feedstock/pull/260",
   "id": 4509528938,
   "labels": [],
-  "last_fetched": "2026-09-11T20:31:29.939967",
+  "last_fetched": "2026-09-11T23:30:17.416931",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 260,
   "state": "open",
-  "updated_at": "2026-09-11T20:31:29Z"
+  "updated_at": "2026-09-11T20:33:23Z"
 }
