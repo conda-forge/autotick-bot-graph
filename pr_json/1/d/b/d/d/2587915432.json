@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"85e2c73107aa3399684aa199d3df15670afab3bcdf0a803c8d8bb552a3282b91\"",
-  "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
+  "ETag": "W/\"21b774199dd37a9dd8a1c2065f6da8d4d60bbce0cdeaaa44282fcb1a665ce8bd\"",
+  "Last-Modified": "Fri, 11 Sep 2026 22:18:57 GMT",
   "base": {
     "repo": {
       "name": "google-cloud-life-sciences-feedstock"
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/google-cloud-life-sciences-feedstock/pull/33",
   "id": 2587915432,
   "labels": [],
-  "last_fetched": "2026-09-06T20:28:21.396431",
+  "last_fetched": "2026-09-11T23:28:54.176947",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
@@ -24,5 +24,5 @@
   "merged_at": null,
   "number": 33,
   "state": "open",
-  "updated_at": "2025-06-12T16:26:54Z"
+  "updated_at": "2026-09-11T22:18:57Z"
 }
