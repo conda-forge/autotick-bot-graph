@@ -30304,10 +30304,10 @@
         "sovapy"
       ],
       "num_descendants": 29,
-      "pr_status": "unknown",
+      "pr_status": "unstable",
       "pr_url": "https://github.com/conda-forge/spglib-feedstock/pull/127",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T11:04:25+00:00"
+      "updated_at": "2026-09-11T11:06:15+00:00"
     },
     "spherely": {
       "immediate_children": [],
