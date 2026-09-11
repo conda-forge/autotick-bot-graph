@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"5c46a06f1579405e1a4e000fa21338a04a190d58670ffdae00939ba7fa358d9e\"",
+  "ETag": "W/\"27c2348ed826629b40c4adc2f057be1df66788aeca0104545516b56235e2d406\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/btrees-feedstock/pull/17",
   "id": 1715586716,
   "labels": [],
-  "last_fetched": "2026-09-04T23:25:02.886520",
+  "last_fetched": "2026-09-11T23:30:33.174134",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
