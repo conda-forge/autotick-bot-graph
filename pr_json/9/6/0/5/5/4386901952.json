@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"99a0f06efb4828ab0fbc72b507f11403420c5d04c9dad6e3d7f2eb909f94073a\"",
-  "Last-Modified": "Fri, 28 Aug 2026 17:55:46 GMT",
+  "ETag": "W/\"5498c1731484b37b7ddfab6d27e71165b24281e742b7b3bf2783276b7cef6ff0\"",
+  "Last-Modified": "Fri, 11 Sep 2026 21:18:58 GMT",
   "base": {
     "repo": {
       "name": "constructor-feedstock"
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/constructor-feedstock/pull/108",
   "id": 4386901952,
   "labels": [],
-  "last_fetched": "2026-09-07T05:32:37.439944",
+  "last_fetched": "2026-09-11T21:25:26.459519",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
@@ -24,5 +24,5 @@
   "merged_at": null,
   "number": 108,
   "state": "open",
-  "updated_at": "2026-08-28T17:55:46Z"
+  "updated_at": "2026-09-11T21:18:58Z"
 }
