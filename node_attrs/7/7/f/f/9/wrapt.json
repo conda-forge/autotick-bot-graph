@@ -16,6 +16,9 @@
     "bot": {
       "inspection": "update-grayskull"
     },
+    "build_platform": {
+      "linux_riscv64": "linux_64"
+    },
     "conda_build": {
       "pkg_format": "2"
     },
@@ -34,8 +37,8 @@
     },
     "test": "native_and_emulated"
   },
-  "feedstock_hash": "38c1c0c0a89b36653a7795df88ad3625e551f98e",
-  "feedstock_hash_ts": 1789148294,
+  "feedstock_hash": "c5870ff7e22ba60e28f2d8a7ce73ebb61f3f991e",
+  "feedstock_hash_ts": 1789160994,
   "feedstock_name": "wrapt",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -48,7 +51,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -59,6 +62,90 @@
       ]
     },
     "outputs": [
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
       {
         "build": null,
         "name": "wrapt",
@@ -291,7 +378,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -307,6 +394,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -336,6 +424,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -365,6 +454,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -394,6 +484,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -423,6 +514,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -452,6 +544,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -483,6 +576,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_linux-aarch64",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -508,7 +602,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_linux-aarch64"
+        "cross-python_linux-aarch64",
+        "python"
       ]
     },
     "host": {
@@ -542,7 +637,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -558,6 +653,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -587,6 +683,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -616,6 +713,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -645,6 +743,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -674,6 +773,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -703,6 +803,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -734,6 +835,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_linux-ppc64le",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -759,7 +861,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_linux-ppc64le"
+        "cross-python_linux-ppc64le",
+        "python"
       ]
     },
     "host": {
@@ -793,7 +896,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -977,6 +1080,91 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "c_compiler_stub",
+            "c_stdlib_stub"
+          ],
+          "host": [
+            "python",
+            "setuptools >=62.0",
+            "pip"
+          ],
+          "run": [
+            "python"
+          ]
+        },
+        "tests": [
+          {
+            "python": {
+              "imports": [
+                "wrapt"
+              ]
+            }
+          }
+        ],
+        "version": "2.4.0"
+      },
+      {
+        "build": null,
+        "name": "wrapt",
+        "requirements": {
+          "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1006,6 +1194,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1035,6 +1224,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1064,6 +1254,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1093,6 +1284,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1122,6 +1314,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-aarch64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1151,6 +1344,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1180,6 +1374,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1209,6 +1404,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1238,6 +1434,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1267,6 +1464,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1296,6 +1494,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_linux-ppc64le",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1325,6 +1524,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1354,6 +1554,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1383,6 +1584,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1412,6 +1614,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1441,6 +1644,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1470,6 +1674,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1499,6 +1704,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1528,6 +1734,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1557,6 +1764,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1586,6 +1794,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1615,6 +1824,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1644,6 +1854,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1673,6 +1884,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1702,6 +1914,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1731,6 +1944,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1760,6 +1974,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1789,6 +2004,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1818,6 +2034,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1847,6 +2064,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1876,6 +2094,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1905,6 +2124,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -1938,6 +2158,7 @@
       "build": [
         "c_compiler_stub",
         "c_stdlib_stub",
+        "python",
         "cross-python_linux-aarch64",
         "cross-python_linux-ppc64le",
         "cross-python_osx-64",
@@ -1971,7 +2192,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -1987,6 +2208,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2016,6 +2238,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2045,6 +2268,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2074,6 +2298,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2103,6 +2328,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2132,6 +2358,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2163,6 +2390,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_osx-64",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -2188,7 +2416,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_osx-64"
+        "cross-python_osx-64",
+        "python"
       ]
     },
     "host": {
@@ -2222,7 +2451,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -2238,6 +2467,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2267,6 +2497,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2296,6 +2527,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2325,6 +2557,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2354,6 +2587,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2383,6 +2617,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_osx-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2414,6 +2649,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_osx-arm64",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -2439,7 +2675,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_osx-arm64"
+        "cross-python_osx-arm64",
+        "python"
       ]
     },
     "host": {
@@ -2482,7 +2719,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/wrapt.json"
   },
-  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  version: \"2.4.0\"\n\npackage:\n  name: wrapt\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/w/wrapt/wrapt-${{ version }}.tar.gz\n  sha256: 7082fc1f94b020ac275870c4af71b09cff22876fe6e9c4c0ad01ea21d217b288\n\nbuild:\n  number: 1\n  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - cross-python_${{ target_platform }}\n    - ${{ compiler(\"c\") }}\n    - ${{ stdlib(\"c\") }}\n  host:\n    - python\n    - setuptools >=62.0\n    - pip\n  run:\n    - python\n\ntests:\n  - python:\n      imports:\n        - wrapt\n      pip_check: true\n\nabout:\n  summary: Module for decorators, wrappers and monkey patching.\n  license: BSD-2-Clause\n  license_file: LICENSE\n  homepage: https://github.com/GrahamDumpleton/wrapt\n  documentation: https://wrapt.readthedocs.io/\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - nehaljwani\n    - ocefpaf\n",
+  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  version: \"2.4.0\"\n\npackage:\n  name: wrapt\n  version: ${{ version }}\n\nsource:\n  url: https://pypi.org/packages/source/w/wrapt/wrapt-${{ version }}.tar.gz\n  sha256: 7082fc1f94b020ac275870c4af71b09cff22876fe6e9c4c0ad01ea21d217b288\n\nbuild:\n  number: 2\n  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation\n\nrequirements:\n  build:\n    - if: build_platform != target_platform\n      then:\n        - python\n        - cross-python_${{ target_platform }}\n    - ${{ compiler(\"c\") }}\n    - ${{ stdlib(\"c\") }}\n  host:\n    - python\n    - setuptools >=62.0\n    - pip\n  run:\n    - python\n\ntests:\n  - python:\n      imports:\n        - wrapt\n      pip_check: true\n\nabout:\n  summary: Module for decorators, wrappers and monkey patching.\n  license: BSD-2-Clause\n  license_file: LICENSE\n  homepage: https://github.com/GrahamDumpleton/wrapt\n  documentation: https://wrapt.readthedocs.io/\n\nextra:\n  recipe-maintainers:\n    - jakirkham\n    - nehaljwani\n    - ocefpaf\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -2510,7 +2747,8 @@
         "cross-python_osx-64",
         "cross-python_osx-arm64",
         "cross-python_win-64",
-        "cross-python_win-arm64"
+        "cross-python_win-arm64",
+        "python"
       ]
     },
     "host": {
@@ -2552,7 +2790,8 @@
         "cross-python_osx-64",
         "cross-python_osx-arm64",
         "cross-python_win-64",
-        "cross-python_win-arm64"
+        "cross-python_win-arm64",
+        "python"
       ]
     },
     "host": {
@@ -2591,7 +2830,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -2607,6 +2846,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2636,6 +2876,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2665,6 +2906,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2694,6 +2936,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2723,6 +2966,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2752,6 +2996,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2783,6 +3028,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_win-64",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -2808,7 +3054,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_win-64"
+        "cross-python_win-64",
+        "python"
       ]
     },
     "host": {
@@ -2842,7 +3089,7 @@
       "summary": "Module for decorators, wrappers and monkey patching."
     },
     "build": {
-      "number": "1",
+      "number": "2",
       "script": "${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation"
     },
     "extra": {
@@ -2858,6 +3105,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2887,6 +3135,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2916,6 +3165,7 @@
         "name": "wrapt",
         "requirements": {
           "build": [
+            "python",
             "cross-python_win-arm64",
             "c_compiler_stub",
             "c_stdlib_stub"
@@ -2947,6 +3197,7 @@
     },
     "requirements": {
       "build": [
+        "python",
         "cross-python_win-arm64",
         "c_compiler_stub",
         "c_stdlib_stub"
@@ -2972,7 +3223,8 @@
       "elements": [
         "c_compiler_stub",
         "c_stdlib_stub",
-        "cross-python_win-arm64"
+        "cross-python_win-arm64",
+        "python"
       ]
     },
     "host": {
