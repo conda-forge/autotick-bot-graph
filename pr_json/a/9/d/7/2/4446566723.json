@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"7d14279f48cfac491c669ebe26ecd1c87967766faf1a2af59b0d63f0dc7bea03\"",
+  "ETag": "W/\"3dde444bf4cf16a5c7c2d5e1a63bb670aceb8ccd0c010f1e993371271b5983ff\"",
   "Last-Modified": "Fri, 04 Sep 2026 20:55:58 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/ct3-feedstock/pull/7",
   "id": 4446566723,
   "labels": [],
-  "last_fetched": "2026-09-04T21:27:53.402468",
+  "last_fetched": "2026-09-11T22:34:30.559960",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
