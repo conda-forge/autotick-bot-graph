@@ -24,8 +24,8 @@
     },
     "test": "native_and_emulated"
   },
-  "feedstock_hash": "595a6df4a4e2a6a7c4c95ab465c1511c42253038",
-  "feedstock_hash_ts": 1788976318,
+  "feedstock_hash": "84aa3b9dff47944732b9dfcb683f94c17f4e9cc1",
+  "feedstock_hash_ts": 1789157593,
   "feedstock_name": "vhs",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -38,7 +38,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -136,7 +136,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -234,7 +234,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -258,7 +258,8 @@
           ],
           "host": [],
           "run": [
-            "ffmpeg"
+            "ffmpeg",
+            "ttyd"
           ]
         },
         "tests": [
@@ -287,7 +288,8 @@
         "go-licenses"
       ],
       "run": [
-        "ffmpeg"
+        "ffmpeg",
+        "ttyd"
       ]
     },
     "schema_version": 1,
@@ -311,7 +313,8 @@
     "run": {
       "__set__": true,
       "elements": [
-        "ffmpeg"
+        "ffmpeg",
+        "ttyd"
       ]
     },
     "test": {
@@ -329,7 +332,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -412,34 +415,6 @@
           ],
           "host": [],
           "run": [
-            "ffmpeg"
-          ]
-        },
-        "tests": [
-          {
-            "package_contents": {
-              "bin": [
-                "vhs"
-              ],
-              "strict": true
-            }
-          },
-          {
-            "script": "vhs --version | grep \"vhs version ${{ version | replace('.', '\\\\.') }}\""
-          }
-        ],
-        "version": "0.12.0"
-      },
-      {
-        "build": null,
-        "name": "vhs",
-        "requirements": {
-          "build": [
-            "go-nocgo_compiler_stub",
-            "go-licenses"
-          ],
-          "host": [],
-          "run": [
             "ffmpeg",
             "ttyd"
           ]
@@ -498,7 +473,37 @@
           ],
           "host": [],
           "run": [
-            "ffmpeg"
+            "ffmpeg",
+            "ttyd"
+          ]
+        },
+        "tests": [
+          {
+            "package_contents": {
+              "bin": [
+                "vhs"
+              ],
+              "strict": true
+            }
+          },
+          {
+            "script": "vhs --version | grep \"vhs version ${{ version | replace('.', '\\\\.') }}\""
+          }
+        ],
+        "version": "0.12.0"
+      },
+      {
+        "build": null,
+        "name": "vhs",
+        "requirements": {
+          "build": [
+            "go-nocgo_compiler_stub",
+            "go-licenses"
+          ],
+          "host": [],
+          "run": [
+            "ffmpeg",
+            "ttyd"
           ]
         },
         "tests": [
@@ -548,7 +553,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -646,7 +651,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -752,7 +757,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/vhs.json"
   },
-  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  name: vhs\n  version: \"0.12.0\"\n\npackage:\n  name: ${{ name|lower }}\n  version: ${{ version }}\n\nsource:\n  - url: https://github.com/charmbracelet/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz\n    sha256: 2e4a3b940f66ffbe1f66ded3b6253c9f3185a69567596e80d08c50cee77eaedf\n    target_directory: src\n  # https://github.com/mattn/go-localereader/issues/2\n  - url: https://github.com/mattn/go-localereader/raw/master/LICENSE\n    sha256: dceede03550621e65ec7b79fcba87cf6dbb9d31132a8ae71a8fe8ceec0af7da3\n\nbuild:\n  number: 0\n  script:\n    - mv LICENSE go-localereader-LICENSE\n    - cd src\n    - go-licenses save . --ignore github.com/mattn/go-localereader --save_path=../library_licenses\n    - if: not win\n      then: go build -v -o $PREFIX/bin/vhs -ldflags=\"-s -w -X main.Version=${{ version }}\"\n      else: go build -v -o %LIBRARY_BIN%\\vhs.exe -ldflags=\"-s -w -X main.Version=${{ version }}\"\n\nrequirements:\n  build:\n    - ${{ compiler('go-nocgo') }}\n    - go-licenses\n  run:\n    - ffmpeg\n    # ttyd is not available on those platforms yet\n    # https://github.com/conda-forge/ttyd-feedstock/pull/23\n    - if: not win and not (target_platform == 'linux-ppc64le')\n      then:\n        - ttyd\n\ntests:\n  - package_contents:\n      bin:\n        - vhs\n      strict: true\n  - script:\n      - if: unix\n        then: vhs --version | grep \"vhs version ${{ version | replace('.', '\\\\.') }}\"\n        else: vhs --version\n\nabout:\n  summary: Your CLI home video recorder\n  license: MIT\n  license_file:\n    - src/LICENSE\n    - library_licenses/\n    - go-localereader-LICENSE\n  homepage: https://github.com/charmbracelet/vhs\n  repository: https://github.com/charmbracelet/vhs\n\nextra:\n  recipe-maintainers:\n    - pavelzw\n",
+  "raw_meta_yaml": "schema_version: 1\n\ncontext:\n  name: vhs\n  version: \"0.12.0\"\n\npackage:\n  name: ${{ name|lower }}\n  version: ${{ version }}\n\nsource:\n  - url: https://github.com/charmbracelet/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz\n    sha256: 2e4a3b940f66ffbe1f66ded3b6253c9f3185a69567596e80d08c50cee77eaedf\n    target_directory: src\n  # https://github.com/mattn/go-localereader/issues/2\n  - url: https://github.com/mattn/go-localereader/raw/master/LICENSE\n    sha256: dceede03550621e65ec7b79fcba87cf6dbb9d31132a8ae71a8fe8ceec0af7da3\n\nbuild:\n  number: 1\n  script:\n    - mv LICENSE go-localereader-LICENSE\n    - cd src\n    - go-licenses save . --ignore github.com/mattn/go-localereader --save_path=../library_licenses\n    - if: not win\n      then: go build -v -o $PREFIX/bin/vhs -ldflags=\"-s -w -X main.Version=${{ version }}\"\n      else: go build -v -o %LIBRARY_BIN%\\vhs.exe -ldflags=\"-s -w -X main.Version=${{ version }}\"\n\nrequirements:\n  build:\n    - ${{ compiler('go-nocgo') }}\n    - go-licenses\n  run:\n    - ffmpeg\n    - ttyd\n\ntests:\n  - package_contents:\n      bin:\n        - vhs\n      strict: true\n  - script:\n      - if: unix\n        then: vhs --version | grep \"vhs version ${{ version | replace('.', '\\\\.') }}\"\n        else: vhs --version\n\nabout:\n  summary: Your CLI home video recorder\n  license: MIT\n  license_file:\n    - src/LICENSE\n    - library_licenses/\n    - go-localereader-LICENSE\n  homepage: https://github.com/charmbracelet/vhs\n  repository: https://github.com/charmbracelet/vhs\n\nextra:\n  recipe-maintainers:\n    - pavelzw\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -826,7 +831,7 @@
       "summary": "Your CLI home video recorder"
     },
     "build": {
-      "number": "0",
+      "number": "1",
       "script": [
         "mv LICENSE go-localereader-LICENSE",
         "cd src",
@@ -850,7 +855,8 @@
           ],
           "host": [],
           "run": [
-            "ffmpeg"
+            "ffmpeg",
+            "ttyd"
           ]
         },
         "tests": [
@@ -879,7 +885,8 @@
         "go-licenses"
       ],
       "run": [
-        "ffmpeg"
+        "ffmpeg",
+        "ttyd"
       ]
     },
     "schema_version": 1,
@@ -903,7 +910,8 @@
     "run": {
       "__set__": true,
       "elements": [
-        "ffmpeg"
+        "ffmpeg",
+        "ttyd"
       ]
     },
     "test": {
