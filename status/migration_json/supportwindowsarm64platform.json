@@ -2411,6 +2411,7 @@
     "libarchive",
     "micromamba",
     "mamba",
+    "conda",
     "cmake",
     "aom"
   ],
@@ -2438,8 +2439,7 @@
     "astroid",
     "mypy",
     "gdk-pixbuf",
-    "cairo",
-    "conda"
+    "cairo"
   ],
   "not-solvable": []
 }
