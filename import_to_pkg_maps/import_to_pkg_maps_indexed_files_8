@@ -33229,6 +33229,7 @@ linux-64/scipy-1.16.3-py313h11c21cd_1.conda
 linux-64/scipy-1.16.3-py314he7377e1_0.conda
 linux-64/scipy-1.17.1-py314h529d2a9_1.conda
 linux-64/scipy-1.18.0-py314h529d2a9_0.conda
+linux-64/scipy-1.18.1-py313he2a5f1a_0.conda
 linux-64/scipy-1.4.0-py37h921218d_0.tar.bz2
 linux-64/scipy-1.4.1-py37ha3d9a3c_3.tar.bz2
 linux-64/scipy-1.5.2-py36hef3c2d5_2.tar.bz2
@@ -34203,6 +34204,7 @@ linux-64/spacy-pkuseg-0.0.28-py36h51d7077_0.tar.bz2
 linux-64/spacy-pkuseg-1.0.0-py310ha2bacc8_1.conda
 linux-64/spacy-transformers-1.2.0-py38h507a481_1.conda
 linux-64/spacy-transformers-1.3.3-py38hae673b5_0.conda
+linux-64/spaday-0.8.1-py311hf77984d_0.conda
 linux-64/spago-1.0.4-hd2eabc7_0.conda
 linux-64/sparqlwrapper-1.7.6-py35_0.tar.bz2
 linux-64/sparqlwrapper-1.8.2-py38_1000.tar.bz2
@@ -37639,6 +37641,7 @@ linux-64/vispy-0.11.0-py38h303d257_0.tar.bz2
 linux-64/vispy-0.11.0-py38h8f9a975_1.tar.bz2
 linux-64/vispy-0.12.0-py38hf83ca33_0.tar.bz2
 linux-64/vispy-0.14.1-py312h11ef0b3_0.conda
+linux-64/vispy-0.17.0-py314hc984ce5_1.conda
 linux-64/vispy-0.6.2-py36hf5ce8a7_0.tar.bz2
 linux-64/vispy-0.7.3-py37hd3ab8d9_0.tar.bz2
 linux-64/vispy-0.9.1-py39h7c34278_0.tar.bz2
@@ -49865,6 +49868,7 @@ linux-aarch64/oracledb-1.4.1-py311hcd402e7_0.conda
 linux-aarch64/oracledb-2.1.2-py39h898b7ef_0.conda
 linux-aarch64/oracledb-2.4.1-py39h060674a_0.conda
 linux-aarch64/oracledb-2.4.1-py39h060674a_1.conda
+linux-aarch64/oracledb-26.0.0-py311h0de9f98_1.conda
 linux-aarch64/oracledb-3.0.0-py310ha766c32_0.conda
 linux-aarch64/oracledb-3.0.0-py311ha879c10_0.conda
 linux-aarch64/orc-1.7.3-h5c30ecb_0.tar.bz2
@@ -52080,6 +52084,7 @@ linux-aarch64/pymetis-2023.1.1-py312h6488278_3.conda
 linux-aarch64/pymomentum-0.1.111-cpu_py312_pt212_hb1b25d5_1.conda
 linux-aarch64/pymomentum-0.1.111-cuda129_py312_pt212_hd88c392_2.conda
 linux-aarch64/pymomentum-0.1.111-cuda130_py312_pt212_h1481194_1.conda
+linux-aarch64/pymomentum-0.1.114-cuda129_py312_pt213_hb9e2e9d_3.conda
 linux-aarch64/pymomentum-0.1.114-cuda130_py314_pt213_h32b05fe_2.conda
 linux-aarch64/pymomentum-0.1.27-cpu_py312_h4ac6ad3_0.conda
 linux-aarch64/pymomentum-core-0.1.112-core_py312_hd2dadd6_0.conda
@@ -54476,6 +54481,7 @@ linux-aarch64/scipy-1.17.1-py313he1a02db_0.conda
 linux-aarch64/scipy-1.17.1-py314h052a9b3_1.conda
 linux-aarch64/scipy-1.17.1-py314h34f1ec5_1.conda
 linux-aarch64/scipy-1.18.0-py314h052a9b3_0.conda
+linux-aarch64/scipy-1.18.1-py312h3e7234c_0.conda
 linux-aarch64/scipy-1.5.0-py37hb14ef9d_0.tar.bz2
 linux-aarch64/scipy-1.5.2-py36h3a855aa_2.tar.bz2
 linux-aarch64/scipy-1.6.0-py39h5c7b0d2_0.tar.bz2
@@ -107516,6 +107522,7 @@ osx-64/oracledb-2.2.0-py312h520dd33_0.conda
 osx-64/oracledb-2.3.0-py311h72ae277_0.conda
 osx-64/oracledb-2.4.1-py38h3f96959_0.conda
 osx-64/oracledb-2.5.0-py311h4d7f069_0.conda
+osx-64/oracledb-26.0.0-py315h54bb5ba_1.conda
 osx-64/oracledb-3.2.0-py39h80efdc8_0.conda
 osx-64/oracledb-3.3.0-py312h2f459f6_0.conda
 osx-64/orange3-3.13.0-py36hf8a1672_0.tar.bz2
@@ -132964,6 +132971,7 @@ osx-arm64/oracledb-1.4.1-py310h2aa6e3c_1.conda
 osx-arm64/oracledb-1.4.1-py311heffc1b2_0.conda
 osx-arm64/oracledb-2.1.1-py310hd125d64_0.conda
 osx-arm64/oracledb-26.0.0-py313h2f871a8_0.conda
+osx-arm64/oracledb-26.0.0-py313h2f871a8_1.conda
 osx-arm64/oracledb-3.3.0-py310hfe3a0ae_1.conda
 osx-arm64/oracledb-3.4.2-py314h8dbd3ad_1.conda
 osx-arm64/oracledb-4.0.1-py314h5583935_0.conda
@@ -154307,6 +154315,7 @@ win-64/optype-0.7.3-py311h1ea47a8_2.conda
 win-64/oracledb-1.0.1-py39hb82d6ee_1.tar.bz2
 win-64/oracledb-1.3.0-py39ha55989b_0.conda
 win-64/oracledb-2.1.0-py38h91455d4_0.conda
+win-64/oracledb-26.0.0-py313h5fd188c_1.conda
 win-64/oracledb-3.0.0-py310ha8f682b_0.conda
 win-64/oracledb-3.4.2-py312he5662c2_1.conda
 win-64/oracledb-4.0.1-py314h8f04a7f_0.conda
@@ -166044,6 +166053,7 @@ win-arm64/cuda-tileiras-13.4.59-h5d29faa_1.conda
 win-arm64/cuda-visual-tools-13.4.1-ha03c420_0.conda
 win-arm64/cxx-compiler-2.0.0-h3fafc2e_0.conda
 win-arm64/dav1d-1.5.4-h2516383_1.conda
+win-arm64/diffle-0.1.3-h83a1f55_0.conda
 win-arm64/dotnet-aspnetcore-9.0.18-ha03c420_0.conda
 win-arm64/dotnet-runtime-10.0.10-ha03c420_0.conda
 win-arm64/entt-3.14.0-hef4af3d_1.conda
