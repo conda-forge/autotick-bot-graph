@@ -1,26 +1,28 @@
 {
+  "ETag": "W/\"1c8d8a09215247a5156237dbfdf51c61adca00d94c384bb7d5d4071ad712b40a\"",
+  "Last-Modified": "Fri, 11 Sep 2026 21:03:27 GMT",
   "base": {
     "repo": {
       "name": "gcsfs-feedstock"
     }
   },
-  "closed_at": null,
+  "closed_at": "2026-09-11T21:03:27Z",
   "created_at": "2026-09-11T20:25:08Z",
   "draft": false,
   "e_tag": "\"83f8f93103b4eb04a233381c73a66a2438789a89b194b4927a045d739fec2f03\"",
   "head": {
-    "ref": "2026.8.1_hfebec6"
+    "ref": "this_is_not_a_branch"
   },
   "html_url": "https://github.com/conda-forge/gcsfs-feedstock/pull/98",
   "id": 4509488732,
   "labels": [],
-  "last_fetched": "2026-09-11T20:25:09.452822",
+  "last_fetched": "2026-09-11T21:04:47.759745",
   "last_modified": null,
   "mergeable": null,
   "mergeable_state": "unknown",
-  "merged": false,
-  "merged_at": null,
+  "merged": true,
+  "merged_at": "2026-09-11T21:03:27Z",
   "number": 98,
-  "state": "open",
-  "updated_at": "2026-09-11T20:25:08Z"
+  "state": "closed",
+  "updated_at": "2026-09-11T21:03:27Z"
 }
