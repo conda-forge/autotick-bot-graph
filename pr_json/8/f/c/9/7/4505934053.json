@@ -1,17 +1,17 @@
 {
-  "ETag": "W/\"99a4464e98e793fbc297fcdcda8b5e63f5fb0d03c77073bdabe9228e9c109d38\"",
-  "Last-Modified": "Fri, 11 Sep 2026 20:04:23 GMT",
+  "ETag": "W/\"bee7d54af3ac298658d2870b9189a75a17403571fb80a2a4c2ed0edebab2bc68\"",
+  "Last-Modified": "Fri, 11 Sep 2026 20:10:27 GMT",
   "base": {
     "repo": {
       "name": "systemd-feedstock"
     }
   },
-  "closed_at": null,
+  "closed_at": "2026-09-11T20:10:23Z",
   "created_at": "2026-09-11T12:44:05Z",
   "draft": false,
   "e_tag": "\"de0e3045a9781ed0c0196061edf133209d5e262b7b47faa0336055ae6ceb0ae2\"",
   "head": {
-    "ref": "261.3_hea8ee8"
+    "ref": "this_is_not_a_branch"
   },
   "html_url": "https://github.com/conda-forge/systemd-feedstock/pull/81",
   "id": 4505934053,
@@ -26,13 +26,13 @@
       "url": "https://api.github.com/repos/conda-forge/systemd-feedstock/labels/automerge"
     }
   ],
-  "last_fetched": "2026-09-11T20:05:11.507328",
+  "last_fetched": "2026-09-11T20:11:45.683041",
   "last_modified": null,
-  "mergeable": true,
-  "mergeable_state": "unstable",
-  "merged": false,
-  "merged_at": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": true,
+  "merged_at": "2026-09-11T20:10:23Z",
   "number": 81,
-  "state": "open",
-  "updated_at": "2026-09-11T20:04:23Z"
+  "state": "closed",
+  "updated_at": "2026-09-11T20:10:27Z"
 }
