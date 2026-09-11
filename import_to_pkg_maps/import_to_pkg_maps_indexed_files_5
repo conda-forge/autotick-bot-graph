@@ -19764,6 +19764,7 @@ linux-64/nitime-0.9-py38h6c62de6_3.tar.bz2
 linux-64/nix-2.3.13-hf1adc6d_0.tar.bz2
 linux-64/njoy2016-2016.78-py310h0984a42_1.conda
 linux-64/nlohmann_json-3.10.0-h9c3ff4c_0.tar.bz2
+linux-64/nlopt-2.11.0-np2py313h59406f5_2.conda
 linux-64/nlopt-2.5.0-py36hf8a1672_0.tar.bz2
 linux-64/nlopt-2.6.2-py36h4c6872f_1.tar.bz2
 linux-64/nlopt-2.7.0-py36h8bd5385_0.tar.bz2
@@ -33338,6 +33339,7 @@ linux-64/scipy-tests-1.16.1-py314hf07bd8e_1.conda
 linux-64/scipy-tests-1.16.3-py311hbe70eeb_1.conda
 linux-64/scipy-tests-1.17.1-py312h54fa4ab_1.conda
 linux-64/scipy-tests-1.17.1-py314hf07bd8e_1.conda
+linux-64/scipy-tests-1.18.1-py313he2a5f1a_0.conda
 linux-64/scipydepr-0.0.1-py311h0372a8f_0.conda
 linux-64/scirooplot-3.2.4-py313hffbc658_0.conda
 linux-64/scirooplot-3.3.0-py310h07aff0e_0.conda
@@ -36700,6 +36702,7 @@ linux-64/uncertainties-3.1.2-py36_0.tar.bz2
 linux-64/uncommitted-1.8-py27_0.tar.bz2
 linux-64/uncrustify-0.69.0-he1b5a44_0.tar.bz2
 linux-64/undoc-0.1.18-he64ecbb_0.conda
+linux-64/undoc-0.11.0-h2d90d6e_0.conda
 linux-64/unicodedata2-13.0.0.post2-py310h6acc77f_4.tar.bz2
 linux-64/unicodedata2-13.0.0.post2-py37h5e8e339_4.tar.bz2
 linux-64/unicodedata2-13.0.0.post2-py38h1e0a361_1.tar.bz2
@@ -37512,6 +37515,7 @@ linux-64/vispy-0.15.2-py310h21d447c_0.conda
 linux-64/vispy-0.15.2-py310h9f080ea_1.conda
 linux-64/vispy-0.15.2-py311h3d1a912_1.conda
 linux-64/vispy-0.16.1-py314hfbe1ebf_1.conda
+linux-64/vispy-0.17.0-py311h126b6a5_1.conda
 linux-64/vispy-0.5.2-py35_0.tar.bz2
 linux-64/vispy-0.7.0-py36h17d0008_1.tar.bz2
 linux-64/vispy-0.7.0-py39h7c34278_0.tar.bz2
@@ -51752,6 +51756,7 @@ linux-aarch64/pymomentum-cpu-0.1.29-cpu_py310_h84c93ea_1.conda
 linux-aarch64/pymomentum-cpu-0.1.29-cpu_py312_h84c93ea_3.conda
 linux-aarch64/pymomentum-cpu-0.1.32-cpu_py310_h84c93ea_0.conda
 linux-aarch64/pymomentum-gpu-0.1.114-cuda129_py313_pt212_hd21bc04_0.conda
+linux-aarch64/pymomentum-gpu-0.1.114-cuda129_py313_pt213_hec4d000_3.conda
 linux-aarch64/pymongo-3.11.0-py37h3340039_2.tar.bz2
 linux-aarch64/pymongo-3.12.0-py37had24c86_0.tar.bz2
 linux-aarch64/pymongo-3.12.1-py37had24c86_0.tar.bz2
@@ -54126,6 +54131,7 @@ linux-aarch64/scipy-1.10.1-py39h56e5516_0.conda
 linux-aarch64/scipy-1.12.0-py312h470d778_0.conda
 linux-aarch64/scipy-1.13.0-py310hcbab775_0.conda
 linux-aarch64/scipy-1.13.0-py39h91c28bb_0.conda
+linux-aarch64/scipy-1.18.1-py314h205c185_0.conda
 linux-aarch64/scipy-1.3.2-py36hb5cb654_0.tar.bz2
 linux-aarch64/scipy-1.4.1-py38hb5cb654_0.tar.bz2
 linux-aarch64/scipy-1.5.2-py36h7c9d085_2.tar.bz2
@@ -125977,6 +125983,7 @@ osx-arm64/dials-3.20.0-py310h121c5f2_0.conda
 osx-arm64/dials-3.21.0-py312h6c4fb98_1.conda
 osx-arm64/diffle-0.0.2-h63323fe_0.conda
 osx-arm64/diffle-0.1.1-h63323fe_0.conda
+osx-arm64/diffle-0.1.3-h63323fe_0.conda
 osx-arm64/diffpy.pdffit2-1.6.0-py313h6ebcde9_2.conda
 osx-arm64/diffpy.srreal-1.4.0-py312h8447aa9_2.conda
 osx-arm64/difit-3.1.13-h63323fe_0.conda
@@ -154024,6 +154031,7 @@ win-64/oracledb-1.2.0-py311ha68e1ae_0.tar.bz2
 win-64/oracledb-1.3.2-py310h8d17308_0.conda
 win-64/oracledb-2.2.0-py310ha8f682b_0.conda
 win-64/oracledb-2.5.0-py311he736701_0.conda
+win-64/oracledb-26.0.0-py311hf893f09_1.conda
 win-64/oracledb-3.4.0-py311h3485c13_0.conda
 win-64/oracledb-3.4.2-py311h3485c13_0.conda
 win-64/oracledb-4.0.0-py310h1637853_0.conda
@@ -157505,6 +157513,7 @@ win-64/pymomentum-0.1.104-cuda129_py312_pt210_h239b5ff_1.conda
 win-64/pymomentum-0.1.110-cuda129_py312_pt210_h54b8872_0.conda
 win-64/pymomentum-0.1.110-cuda130_py314_pt211_h0b10c22_4.conda
 win-64/pymomentum-0.1.111-cuda129_py314_pt212_hdc219db_0.conda
+win-64/pymomentum-0.1.114-cuda130_py314_pt213_h89634f6_3.conda
 win-64/pymomentum-0.1.34-cpu_py310_h033784b_0.conda
 win-64/pymomentum-0.1.43-cpu_py313_hd63bd4e_0.conda
 win-64/pymomentum-0.1.46-cpu_py313_h714df9f_1.conda
@@ -157535,6 +157544,7 @@ win-64/pymomentum-gpu-0.1.110-cuda130_py313_pt210_hf955160_2.conda
 win-64/pymomentum-gpu-0.1.111-cuda130_py312_pt212_h7b0df2c_1.conda
 win-64/pymomentum-gpu-0.1.114-cuda129_py312_pt212_hf95eda2_0.conda
 win-64/pymomentum-gpu-0.1.114-cuda129_py313_pt213_h324a372_2.conda
+win-64/pymomentum-gpu-0.1.114-cuda130_py314_pt213_h537b58f_3.conda
 win-64/pymongo-3.11.0-py36h003fed8_2.tar.bz2
 win-64/pymongo-3.13.0-py311h12c1d0e_0.tar.bz2
 win-64/pymongo-3.7.2-py37h6538335_0.tar.bz2
@@ -162075,6 +162085,7 @@ win-64/rtaudio-5.2.0-h63175ca_2.conda
 win-64/rte_rrtmgp-1.9.2-py311hf64dc81_1.conda
 win-64/rte_rrtmgp-1.9.2-py313h72487a1_1.conda
 win-64/rtk-cli-0.46.0-h18a1a76_0.conda
+win-64/rtk-cli-0.49.0-h18a1a76_0.conda
 win-64/rtl-sdr-0.6.0-h8ffe710_2.tar.bz2
 win-64/rtree-1.0.0-py38h8b54edf_0.tar.bz2
 win-64/rtree-1.0.1-py38h8b54edf_0.tar.bz2
@@ -164873,6 +164884,7 @@ win-64/vispy-0.14.2-py38haf47d59_1.conda
 win-64/vispy-0.14.3-py310hb0944cc_0.conda
 win-64/vispy-0.16.0-py313h0591002_0.conda
 win-64/vispy-0.16.1-py311h17033d2_1.conda
+win-64/vispy-0.17.0-py314h38e64bc_1.conda
 win-64/vispy-0.6.1-py36hc8d92b1_0.tar.bz2
 win-64/vispy-0.6.1-py37hc8d92b1_0.tar.bz2
 win-64/vispy-0.6.6-py36h6434af4_0.tar.bz2
