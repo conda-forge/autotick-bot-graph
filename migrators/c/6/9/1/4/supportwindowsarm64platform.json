@@ -440,6 +440,10 @@
             "target": "librsvg"
           },
           {
+            "source": "getopt-win32",
+            "target": "ttyd"
+          },
+          {
             "source": "gettext",
             "target": "fontconfig"
           },
@@ -570,6 +574,10 @@
           {
             "source": "isl",
             "target": "ncurses"
+          },
+          {
+            "source": "json-c",
+            "target": "ttyd"
           },
           {
             "source": "krb5",
@@ -869,7 +877,15 @@
           },
           {
             "source": "libuv",
+            "target": "libwebsockets"
+          },
+          {
+            "source": "libuv",
             "target": "r-fs"
+          },
+          {
+            "source": "libuv",
+            "target": "ttyd"
           },
           {
             "source": "libvorbis",
@@ -886,6 +902,10 @@
           {
             "source": "libwebp",
             "target": "pillow"
+          },
+          {
+            "source": "libwebsockets",
+            "target": "ttyd"
           },
           {
             "source": "libxcb",
@@ -1177,6 +1197,10 @@
           },
           {
             "source": "openssl",
+            "target": "libwebsockets"
+          },
+          {
+            "source": "openssl",
             "target": "mamba"
           },
           {
@@ -1198,6 +1222,10 @@
           {
             "source": "openssl",
             "target": "sigtool"
+          },
+          {
+            "source": "openssl",
+            "target": "ttyd"
           },
           {
             "source": "pango",
@@ -1876,6 +1904,10 @@
             "target": "r-base"
           },
           {
+            "source": "ttyd",
+            "target": "vhs"
+          },
+          {
             "source": "ucrt",
             "target": "binutils"
           },
@@ -2261,6 +2293,10 @@
           },
           {
             "source": "zlib",
+            "target": "ttyd"
+          },
+          {
+            "source": "zlib",
             "target": "zlib-ng"
           },
           {
@@ -2512,6 +2548,12 @@
             "id": "isl",
             "payload": {
               "__lazy_json__": "node_attrs/isl.json"
+            }
+          },
+          {
+            "id": "json-c",
+            "payload": {
+              "__lazy_json__": "node_attrs/json-c.json"
             }
           },
           {
@@ -3235,6 +3277,18 @@
             }
           },
           {
+            "id": "libwebsockets",
+            "payload": {
+              "__lazy_json__": "node_attrs/libwebsockets.json"
+            }
+          },
+          {
+            "id": "ttyd",
+            "payload": {
+              "__lazy_json__": "node_attrs/ttyd.json"
+            }
+          },
+          {
             "id": "ruamel.yaml.clib",
             "payload": {
               "__lazy_json__": "node_attrs/ruamel.yaml.clib.json"
@@ -3376,6 +3430,12 @@
             "id": "mlir",
             "payload": {
               "__lazy_json__": "node_attrs/mlir.json"
+            }
+          },
+          {
+            "id": "getopt-win32",
+            "payload": {
+              "__lazy_json__": "node_attrs/getopt-win32.json"
             }
           },
           {
@@ -3765,12 +3825,14 @@
         "ffnvcodec-headers",
         "fmt",
         "fribidi",
+        "getopt-win32",
         "giflib",
         "gmp",
         "graphite2",
         "gtest",
         "icu",
         "isl",
+        "json-c",
         "lapack",
         "lerc",
         "libcxx",
