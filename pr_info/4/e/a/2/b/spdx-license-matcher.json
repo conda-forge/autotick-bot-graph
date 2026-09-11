@@ -174,10 +174,16 @@
     },
     {
       "PR": {
-        "__lazy_json__": "pr_json/3611983008.json"
+        "labels": [
+          {
+            "name": "bot-rerun"
+          }
+        ],
+        "number": 12,
+        "state": "closed"
       },
       "data": {
-        "bot_rerun": false,
+        "bot_rerun": 1789163301.423609,
         "migrator_name": "Version",
         "migrator_version": 0,
         "version": "2.9"
@@ -185,10 +191,16 @@
     },
     {
       "PR": {
-        "__lazy_json__": "pr_json/3618764536.json"
+        "labels": [
+          {
+            "name": "bot-rerun"
+          }
+        ],
+        "number": 13,
+        "state": "closed"
       },
       "data": {
-        "bot_rerun": false,
+        "bot_rerun": 1789163301.4237206,
         "migrator_name": "NoarchPythonMinMigrator",
         "migrator_version": 1,
         "name": "noarch_python_min"
@@ -196,10 +208,16 @@
     },
     {
       "PR": {
-        "__lazy_json__": "pr_json/4251436493.json"
+        "labels": [
+          {
+            "name": "bot-rerun"
+          }
+        ],
+        "number": 14,
+        "state": "closed"
       },
       "data": {
-        "bot_rerun": false,
+        "bot_rerun": 1789163301.4237595,
         "migrator_name": "Version",
         "migrator_version": 0,
         "version": "2.10"
@@ -207,10 +225,16 @@
     },
     {
       "PR": {
-        "__lazy_json__": "pr_json/4278056026.json"
+        "labels": [
+          {
+            "name": "bot-rerun"
+          }
+        ],
+        "number": 15,
+        "state": "closed"
       },
       "data": {
-        "bot_rerun": false,
+        "bot_rerun": 1789163301.4238021,
         "migrator_name": "Version",
         "migrator_version": 0,
         "version": "2.11.1"
