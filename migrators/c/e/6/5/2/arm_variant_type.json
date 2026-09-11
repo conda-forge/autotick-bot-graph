@@ -441,10 +441,6 @@
           },
           {
             "source": "cccl",
-            "target": "libcudss"
-          },
-          {
-            "source": "cccl",
             "target": "libcuest"
           },
           {
@@ -1116,22 +1112,6 @@
             "target": "nvmath"
           },
           {
-            "source": "libcudss",
-            "target": "conda-forge-pinning"
-          },
-          {
-            "source": "libcudss",
-            "target": "deepmd-kit"
-          },
-          {
-            "source": "libcudss",
-            "target": "nvmath"
-          },
-          {
-            "source": "libcudss",
-            "target": "pytorch-cpu"
-          },
-          {
             "source": "libcuest",
             "target": "conda-forge-pinning"
           },
@@ -1401,10 +1381,6 @@
           },
           {
             "source": "nccl",
-            "target": "libcudss"
-          },
-          {
-            "source": "nccl",
             "target": "libcusolvermp"
           },
           {
@@ -1606,10 +1582,6 @@
           {
             "source": "openmpi",
             "target": "lammps"
-          },
-          {
-            "source": "openmpi",
-            "target": "libcudss"
           },
           {
             "source": "openmpi",
@@ -3078,12 +3050,6 @@
             "id": "ffbidx",
             "payload": {
               "__lazy_json__": "node_attrs/ffbidx.json"
-            }
-          },
-          {
-            "id": "libcudss",
-            "payload": {
-              "__lazy_json__": "node_attrs/libcudss.json"
             }
           },
           {
