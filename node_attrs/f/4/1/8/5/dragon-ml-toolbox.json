@@ -2,7 +2,7 @@
   "archived": false,
   "branch": "main",
   "ci_support_linux_64_.yaml": "channel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\npython_min:\n- '3.11'\n",
-  "ci_support_migrations": [],
+  "ci_support_migrations": {},
   "conda-forge.yml": {
     "conda_build": {
       "error_overlinking": true
@@ -13,8 +13,8 @@
       "tooling_branch_name": "main"
     }
   },
-  "feedstock_hash": "01a917b1b289703ccfdb6e643628448c2afe9d0f",
-  "feedstock_hash_ts": 1788994486,
+  "feedstock_hash": "e7aa3e4a1710005227df2fc4a7844ddd17579bd3",
+  "feedstock_hash_ts": 1789167305,
   "feedstock_name": "dragon-ml-toolbox",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -39,7 +39,7 @@
     },
     "package": {
       "name": "dragon-ml-toolbox",
-      "version": "26.10.0"
+      "version": "26.11.0"
     },
     "requirements": {
       "host": [
@@ -53,8 +53,8 @@
     },
     "schema_version": 0,
     "source": {
-      "sha256": "0593fe416e900a1fa9d8b58cac132812f9ec55e8005dca5b8d7693333e1f97b5",
-      "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.10.0.tar.gz"
+      "sha256": "b01ab0d8ce263520391b26ec7f1e1388db92d210162b9297fc5dbd1d063dab38",
+      "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.11.0.tar.gz"
     },
     "test": {
       "commands": [
@@ -118,7 +118,7 @@
     },
     "package": {
       "name": "dragon-ml-toolbox",
-      "version": "26.10.0"
+      "version": "26.11.0"
     },
     "requirements": {
       "host": [
@@ -132,8 +132,8 @@
     },
     "schema_version": 0,
     "source": {
-      "sha256": "0593fe416e900a1fa9d8b58cac132812f9ec55e8005dca5b8d7693333e1f97b5",
-      "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.10.0.tar.gz"
+      "sha256": "b01ab0d8ce263520391b26ec7f1e1388db92d210162b9297fc5dbd1d063dab38",
+      "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.11.0.tar.gz"
     },
     "test": {
       "commands": [
@@ -162,7 +162,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/dragon-ml-toolbox.json"
   },
-  "raw_meta_yaml": "{% set name = \"dragon-ml-toolbox\" %}\n{% set version = \"26.10.0\" %}\n{% set python_min = \"3.12\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dragon_ml_toolbox-{{ version }}.tar.gz\n  sha256: 0593fe416e900a1fa9d8b58cac132812f9ec55e8005dca5b8d7693333e1f97b5\n\nbuild:\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation\n  number: 0\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - setuptools >=61.0\n    - pip\n  run:\n    - python >={{ python_min }}\n\ntest:\n  imports:\n    - dragon\n  commands:\n    - pip check\n  requires:\n    - python {{ python_min }}\n    - pip\n\nabout:\n  home: https://github.com/DrAg0n-BoRn/ML_tools\n  summary: Complete pipelines and helper tools for data science and machine learning projects.\n  license: MIT\n  license_file:\n    - LICENSE\n    - LICENSE-THIRD-PARTY.md\n\nextra:\n  recipe-maintainers:\n    - DrAg0n-BoRn\n",
+  "raw_meta_yaml": "{% set name = \"dragon-ml-toolbox\" %}\n{% set version = \"26.11.0\" %}\n{% set python_min = \"3.12\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dragon_ml_toolbox-{{ version }}.tar.gz\n  sha256: b01ab0d8ce263520391b26ec7f1e1388db92d210162b9297fc5dbd1d063dab38\n\nbuild:\n  noarch: python\n  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation\n  number: 0\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - setuptools >=61.0\n    - pip\n  run:\n    - python >={{ python_min }}\n\ntest:\n  imports:\n    - dragon\n  commands:\n    - pip check\n  requires:\n    - python {{ python_min }}\n    - pip\n\nabout:\n  home: https://github.com/DrAg0n-BoRn/ML_tools\n  summary: Complete pipelines and helper tools for data science and machine learning projects.\n  license: MIT\n  license_file:\n    - LICENSE\n    - LICENSE-THIRD-PARTY.md\n\nextra:\n  recipe-maintainers:\n    - DrAg0n-BoRn\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -226,8 +226,8 @@
       ]
     }
   },
-  "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.10.0.tar.gz",
-  "version": "26.10.0",
+  "url": "https://files.pythonhosted.org/packages/source/d/dragon-ml-toolbox/dragon_ml_toolbox-26.11.0.tar.gz",
+  "version": "26.11.0",
   "version_pr_info": {
     "__lazy_json__": "version_pr_info/dragon-ml-toolbox.json"
   }
