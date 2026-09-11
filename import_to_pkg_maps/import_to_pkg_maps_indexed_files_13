@@ -33472,6 +33472,7 @@ linux-64/scipy-tests-1.14.1-py313h902d034_1.conda
 linux-64/scipy-tests-1.16.1-py313h4b8bb8b_0.conda
 linux-64/scipy-tests-1.16.3-py312h54fa4ab_2.conda
 linux-64/scipy-tests-1.18.0-py312h54fa4ab_0.conda
+linux-64/scipy-tests-1.18.1-py314h5407d76_0.conda
 linux-64/scirooplot-3.3.1-py312h4991140_0.conda
 linux-64/scirooplot-3.3.2-py314h20bec92_0.conda
 linux-64/scirooplot-3.3.3-py311h84a3f3c_0.conda
@@ -76808,6 +76809,7 @@ noarch/gmx_mmpbsa-1.5.0.2-pyhd8ed1ab_0.tar.bz2
 noarch/gocart-0.4.3-pyhd8ed1ab_0.conda
 noarch/gocart-0.4.6-pyhd8ed1ab_0.conda
 noarch/google-adk-2.7.1-pyhd8ed1ab_0.conda
+noarch/google-adk-2.9.0-pyhd8ed1ab_0.conda
 noarch/google-ai-generativelanguage-0.6.8-pyhd8ed1ab_0.conda
 noarch/google-ai-generativelanguage-0.6.9-pyhd8ed1ab_0.conda
 noarch/google-api-core-1.28.0-pyhd8ed1ab_0.tar.bz2
@@ -77940,6 +77942,7 @@ noarch/ipyflex-0.2.0-pyhd8ed1ab_0.tar.bz2
 noarch/ipyflow-0.0.202-pyhd8ed1ab_0.conda
 noarch/ipyflow-core-0.0.201-pyhd8ed1ab_0.conda
 noarch/ipyflow-core-0.0.211-pyhe01879c_0.conda
+noarch/ipygis-0.1.3-pyh5ded981_0.conda
 noarch/ipykernel-6.15.0-pyh025b116_0.tar.bz2
 noarch/ipykernel-6.19.2-pyh025b116_0.conda
 noarch/ipykernel-6.19.3-pyh736e0ef_0.conda
@@ -121493,6 +121496,7 @@ osx-64/vispy-0.14.3-py313h857b161_1.conda
 osx-64/vispy-0.16.0-py314hb740c3e_0.conda
 osx-64/vispy-0.16.1-py310h260fd36_1.conda
 osx-64/vispy-0.16.2-py310h0e389ef_0.conda
+osx-64/vispy-0.17.0-py311ha2b75cc_1.conda
 osx-64/vispy-0.6.6-py37h36502a8_0.tar.bz2
 osx-64/vispy-0.6.6-py39hf539dca_0.tar.bz2
 osx-64/vispy-0.7.2-py37h36502a8_0.tar.bz2
@@ -131951,6 +131955,8 @@ osx-arm64/nlopt-2.10.1-np2py310h4beac76_0.conda
 osx-arm64/nlopt-2.10.1-np2py311hb7ce6e1_0.conda
 osx-arm64/nlopt-2.10.1-np2py313hdc65ad0_2.conda
 osx-arm64/nlopt-2.10.1-np2py314h756aeb9_1.conda
+osx-arm64/nlopt-2.11.0-np2py311h8498a85_2.conda
+osx-arm64/nlopt-2.11.0-np2py314hd2d0971_2.conda
 osx-arm64/nnpops-0.6-cpu_py311h2fd11ae_7.conda
 osx-arm64/nnpops-0.6-cpu_py312hcab01a3_13.conda
 osx-arm64/nnpops-0.6-cpu_py39haceed97_6.conda
@@ -138749,6 +138755,7 @@ osx-arm64/vispy-0.12.2-py39h27142b3_0.conda
 osx-arm64/vispy-0.13.0-py310h73cdfa8_0.conda
 osx-arm64/vispy-0.14.2-py312h4c301f9_1.conda
 osx-arm64/vispy-0.14.2-py38h1429fc2_1.conda
+osx-arm64/vispy-0.17.0-py314h85fa765_1.conda
 osx-arm64/vispy-0.7.0-py39h5861bad_1.tar.bz2
 osx-arm64/vispy-0.9.6-py310he2d1965_1.tar.bz2
 osx-arm64/viu-1.5.1-h8dba533_0.conda
