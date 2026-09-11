@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"17a4ac1d81e3108294111b7600844aa921e7b9b6d0f16fd75f0bdb3b104972e0\"",
+  "Last-Modified": "Fri, 11 Sep 2026 20:25:24 GMT",
   "base": {
     "repo": {
       "name": "microsoft-kiota-authentication-azure-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/microsoft-kiota-authentication-azure-feedstock/pull/33",
   "id": 4509479467,
   "labels": [],
-  "last_fetched": "2026-09-11T20:23:43.995903",
+  "last_fetched": "2026-09-11T20:33:11.734529",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 33,
   "state": "open",
-  "updated_at": "2026-09-11T20:23:43Z"
+  "updated_at": "2026-09-11T20:25:24Z"
 }
