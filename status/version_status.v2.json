@@ -2083,15 +2083,6 @@
       ],
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34407815163"
     },
-    "opentelemetry-instrumentation-click": {
-      "attempts": 26,
-      "base_branch": "main",
-      "kind": "bot-error",
-      "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 276, in run_migration_local\n    migrator.run_post_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/core.py\", line 661, in run_post_piggyback_migrations\n    mini_migrator.migrate(recipe_dir, attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/dep_updates.py\", line 67, in migrate\n    apply_dep_update(\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 831, in apply_dep_update\n    if (new_recipe := _apply_dep_update_v1(recipe, dep_comparison)) != recipe:\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 805, in _apply_dep_update_v1\n    new_recipe[\"requirements\"][section] = _apply_env_dep_comparison(\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 787, in _apply_env_dep_comparison\n    new_deps[new_deps.index(patch.before)] = patch.after\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen _collections_abc>\", line 1063, in index\nValueError\n"
-      ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34024663097"
-    },
     "opentelemetry-instrumentation-tortoiseorm": {
       "attempts": 22,
       "base_branch": "main",
@@ -2780,13 +2771,13 @@
       ]
     },
     "simpeg-drivers": {
-      "attempts": 2,
+      "attempts": 3,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '0.5.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/MiraGeoscience/{{ name }}/archive/v{{ version }}.zip'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34557146782"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34626292443"
     },
     "sithom": {
       "attempts": 41,
@@ -3396,6 +3387,7 @@
     "aegypti": "0.5.5",
     "agentsgen": "0.5.1",
     "aiida-chemshell": "0.3.1",
+    "alembic": "1.20.0",
     "arelle-release": "2.45.0",
     "arf": "0.5.2",
     "argo-cli": "4.1.3",
@@ -3405,7 +3397,7 @@
     "auth0-python": "6.5.0",
     "aws-cdk.cx-api": "2.269.0",
     "aws-vault": "7.14.0",
-    "awscli2": "2.36.43",
+    "awscli2": "2.36.44",
     "awscrt": "0.36.3",
     "awslambdaric": "4.0.3",
     "babel-cli": "8.0.5",
@@ -3414,7 +3406,8 @@
     "bayesfilter": "0.1.0",
     "bibtexparser": "2.0.1",
     "bordado": "0.5.0",
-    "boto3-stubs-lite": "1.43.92",
+    "boto3-stubs": "1.43.93",
+    "boto3-stubs-lite": "1.43.93",
     "bpcmp": "1.2.0",
     "bssunfold": "0.23.1",
     "capacitor-cli": "8.5.2",
@@ -3430,6 +3423,7 @@
     "code-server": "4.137.0",
     "coloc_sat": "1.3.2",
     "conda-forge-tick": "2026.9.68",
+    "coxeter": "0.11.0",
     "crc32c": "2.9.post0",
     "curifactory": "0.20.5",
     "dagster-cloud": "1.13.22",
@@ -3495,12 +3489,14 @@
     "logfire-api": "5.1.0",
     "lux-cli": "0.44.0",
     "mail-parser": "4.6.5",
-    "marimo": "0.24.1",
+    "marimo": "0.24.2",
+    "markuplint": "5.0.0",
     "mcp-grafana": "1.4.1",
     "mcxtrace-suite": "3.8.4",
     "memory_graph": "0.3.87",
     "meson-python": "0.21.1",
     "metricflow": "0.213.0",
+    "microsoft-kiota-abstractions": "1.12.3",
     "microsoft-kiota-http": "1.12.2",
     "microsoft-kiota-serialization-form": "1.12.3",
     "microsoft-kiota-serialization-json": "1.12.2",
@@ -3511,10 +3507,14 @@
     "mistral-vibe": "2.25.3",
     "mocha": "12.0.1",
     "mold": "2.42.1",
+    "mongodb": "8.3.11",
     "moonshine": "0.16.0",
+    "mypy-boto3-s3": "1.43.93",
     "mypy_boto3_ec2": "1.43.92",
     "naif_eop_high_prec": "2026.9.11",
+    "netron": "9.2.8",
     "netwatch": "0.31.0",
+    "ngff_zarr": "0.46.1",
     "nuget-license": "4.0.17",
     "nvidia-modulus": "2.2.2",
     "oceanval": "0.5.4",
@@ -3554,6 +3554,7 @@
     "r-ggscribe": "1.0.0",
     "r-haplo.stats": "1.9.9.1",
     "r-hdf5r": "1.3.16",
+    "r-lotri": "1.0.5",
     "r-networkcomparisontest": "2.2.4",
     "r-spatstat.utils": "3.2_5",
     "r-tibblify": "0.4.2",
@@ -3567,6 +3568,7 @@
     "reposurgeon": "5.11",
     "rigolwfm": "1.6.0",
     "ros-infra-variants": "1.0.3",
+    "rospkg": "1.6.3",
     "rsloop": "0.1.51",
     "scikit-posthocs": "0.17.0",
     "scrapegraph-py": "2.3.1",
@@ -3581,6 +3583,7 @@
     "sncosmo": "2.13.1",
     "spaday-perspective": "0.7.0",
     "spaday-webawesome": "0.4.0",
+    "spdx-license-matcher": "2.11.1",
     "spec42": "0.52.0",
     "spikeinterface": "0.104.9",
     "squarify": "0.4.5",
