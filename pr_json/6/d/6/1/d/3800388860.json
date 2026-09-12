@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"eef4db54e84f6aa8566ec647d885950321a9074d01bffd742a2a66f3204de444\"",
+  "ETag": "W/\"f2221dfef25e1f8060f4d30bff06650d091bf601952888f73f45031cf7cbde00\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/zeroc-ice-feedstock/pull/55",
   "id": 3800388860,
   "labels": [],
-  "last_fetched": "2026-09-04T22:29:14.311183",
+  "last_fetched": "2026-09-12T01:00:12.174071",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
