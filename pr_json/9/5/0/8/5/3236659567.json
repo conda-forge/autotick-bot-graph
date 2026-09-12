@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"ab057e7a29bc4e6a4d9304c0fa27396ee0bf495a7e66c07ef5150a41ccaec2a0\"",
+  "ETag": "W/\"7a5d995e4b7f6fcd92d11c483623a117e2587226a896924d98c6f8290506b0b1\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/zbarlight-feedstock/pull/14",
   "id": 3236659567,
   "labels": [],
-  "last_fetched": "2026-09-04T21:27:38.824780",
+  "last_fetched": "2026-09-12T01:36:17.220652",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
