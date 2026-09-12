@@ -24276,12 +24276,6 @@
     "pypi_name": "intern"
   },
   {
-    "conda_name": "interpret-community",
-    "import_name": "interpret_community",
-    "mapping_source": "regro-bot",
-    "pypi_name": "interpret-community"
-  },
-  {
     "conda_name": "interrogate",
     "import_name": "interrogate",
     "mapping_source": "regro-bot",
@@ -24844,12 +24838,6 @@
     "import_name": "iris",
     "mapping_source": "regro-bot",
     "pypi_name": "iris-ued"
-  },
-  {
-    "conda_name": "irispy-lmsal",
-    "import_name": "irispy",
-    "mapping_source": "regro-bot",
-    "pypi_name": "irispy-lmsal"
   },
   {
     "conda_name": "is2view",
