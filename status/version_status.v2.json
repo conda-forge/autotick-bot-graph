@@ -3638,7 +3638,6 @@
     "tavily-python": "0.8.2",
     "temporalio-cli": "1.9.0",
     "terraform-provider-archive": "2.8.1",
-    "terraform-provider-azurerm": "5.5.0",
     "terraform-provider-cloudinit": "2.4.1",
     "terraform-provider-dns": "3.6.2",
     "terraform-provider-http": "3.6.2",
@@ -3671,7 +3670,6 @@
     "wrapt": "2.4.1",
     "xan": "0.61.0",
     "yaozarrs": "0.3.2",
-    "zensical": "0.0.61",
     "zitadel-client": "4.1.9"
   }
 }
