@@ -34385,6 +34385,7 @@ linux-64/spglib-2.2.0-py39hfa71449_1.conda
 linux-64/spglib-2.3.0-py310h9950d53_0.conda
 linux-64/spglib-2.4.0-py312h8fdf91f_0.conda
 linux-64/spglib-2.4.0-py38h7aa32d6_1.conda
+linux-64/spglib-2.7.0-py314hb19c35a_2.conda
 linux-64/spherematch-0.10.1-py310h0a54255_0.conda
 linux-64/spherematch-0.10.2-py313h29aa505_3.conda
 linux-64/spherematch-0.9.1-py38hb5d20a5_1.tar.bz2
@@ -69265,6 +69266,7 @@ linux-ppc64le/spdlog-1.9.0-h2acdbc0_0.tar.bz2
 linux-ppc64le/spectrum-0.9.0-py310h20e1137_1.conda
 linux-ppc64le/spfft-static-1.1.1-mpi_openmpi_h31575ad_3.conda
 linux-ppc64le/spglib-2.5.0-py311h5d97e45_0.conda
+linux-ppc64le/spglib-2.7.0-py313hd6af7b3_2.conda
 linux-ppc64le/sphericart-1.0.2-py39h468cdfb_0.conda
 linux-ppc64le/sphericart-1.0.3-py312h9193fef_0.conda
 linux-ppc64le/sphericart-2.0.2-py310h6d0b022_0.conda
@@ -123144,6 +123146,7 @@ osx-arm64/appnope-0.1.0-py38h10201cd_1002.tar.bz2
 osx-arm64/appscript-1.2.0-py310h02f21da_1.tar.bz2
 osx-arm64/appscript-1.2.1-py39h02fc5c5_1.tar.bz2
 osx-arm64/appscript-1.3.0-py310hf9df320_0.conda
+osx-arm64/appstream-1.1.1-h855bad9_3.conda
 osx-arm64/apr-1.7.0-h9b22ae9_5.tar.bz2
 osx-arm64/apscheduler-3.10.1-py311h267d04e_1.conda
 osx-arm64/apsw-3.46.0.0-py311h5c455b8_1.conda
@@ -163181,6 +163184,7 @@ win-64/spglib-2.5.0-py310hf1d7666_2.conda
 win-64/spglib-2.5.0-py39h1b7a18c_0.conda
 win-64/spglib-2.6.0-py314hdaa1a42_2.conda
 win-64/spglib-2.7.0-py313he318654_1.conda
+win-64/spglib-2.7.0-py315hac24ca3_2.conda
 win-64/spherical-geometry-1.2.23-py311h12c1d0e_2.conda
 win-64/spherical-geometry-1.2.5-py27_0.tar.bz2
 win-64/spherical-geometry-1.3.5-py311h11fd7f3_0.conda
