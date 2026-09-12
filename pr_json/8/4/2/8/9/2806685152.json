@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"fea322f88782a1e442e0b8c187c43037c004e5a65996085c24de27f865418e9b\"",
+  "ETag": "W/\"74cdc050b53aebfa4fc23cba20df11ebd4ac24459e71b1cc760e201b7dd61d98\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/pyxid-feedstock/pull/11",
   "id": 2806685152,
   "labels": [],
-  "last_fetched": "2026-09-05T01:38:01.045824",
+  "last_fetched": "2026-09-12T03:33:36.991841",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
