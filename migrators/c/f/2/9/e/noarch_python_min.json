@@ -62,9 +62,21 @@
             }
           },
           {
+            "id": "reprounzip",
+            "payload": {
+              "__lazy_json__": "node_attrs/reprounzip.json"
+            }
+          },
+          {
             "id": "reprounzip-docker",
             "payload": {
               "__lazy_json__": "node_attrs/reprounzip-docker.json"
+            }
+          },
+          {
+            "id": "reprounzip-qt",
+            "payload": {
+              "__lazy_json__": "node_attrs/reprounzip-qt.json"
             }
           },
           {
@@ -155,6 +167,12 @@
             "id": "json-cfg",
             "payload": {
               "__lazy_json__": "node_attrs/json-cfg.json"
+            }
+          },
+          {
+            "id": "smartystreets_python_sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/smartystreets_python_sdk.json"
             }
           },
           {
@@ -6393,9 +6411,21 @@
             }
           },
           {
+            "id": "reprounzip",
+            "payload": {
+              "__lazy_json__": "node_attrs/reprounzip.json"
+            }
+          },
+          {
             "id": "reprounzip-docker",
             "payload": {
               "__lazy_json__": "node_attrs/reprounzip-docker.json"
+            }
+          },
+          {
+            "id": "reprounzip-qt",
+            "payload": {
+              "__lazy_json__": "node_attrs/reprounzip-qt.json"
             }
           },
           {
@@ -27222,6 +27252,12 @@
             "id": "pyworms",
             "payload": {
               "__lazy_json__": "node_attrs/pyworms.json"
+            }
+          },
+          {
+            "id": "smartystreets_python_sdk",
+            "payload": {
+              "__lazy_json__": "node_attrs/smartystreets_python_sdk.json"
             }
           },
           {
