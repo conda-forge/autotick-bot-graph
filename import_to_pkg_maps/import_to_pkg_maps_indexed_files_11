@@ -1527,6 +1527,7 @@ linux-64/astropy-6.1.6-py310hf462985_0.conda
 linux-64/astropy-6.1.7-py313ha014f3b_0.conda
 linux-64/astropy-base-7.0.1-py312hb8e8fe3_0.conda
 linux-64/astropy-base-7.1.0-py313h607aa3e_0.conda
+linux-64/astropy-base-8.0.1-py314h12ceea2_1.conda
 linux-64/astropy-healpix-0.3.1-py37h7eb728f_0.tar.bz2
 linux-64/astropy-healpix-0.4-py37h3010b51_1000.tar.bz2
 linux-64/astropy-healpix-0.5-py37hc1659b7_0.tar.bz2
@@ -7219,6 +7220,7 @@ linux-64/dicomifier-2.3.0-py37he55ff75_1.tar.bz2
 linux-64/dicomifier-2.5.2-py311h92ebd52_0.conda
 linux-64/dicomweb-client-0.56.2-py37h89c1867_2.tar.bz2
 linux-64/dicomweb-client-0.58.0-py38h578d9bd_0.tar.bz2
+linux-64/diffle-0.1.4-h5585027_0.conda
 linux-64/diffnav-0.12.0-hfc2019e_0.conda
 linux-64/diffoscope-91-py35_1.tar.bz2
 linux-64/diffoscope-98-py36_0.tar.bz2
@@ -16999,6 +17001,7 @@ linux-64/librsvg-2.44.3-he046d7d_1000.tar.bz2
 linux-64/librsvg-2.46.2-h33a7fed_1.tar.bz2
 linux-64/librsvg-2.50.1-h33a7fed_0.tar.bz2
 linux-64/librtaudio6-5.2.0-h44925b1_3.conda
+linux-64/librttopo-1.1.0-h55b0958_21.conda
 linux-64/libsanitizer-13.2.0-h6ddb7a1_6.conda
 linux-64/libsanitizer-13.4.0-h2a15e64_18.conda
 linux-64/libsanitizer-9.4.0-h79bfe98_3.tar.bz2
@@ -21129,6 +21132,7 @@ linux-64/openmm-8.2.0-py312h8342fd8_0.conda
 linux-64/openmm-8.2.0-py313h70ce936_1.conda
 linux-64/openmm-8.5.0-py310hc82e367_1.conda
 linux-64/openmm-8.5.1-py312ha28768a_0.conda
+linux-64/openmm-8.6.1-py312hdfcc665_0.conda
 linux-64/openmm-atmmetaforce-plugin-0.2.4.2-py38hf5442af_0.tar.bz2
 linux-64/openmm-atmmetaforce-plugin-0.3.1-py39h1a29bd1_0.tar.bz2
 linux-64/openmm-atmmetaforce-plugin-0.3.4-py38hc1b0885_2.conda
@@ -33468,6 +33472,7 @@ linux-64/scs-3.2.7.post2-default_py311he11e7d9_0.conda
 linux-64/scs-3.2.9-default_py313hfd55f1b_1.conda
 linux-64/scs-3.2.9-mkl_py311hf338b03_1.conda
 linux-64/scs-3.2.9-mkl_py313hdf715c1_1.conda
+linux-64/scs-3.3.1-default_py311h19b9619_1.conda
 linux-64/scservo-1.0-h171cf75_0.conda
 linux-64/scyjava-0.4.0-py37_0.tar.bz2
 linux-64/scylla-driver-3.26.3-py39hf860d4a_0.conda
@@ -38086,6 +38091,7 @@ linux-64/wrapt-2.2.0-py314h5bd0f2a_0.conda
 linux-64/wrapt-2.2.1-py314h56549f7_0.conda
 linux-64/wrapt-2.3.0-py313h995f894_1.conda
 linux-64/wrapt-2.3.0-py314h5bd0f2a_0.conda
+linux-64/wrapt-2.4.0-py314hfe1a184_2.conda
 linux-64/wrenfold-0.2.2-py39hf88036b_0.conda
 linux-64/wrenfold-0.4.0-py310hea6c23e_1.conda
 linux-64/wrf-python-1.0.1-np111py27_0.tar.bz2
@@ -47590,6 +47596,7 @@ linux-aarch64/libtomo-1.12.1-cuda11.2h1234567_101.tar.bz2
 linux-aarch64/libtomo-1.14.1-cuda11.2h1234567_101.conda
 linux-aarch64/libtomo-1.14.4-cuda11.8h1234567_100.conda
 linux-aarch64/libtomo-1.15.3-cuda12.9h1234567_102.conda
+linux-aarch64/libtoppra-0.6.10-h2d48502_1.conda
 linux-aarch64/libtorch-2.10.0-cuda130_generic_hf217558_201.conda
 linux-aarch64/libtorch-2.11.0-cuda130_generic_h3652b22_200.conda
 linux-aarch64/libtorch-2.13.0-cpu_generic_h79c006f_0.conda
@@ -49340,6 +49347,7 @@ linux-aarch64/openmm-8.2.0-py311h4d2d540_3.conda
 linux-aarch64/openmm-8.5.0-py313h75c108b_1.conda
 linux-aarch64/openmm-8.5.0-py314h3f2147b_1.conda
 linux-aarch64/openmm-8.5.1-py310h3205499_0.conda
+linux-aarch64/openmm-8.6.1-py313h37662f7_0.conda
 linux-aarch64/openmm-torch-1.4-cpu_py311he5b15ea_0.conda
 linux-aarch64/openmm-torch-1.4-cpu_py39h6a442ce_6.conda
 linux-aarch64/openmm-torch-1.5.1-cpu_py311hd41f4ac_6.conda
@@ -52613,6 +52621,7 @@ linux-aarch64/pyvkfft-2024.1.4-py39h00f6bde_0.conda
 linux-aarch64/pyvkfft-2025.1.1-py312h4c3197d_1.conda
 linux-aarch64/pyvkfft-2025.1.1-py313h578e277_1.conda
 linux-aarch64/pyvkfft-2025.1.1-py39hb3c653f_0.conda
+linux-aarch64/pywavelets-1.10.0-py313he745173_1.conda
 linux-aarch64/pywavelets-1.7.0-py310h662ffc7_0.conda
 linux-aarch64/pywavelets-1.8.0-py310h3a805a6_0.conda
 linux-aarch64/pywavelets-1.9.0-py313h2127cdb_0.conda
@@ -55939,6 +55948,7 @@ linux-aarch64/wrapt-1.13.2-py37h1283c21_0.tar.bz2
 linux-aarch64/wrapt-1.17.3-py311h19352d5_0.conda
 linux-aarch64/wrapt-2.1.2-py310h5b55623_0.conda
 linux-aarch64/wrapt-2.3.0-py311h5a00dd8_1.conda
+linux-aarch64/wrapt-2.4.0-py314h6519f20_2.conda
 linux-aarch64/wrapt-2.4.0-py314ha22a00f_1.conda
 linux-aarch64/wrf-python-1.4.2-py310h4e1ffc1_1.conda
 linux-aarch64/wrf-python-1.4.2-py311hb31a36d_1.conda
@@ -56221,6 +56231,7 @@ linux-aarch64/zfpy-0.5.5-py36h86b8fa8_6.tar.bz2
 linux-aarch64/zfpy-0.5.5-py36ha63b481_5.tar.bz2
 linux-aarch64/zfpy-0.5.5-py38h7ecee56_8.tar.bz2
 linux-aarch64/zfpy-1.0.0-py310hdd6b5a8_2.tar.bz2
+linux-aarch64/zfpy-1.0.1-py311h47cf796_6.conda
 linux-aarch64/zfpy-1.0.1-py313hc95a0c8_4.conda
 linux-aarch64/zig-0.14.0-h49d127f_0.conda
 linux-aarch64/zig-0.14.1-h4e698e3_1.conda
@@ -56730,6 +56741,7 @@ linux-ppc64le/astropy-6.0.1-py312h8507886_0.conda
 linux-ppc64le/astropy-6.1.3-py313hd0e5236_1.conda
 linux-ppc64le/astropy-base-7.1.1-py313hae59d5a_0.conda
 linux-ppc64le/astropy-base-8.0.0-py314hcbdb684_0.conda
+linux-ppc64le/astropy-base-8.0.1-py312hfb15f4a_1.conda
 linux-ppc64le/astropy-base-8.0.1-py313h37c8b34_0.conda
 linux-ppc64le/astropy-healpix-0.7-py310hf126fe3_0.tar.bz2
 linux-ppc64le/astropy-healpix-1.0.3-py310hd8ec7c3_1.conda
@@ -63646,6 +63658,7 @@ linux-ppc64le/libsolv-static-0.7.37-hd61a0a1_0.conda
 linux-ppc64le/libsoup-3.2.1-he84dbf8_0.tar.bz2
 linux-ppc64le/libspatialite-5.0.1-ha6aa6ae_9.tar.bz2
 linux-ppc64le/libspatialite-5.1.0-h6bea48d_10.conda
+linux-ppc64le/libspatialite-5.1.0-lgpl_hc2f483f_21.conda
 linux-ppc64le/libspqr-4.3.4-ss783_hc77edcc.conda
 linux-ppc64le/libsqlite-3.39.2-hcc10993_1.tar.bz2
 linux-ppc64le/libsqlite-3.46.0-h4fdbfcb_0.conda
@@ -70137,7 +70150,9 @@ linux-ppc64le/zfpy-1.0.0-py38hb8d4643_3.tar.bz2
 linux-ppc64le/zfpy-1.0.0-py39h78c9397_0.tar.bz2
 linux-ppc64le/zfpy-1.0.1-py310hca14d84_1.conda
 linux-ppc64le/zfpy-1.0.1-py311h2ad0f28_5.conda
+linux-ppc64le/zfpy-1.0.1-py312h2cc3a87_6.conda
 linux-ppc64le/zfpy-1.0.1-py312hc14c2ff_4.conda
+linux-ppc64le/zfpy-1.0.1-py315h678a458_6.conda
 linux-ppc64le/zig-compiler-0.15.2-h1880a4f_29.conda
 linux-ppc64le/zig_impl_linux-ppc64le-0.15.2-hb5b4ace_11.conda
 linux-ppc64le/zig_impl_linux-ppc64le-0.15.2-hb5b4ace_16.conda
@@ -71613,6 +71628,7 @@ noarch/baderkit-0.2.3-pyhd8ed1ab_0.conda
 noarch/baderkit-0.5.6-pyhd8ed1ab_0.conda
 noarch/badger-opt-1.3.1-pyhd8ed1ab_0.conda
 noarch/bagels-0.3.12-pyhe01879c_1.conda
+noarch/bagofholding-0.1.13-pyhc455866_0.conda
 noarch/bagofholding-0.1.5-pyhc455866_0.conda
 noarch/bamnostic-0.8.10-py_0.tar.bz2
 noarch/banana-hep-0.6.12-pyhd8ed1ab_0.conda
@@ -72412,6 +72428,7 @@ noarch/calphy-1.4.5-pyhd8ed1ab_0.conda
 noarch/calphy-2.1.1-pyhd8ed1ab_0.conda
 noarch/camply-0.32.0-pyhd8ed1ab_0.conda
 noarch/campo-0.3.5-pyhd8ed1ab_0.conda
+noarch/cantools-44.0.0-pyh5ded981_0.conda
 noarch/capella-reader-0.2.1-pyhcf101f3_0.conda
 noarch/cappa-0.27.1-pyhd8ed1ab_0.conda
 noarch/cappa-0.27.3-pyhe01879c_0.conda
@@ -73810,6 +73827,7 @@ noarch/dagster-airflow-1.13.12-pyhac95a24_0.conda
 noarch/dagster-airflow-1.13.13-pyh742d864_0.conda
 noarch/dagster-airflow-1.13.18-pyhcf101f3_0.conda
 noarch/dagster-airflow-1.13.20-pyhac95a24_0.conda
+noarch/dagster-airflow-1.13.22-pyhac95a24_0.conda
 noarch/dagster-airflow-1.13.4-pyhb304c90_0.conda
 noarch/dagster-airflow-1.13.6-pyhac95a24_0.conda
 noarch/dagster-airflow-1.13.6-pyhb304c90_0.conda
@@ -74451,6 +74469,7 @@ noarch/dagster-rest-resources-0.29.1-pyh5ded981_0.conda
 noarch/dagster-rest-resources-0.29.10-pyhcf101f3_0.conda
 noarch/dagster-rest-resources-0.29.16-pyhcf101f3_0.conda
 noarch/dagster-rest-resources-0.29.21-pyhac95a24_0.conda
+noarch/dagster-rest-resources-0.29.22-pyh742d864_0.conda
 noarch/dagster-rest-resources-0.29.5-pyhac95a24_0.conda
 noarch/dagster-rest-resources-0.29.7-pyh742d864_0.conda
 noarch/dagster-shared-0.26.10-pyh56b92e0_0.conda
@@ -103284,6 +103303,7 @@ osx-64/libsoup-3.4.2-h8ff24ff_1.conda
 osx-64/libsoup-3.6.6-hb3eece6_0.conda
 osx-64/libspatialite-4.3.0a-hb0905fd_1031.tar.bz2
 osx-64/libspatialite-5.0.0-h1d49f08_0.tar.bz2
+osx-64/libspatialite-5.1.0-lgpl_hda40a2d_21.conda
 osx-64/libsqlite-3.44.1-h92b6c6a_0.conda
 osx-64/libsqlite-3.47.0-h2f8c449_0.conda
 osx-64/libsqlite-3.50.1-he7d56d0_5.conda
@@ -123226,6 +123246,7 @@ osx-arm64/astropy-6.1.5-py311h18599de_0.conda
 osx-arm64/astropy-6.1.6-py310hc12b6d3_0.conda
 osx-arm64/astropy-base-7.1.0-py313h61b28de_0.conda
 osx-arm64/astropy-base-8.0.0-py312hf57c059_0.conda
+osx-arm64/astropy-base-8.0.1-py315he30f02c_1.conda
 osx-arm64/astropy-healpix-0.7-py39h4d8bf0d_0.tar.bz2
 osx-arm64/astropy-healpix-1.0.3-py311h9ea6feb_0.conda
 osx-arm64/astropy-healpix-1.0.3-py39h5245ca8_3.conda
@@ -132414,6 +132435,7 @@ osx-arm64/openmm-8.4.0-py310hd78d673_2_khronos.conda
 osx-arm64/openmm-8.4.0-py314h1bf64d4_1_khronos.conda
 osx-arm64/openmm-8.5.0-py311h7d6877e_1_khronos.conda
 osx-arm64/openmm-8.5.2-py314h68fdbd1_0_apple.conda
+osx-arm64/openmm-8.6.1-py311haed6124_0_khronos.conda
 osx-arm64/openmm-plumed-2.0.1-py311h42f299c_1.conda
 osx-arm64/openmm-torch-1.0-cpu_py311h9878b21_1.conda
 osx-arm64/openmm-torch-1.4-cpu_py311h1b76e3d_1.conda
@@ -135662,6 +135684,7 @@ osx-arm64/pyvips-3.0.0-py39h152d303_0.conda
 osx-arm64/pyvips-3.1.0-py314h7921200_0.conda
 osx-arm64/pyvkfft-2024.1.2-py312hbf29d4b_0.conda
 osx-arm64/pyvkfft-2024.1.2-py39h88dd252_0.conda
+osx-arm64/pywavelets-1.10.0-py314h2fbfc4f_1.conda
 osx-arm64/pywavelets-1.3.0-py311h4add359_2.tar.bz2
 osx-arm64/pywavelets-1.4.1-py39h4d8bf0d_0.conda
 osx-arm64/pywavelets-1.7.0-py313hde99e4e_2.conda
@@ -137701,6 +137724,7 @@ osx-arm64/stackvana-lsst_distrib-0.2026.33-py313h1986a0a_0.conda
 osx-arm64/standard-aifc-3.13.0-py312h81bd7bf_2.conda
 osx-arm64/stardist-0.9.1-py310hee60c9c_0.conda
 osx-arm64/starlink-ast-9.2.13-h5505292_0.conda
+osx-arm64/starlink-ast-9.4.1-hb001647_0.conda
 osx-arm64/starship-1.16.0-h1e8e424_0.conda
 osx-arm64/starship-1.18.1-h9477e3b_0.conda
 osx-arm64/starship-1.24.0-he7cd372_0.conda
@@ -162662,6 +162686,8 @@ win-64/scs-3.2.4.post1-py39h2d9ad20_2.conda
 win-64/scs-3.2.7-default_py39hd1b8987_0.conda
 win-64/scs-3.2.7.post2-mkl_py312h4a3e5c2_0.conda
 win-64/scs-3.2.9-mkl_py314h974148e_0.conda
+win-64/scs-3.3.1-default_py311h5a56032_1.conda
+win-64/scs-3.3.1-default_py314h3bdbace_1.conda
 win-64/scyjava-0.2.3-py36_0.tar.bz2
 win-64/scyjava-0.4.0-py36_0.tar.bz2
 win-64/scylla-driver-3.26.2-py311ha68e1ae_0.conda
