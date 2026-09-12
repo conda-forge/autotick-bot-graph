@@ -28645,6 +28645,7 @@ linux-64/pywavelets-0.5.1-np110py35_0.tar.bz2
 linux-64/pywavelets-1.0.3-py27hd352d35_1.tar.bz2
 linux-64/pywavelets-1.1.1-py36h68bb277_3.tar.bz2
 linux-64/pywavelets-1.1.1-py39hce5d2b2_4.tar.bz2
+linux-64/pywavelets-1.10.0-py315hd4e796c_1.conda
 linux-64/pywavelets-1.2.0-py38h6c62de6_1.tar.bz2
 linux-64/pywavelets-1.4.1-py310h1f7b6fc_1.conda
 linux-64/pywavelets-1.9.0-py313h56b13bb_1.conda
@@ -33275,6 +33276,8 @@ linux-64/scs-3.2.7-mkl_py312h4ac3d57_0.conda
 linux-64/scs-3.2.7.post2-mkl_py311h9e2a791_0.conda
 linux-64/scs-3.2.9-default_py310h2e86010_0.conda
 linux-64/scs-3.2.9-default_py313hfd55f1b_0.conda
+linux-64/scs-3.3.1-default_py314hb039999_1.conda
+linux-64/scs-3.3.1-default_py314hc58137c_1.conda
 linux-64/scyjava-0.2.3-py36_0.tar.bz2
 linux-64/scylla-driver-3.26.2-py311h459d7ec_1.conda
 linux-64/scylla-driver-3.26.2-py39hd1e30aa_0.conda
@@ -49324,6 +49327,7 @@ linux-aarch64/openmm-8.4.0-py312he4504ba_0.conda
 linux-aarch64/openmm-8.5.0-py312h145d960_1.conda
 linux-aarch64/openmm-8.5.0-py312hfabb8b3_0.conda
 linux-aarch64/openmm-8.6.0-py312hfabb8b3_0.conda
+linux-aarch64/openmm-8.6.1-py311h361875c_0.conda
 linux-aarch64/openmm-torch-1.1-cpu_py311he5b15ea_0.conda
 linux-aarch64/openmm-torch-1.4-cpu_py312hc249f88_6.conda
 linux-aarch64/openmm-torch-1.5-cpu_py312hc249f88_1.conda
@@ -54933,6 +54937,7 @@ linux-aarch64/tomlkit-0.5.5-py27_0.tar.bz2
 linux-aarch64/tomlkit-0.5.7-py27_0.tar.bz2
 linux-aarch64/tomlkit-0.7.0-py36hc560c46_0.tar.bz2
 linux-aarch64/topgrade-17.5.0-h069e38c_0.conda
+linux-aarch64/toppra-python-0.6.10-py312hc8b127a_1.conda
 linux-aarch64/toppra-python-0.6.9-py310h4d58239_3.conda
 linux-aarch64/torchani-2.8.4-cpu_py311hb93e138_7.conda
 linux-aarch64/torchani-2.8.4-cpu_py313hda493eb_5.conda
@@ -69604,6 +69609,7 @@ linux-ppc64le/wrapt-1.17.3-py314he970779_1.conda
 linux-ppc64le/wrapt-2.1.0-py311h26d343c_0.conda
 linux-ppc64le/wrapt-2.3.0-py310h667a2f8_1.conda
 linux-ppc64le/wrapt-2.3.0-py313h689174a_1.conda
+linux-ppc64le/wrapt-2.4.0-py312h8e048af_2.conda
 linux-ppc64le/wrapt-2.4.0-py313h1028ba0_1.conda
 linux-ppc64le/wurlitzer-2.1.1-py38hf8b3453_0.tar.bz2
 linux-ppc64le/wurlitzer-3.0.2-py310hd032262_1.tar.bz2
@@ -73210,6 +73216,7 @@ noarch/create-dagster-1.12.9-pyhb304c90_0.conda
 noarch/create-dagster-1.13.1-pyhac95a24_0.conda
 noarch/create-dagster-1.13.15-pyh5ded981_0.conda
 noarch/create-dagster-1.13.2-pyhcf101f3_0.conda
+noarch/create-dagster-1.13.22-pyh742d864_0.conda
 noarch/create-dagster-1.13.7-pyhb304c90_0.conda
 noarch/create-forwarder-dll-0.10-pyhd8ed1ab_0.conda
 noarch/create-rslib-0.12.1-h4fc9b5d_0.conda
@@ -73268,6 +73275,7 @@ noarch/css-variables-language-server-2.8.3-hee61e0b_0.conda
 noarch/cssbeautifier-1.14.11-pyhd8ed1ab_0.conda
 noarch/cssbeautifier-1.15.2-pyhd8ed1ab_0.conda
 noarch/cstar-ocean-0.13.0-pyhc364b38_0.conda
+noarch/cstar-ocean-0.13.7-pyhc364b38_0.conda
 noarch/cstar-ocean-standalone-0.13.3-heb42c99_0.conda
 noarch/ctapipe-0.15.0-pyhd8ed1ab_0.tar.bz2
 noarch/ctapipe-0.25.0-hd8ed1ab_0.conda
@@ -73298,6 +73306,7 @@ noarch/cuda-arch-6.2-h680426e_1.conda
 noarch/cuda-cccl_linux-64-12.8.55-ha770c72_0.conda
 noarch/cuda-cccl_linux-aarch64-12.6.77-h579c4fd_0.conda
 noarch/cuda-cccl_linux-aarch64-13.3.3.4.1-h579c4fd_0.conda
+noarch/cuda-cccl_linux-aarch64-13.3.4.2.1-h579c4fd_2.conda
 noarch/cuda-cccl_win-64-12.4.127-h57928b3_2.conda
 noarch/cuda-compiler-13.0.0-hbad6d8a_0.conda
 noarch/cuda-compiler-13.0.2-hbad6d8a_0.conda
@@ -74258,6 +74267,7 @@ noarch/dagster-shared-1.13.17-pyhb304c90_0.conda
 noarch/dagster-shared-1.13.20-pyhac95a24_0.conda
 noarch/dagster-shared-1.13.20-pyhb304c90_0.conda
 noarch/dagster-shared-1.13.21-pyh5ded981_0.conda
+noarch/dagster-shared-1.13.22-pyh742d864_0.conda
 noarch/dagster-shared-1.13.5-pyh5ded981_0.conda
 noarch/dagster-shell-0.11.1-pyhd8ed1ab_0.tar.bz2
 noarch/dagster-shell-0.11.6-pyhd8ed1ab_0.tar.bz2
@@ -103258,6 +103268,7 @@ osx-64/librosa-0.6.0rc0-py36_1.tar.bz2
 osx-64/librsvg-2.50.4-hd2a7919_0.tar.bz2
 osx-64/librsvg-2.50.5-hd2a7919_0.tar.bz2
 osx-64/librsvg-2.54.0-h8250910_0.tar.bz2
+osx-64/librttopo-1.1.0-h7be219e_21.conda
 osx-64/libsakura-3.0.0-h2098e52_1000.tar.bz2
 osx-64/libsass-0.15.1-py27hfc679d8_0.tar.bz2
 osx-64/libsass-0.15.1-py35_0.tar.bz2
@@ -113199,6 +113210,7 @@ osx-64/pyvkfft-2025.1.1-py312h83a516d_1.conda
 osx-64/pywaterflood-0.3.0-py311h5e0f0e4_2.conda
 osx-64/pywavelets-0.5.2-np112py27_0.tar.bz2
 osx-64/pywavelets-1.0.1-py37h917ab60_1000.tar.bz2
+osx-64/pywavelets-1.10.0-py315h54bb5ba_1.conda
 osx-64/pywavelets-1.2.0-py310h81f86ea_0.tar.bz2
 osx-64/pywavelets-1.3.0-py38hbd87e4b_2.tar.bz2
 osx-64/pywavelets-1.4.1-py312h5d6a8aa_1.conda
@@ -116583,6 +116595,7 @@ osx-64/river-py-1.0.3-py39hc2d03f2_0.conda
 osx-64/rivet-4.1.2-py312h50a4fb7_0.conda
 osx-64/rivet-4.1.3-py311hce16f82_1.conda
 osx-64/rivet-4.1.3-py314h36e329a_3.conda
+osx-64/rivet-4.1.4-py314h36e329a_0.conda
 osx-64/rjieba-0.1.13-py311h3b9c2be_0.conda
 osx-64/rjieba-0.1.13-py312h0d0de52_0.conda
 osx-64/rjieba-0.1.13-py314hd9bc34d_2.conda
@@ -131968,6 +131981,7 @@ osx-arm64/openmm-8.1.1-py312h74f2ab9_0_apple.conda
 osx-arm64/openmm-8.2.0-py310h7f9f39b_3_khronos.conda
 osx-arm64/openmm-8.2.0-py310ha5f022b_1_apple.conda
 osx-arm64/openmm-8.2.0-py311h2a1016b_3_apple.conda
+osx-arm64/openmm-8.6.1-py311h0e1cade_0_apple.conda
 osx-arm64/openmm-plumed-2.1-py314h732069d_1.conda
 osx-arm64/openmm-torch-1.0-cpu_py310h57b073c_0.conda
 osx-arm64/openmm-torch-1.2-cpu_py311hf635032_0.conda
@@ -137334,6 +137348,7 @@ osx-arm64/stakpak-0.3.88-h6fdd925_0.conda
 osx-arm64/standard-aifc-3.13.0-py311h267d04e_2.conda
 osx-arm64/standard-aifc-3.13.0-py311h267d04e_3.conda
 osx-arm64/standard-sunau-3.13.0-py314h4dc9dd8_3.conda
+osx-arm64/starlink-pyast-4.1.0-py312hfa27ea9_0.conda
 osx-arm64/starship-1.20.1-hc069d6b_1.conda
 osx-arm64/starship-1.26.0-h9edc125_0.conda
 osx-arm64/starship-1.8.0-heca3bcf_0.tar.bz2
@@ -148444,6 +148459,7 @@ win-64/ipsw-3.1.673-h427b53a_0.conda
 win-64/ipsw-3.1.689-h59e1253_0.conda
 win-64/ipsw-3.1.700-h59e1253_0.conda
 win-64/ipsw-3.1.703-h59e1253_0.conda
+win-64/ipsw-3.1.716-h0c5c8dc_0.conda
 win-64/ipycache-0.1.4-py37h5ca1d4c_1002.tar.bz2
 win-64/ipyevents-0.3.1-py36_0.tar.bz2
 win-64/ipyevents-0.3.2-py37_1000.tar.bz2
@@ -165451,6 +165467,7 @@ win-arm64/crush-0.91.0-h4c3bf4e_0.conda
 win-arm64/cuda-crt-13.4.59-h168f6d9_0.conda
 win-arm64/diffle-0.1.0-h547a2e2_0.conda
 win-arm64/diffle-0.1.1-h83a1f55_0.conda
+win-arm64/diffle-0.1.4-h83a1f55_0.conda
 win-arm64/dotnet-10.0.302-ha03c420_1.conda
 win-arm64/dotnet-aspnetcore-10.0.11-ha03c420_0.conda
 win-arm64/dotnet-sdk-10.0.400-ha03c420_0.conda
