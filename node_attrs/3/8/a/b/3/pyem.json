@@ -2,7 +2,7 @@
   "archived": false,
   "branch": "main",
   "ci_support_linux_64_.yaml": "cdt_name:\n- conda\nchannel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma9\npython_min:\n- '3.9'\n",
-  "ci_support_migrations": [],
+  "ci_support_migrations": {},
   "conda-forge.yml": {
     "conda_build": {
       "error_overlinking": true
@@ -13,8 +13,8 @@
       "tooling_branch_name": "main"
     }
   },
-  "feedstock_hash": "34e71a5793b3c0949d670f16de8806b0818032ed",
-  "feedstock_hash_ts": 1776879282,
+  "feedstock_hash": "d51798dfaf1432ddd92a367b6c47633a0b8548cd",
+  "feedstock_hash_ts": 1789184473,
   "feedstock_name": "pyem",
   "hash_type": "sha256",
   "linux_64_meta_yaml": {
@@ -34,7 +34,7 @@
         "disparticle.py = pyem.cli.disparticle:_main_",
         "emcalc.py = pyem.cli.emcalc:_main_",
         "map.py = pyem.cli.map:_main_",
-        "mask.py = pyem.cli.map:_main_",
+        "mask.py = pyem.cli.mask:_main_",
         "mcstar.py = pyem.cli.mcstar:_main_",
         "par2star.py = pyem.cli.par2star:_main_",
         "project.py = pyem.cli.project:_main_",
@@ -56,7 +56,7 @@
     },
     "package": {
       "name": "pyem",
-      "version": "0.68"
+      "version": "0.69"
     },
     "requirements": {
       "host": [
@@ -82,8 +82,8 @@
     },
     "schema_version": 0,
     "source": {
-      "sha256": "105c2fc9860dd927b051ceb90287cf5a4a2664ffa8ae0f95464263570ee733c5",
-      "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.68.tar.gz"
+      "sha256": "969e0075ea7ba854e6ab2c5cf9ab315c7dc994dcb738574707cd4aad380c1105",
+      "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.69.tar.gz"
     },
     "test": {
       "commands": [
@@ -167,7 +167,7 @@
         "disparticle.py = pyem.cli.disparticle:_main_",
         "emcalc.py = pyem.cli.emcalc:_main_",
         "map.py = pyem.cli.map:_main_",
-        "mask.py = pyem.cli.map:_main_",
+        "mask.py = pyem.cli.mask:_main_",
         "mcstar.py = pyem.cli.mcstar:_main_",
         "par2star.py = pyem.cli.par2star:_main_",
         "project.py = pyem.cli.project:_main_",
@@ -189,7 +189,7 @@
     },
     "package": {
       "name": "pyem",
-      "version": "0.68"
+      "version": "0.69"
     },
     "requirements": {
       "host": [
@@ -215,8 +215,8 @@
     },
     "schema_version": 0,
     "source": {
-      "sha256": "105c2fc9860dd927b051ceb90287cf5a4a2664ffa8ae0f95464263570ee733c5",
-      "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.68.tar.gz"
+      "sha256": "969e0075ea7ba854e6ab2c5cf9ab315c7dc994dcb738574707cd4aad380c1105",
+      "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.69.tar.gz"
     },
     "test": {
       "commands": [
@@ -259,7 +259,7 @@
   "pr_info": {
     "__lazy_json__": "pr_info/pyem.json"
   },
-  "raw_meta_yaml": "{% set name = \"pyem\" %}\n{% set version = \"0.68\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: {{ version }}\n\nsource:\n  url: https://github.com/asarnow/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz\n  sha256: 105c2fc9860dd927b051ceb90287cf5a4a2664ffa8ae0f95464263570ee733c5\n\nbuild:\n  script: {{ PYTHON }} -m pip install . -vv\n  number: 0\n  noarch: python\n  entry_points:\n    - cfsc.py = pyem.cli.cfsc:_main_\n    - csparc2star.py = pyem.cli.csparc2star:_main_\n    - ctf2star.py = pyem.cli.ctf2star:_main_\n    - disparticle.py = pyem.cli.disparticle:_main_\n    - emcalc.py = pyem.cli.emcalc:_main_\n    - map.py = pyem.cli.map:_main_\n    - mask.py = pyem.cli.map:_main_\n    - mcstar.py = pyem.cli.mcstar:_main_\n    - par2star.py = pyem.cli.par2star:_main_\n    - project.py = pyem.cli.project:_main_\n    - projection_subtraction.py = pyem.cli.projection_subtraction:_main_\n    - stack.py = pyem.cli.stack:_main_\n    - star.py = pyem.cli.star:_main_\n    - star2bild.py = pyem.cli.star2bild:_main_\n    - subparticles.py = pyem.cli.subparticles:_main_\n    - varmap.py = pyem.cli.varmap:_main_\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - pip\n    - setuptools\n  run:\n    - python >={{ python_min }}\n    - numba >=0.41\n    - numpy >=1.26\n    - numexpr >=2.8.0\n    - scipy >=1.2\n    - matplotlib-base >=2.2\n    - seaborn >=0.9\n    - pandas >=0.23.4\n    - pathos >=0.2.1\n    - pyfftw >=0.12\n    - healpy >=1.11\n    - natsort >=6.0\n    - starfile >=0.5.2\n\ntest:\n  requires:\n    - python {{ python_min }}\n  imports:\n    - pyem\n  commands:\n    - cfsc.py --help\n    - csparc2star.py --help\n    - ctf2star.py --help\n    - disparticle.py --help\n    - emcalc.py --help\n    - map.py --help\n    - mask.py --help\n    - mcstar.py --help\n    - par2star.py --help\n    - project.py --help\n    - projection_subtraction.py --help\n    - stack.py --help\n    - star.py --help\n    - star2bild.py --help\n    - subparticles.py --help\n    - varmap.py --help\n\nabout:\n  home: https://github.com/asarnow/pyem\n  summary: 'Python modules and command-line utilities for electron microscopy of biological samples.'\n  description: |\n    A collection of Python modules and command-line utilities for electron microscopy of biological samples.\n    Cite as: Asarnow, D., Palovcak, E., Cheng, Y. UCSF pyem v0.5. Zenodo https://doi.org/10.5281/zenodo.3576630 (2019)\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - asarnow\n",
+  "raw_meta_yaml": "{% set name = \"pyem\" %}\n{% set version = \"0.69\" %}\n\npackage:\n  name: {{ name|lower }}\n  version: \"{{ version }}\"\n\nsource:\n  url: https://github.com/asarnow/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz\n  sha256: 969e0075ea7ba854e6ab2c5cf9ab315c7dc994dcb738574707cd4aad380c1105\n\nbuild:\n  script: {{ PYTHON }} -m pip install . -vv\n  number: 0\n  noarch: python\n  entry_points:\n    - cfsc.py = pyem.cli.cfsc:_main_\n    - csparc2star.py = pyem.cli.csparc2star:_main_\n    - ctf2star.py = pyem.cli.ctf2star:_main_\n    - disparticle.py = pyem.cli.disparticle:_main_\n    - emcalc.py = pyem.cli.emcalc:_main_\n    - map.py = pyem.cli.map:_main_\n    - mask.py = pyem.cli.mask:_main_\n    - mcstar.py = pyem.cli.mcstar:_main_\n    - par2star.py = pyem.cli.par2star:_main_\n    - project.py = pyem.cli.project:_main_\n    - projection_subtraction.py = pyem.cli.projection_subtraction:_main_\n    - stack.py = pyem.cli.stack:_main_\n    - star.py = pyem.cli.star:_main_\n    - star2bild.py = pyem.cli.star2bild:_main_\n    - subparticles.py = pyem.cli.subparticles:_main_\n    - varmap.py = pyem.cli.varmap:_main_\n\nrequirements:\n  host:\n    - python {{ python_min }}\n    - pip\n    - setuptools\n  run:\n    - python >={{ python_min }}\n    - numba >=0.41\n    - numpy >=1.26\n    - numexpr >=2.8.0\n    - scipy >=1.2\n    - matplotlib-base >=2.2\n    - seaborn >=0.9\n    - pandas >=0.23.4\n    - pathos >=0.2.1\n    - pyfftw >=0.12\n    - healpy >=1.11\n    - natsort >=6.0\n    - starfile >=0.5.2\n\ntest:\n  requires:\n    - python {{ python_min }}\n  imports:\n    - pyem\n  commands:\n    - cfsc.py --help\n    - csparc2star.py --help\n    - ctf2star.py --help\n    - disparticle.py --help\n    - emcalc.py --help\n    - map.py --help\n    - mask.py --help\n    - mcstar.py --help\n    - par2star.py --help\n    - project.py --help\n    - projection_subtraction.py --help\n    - stack.py --help\n    - star.py --help\n    - star2bild.py --help\n    - subparticles.py --help\n    - varmap.py --help\n\nabout:\n  home: https://github.com/asarnow/pyem\n  summary: 'Python modules and command-line utilities for electron microscopy of biological samples.'\n  description: |\n    A collection of Python modules and command-line utilities for electron microscopy of biological samples.\n    Cite as: Asarnow, D., Palovcak, E., Cheng, Y. UCSF pyem v0.5. Zenodo https://doi.org/10.5281/zenodo.3576630 (2019)\n  license: GPL-3.0-or-later\n  license_family: GPL\n  license_file: LICENSE\n\nextra:\n  recipe-maintainers:\n    - asarnow\n",
   "req": {
     "__set__": true,
     "elements": [
@@ -357,8 +357,8 @@
       ]
     }
   },
-  "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.68.tar.gz",
-  "version": "0.68",
+  "url": "https://github.com/asarnow/pyem/archive/refs/tags/v0.69.tar.gz",
+  "version": "0.69",
   "version_pr_info": {
     "__lazy_json__": "version_pr_info/pyem.json"
   }
