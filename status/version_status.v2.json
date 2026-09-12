@@ -3442,6 +3442,7 @@
     "coxeter": "0.11.0",
     "cpp-httplib": "0.56.0",
     "crc32c": "2.9.post0",
+    "dagster": "1.13.22",
     "dagster-cloud": "1.13.22",
     "dashlab": "0.3.21",
     "databricks-sdk": "0.138.0",
