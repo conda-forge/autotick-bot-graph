@@ -1,6 +1,12 @@
 {
   "archived": false,
   "branch": "main",
+  "ci_support_migrations": {
+    "python312": {
+      "migration_number": 1,
+      "migrator_ts": 1695046563
+    }
+  },
   "conda-forge.yml": {
     "conda_build": {
       "pkg_format": "2"
@@ -24,7 +30,7 @@
     },
     "build": {
       "number": "1",
-      "script": "/tmp/tmph9dez7py/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
+      "script": "/tmp/tmpf1iyi_86/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
       "skip": true
     },
     "extra": {
@@ -111,7 +117,7 @@
     },
     "build": {
       "number": "1",
-      "script": "/tmp/tmph9dez7py/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
+      "script": "/tmp/tmpf1iyi_86/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
       "skip": true
     },
     "extra": {
@@ -168,7 +174,7 @@
     },
     "build": {
       "number": "1",
-      "script": "/tmp/tmph9dez7py/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
+      "script": "/tmp/tmpf1iyi_86/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
       "skip": true
     },
     "extra": {
@@ -352,7 +358,7 @@
     },
     "build": {
       "number": "1",
-      "script": "/tmp/tmph9dez7py/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
+      "script": "/tmp/tmpf1iyi_86/conda-bld/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python -m pip install -vv .",
       "skip": true
     },
     "extra": {
