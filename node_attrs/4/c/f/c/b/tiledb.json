@@ -2,6 +2,16 @@
   "archived": false,
   "branch": "main",
   "ci_support_linux_64_.yaml": "aws_crt_cpp:\n- 0.40.1\naws_sdk_cpp:\n- 1.11.833\nazure_core_cpp:\n- 1.16.3\nazure_identity_cpp:\n- 1.13.3\nazure_storage_blobs_cpp:\n- 12.18.0\nazure_storage_common_cpp:\n- 12.14.0\nazure_storage_files_datalake_cpp:\n- 12.16.0\nbzip2:\n- '1'\nc_blosc2:\n- '3.3'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\ncapnproto:\n- 1.5.0\nchannel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ncurl:\n- '8'\ncxx_compiler:\n- gxx\ncxx_compiler_version:\n- '14'\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\nfmt:\n- '12.1'\nlibabseil:\n- '20260526'\nlibcurl:\n- '8'\nlibgoogle_cloud_devel:\n- '3.8'\nlibgoogle_cloud_storage_devel:\n- '3.8'\nlibwebp_base:\n- '1'\nlz4_c:\n- '1.10'\nopenssl:\n- '3.5'\nspdlog:\n- '1.17'\ntarget_platform:\n- linux-64\ntiledb:\n- '2.30'\nzlib:\n- '1'\nzstd:\n- '1.5'\n",
+  "ci_support_migrations": {
+    "absl_grpc_proto_26Q2": {
+      "migration_number": 1,
+      "migrator_ts": 1775539322.336586
+    },
+    "libgoogle_cloud38": {
+      "migration_number": 1,
+      "migrator_ts": 1786233804.752991
+    }
+  },
   "conda-forge.yml": {
     "build_platform": {
       "linux_aarch64": "linux_64",
