@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"29b1da8e6850278a34d9f0e41d7f00b8b94a94d1054e0f7da2ff8e83987f777a\"",
+  "ETag": "W/\"33914a837bda0de7b1837ee2d1c5d90ca30d6b5403303c6f7ce0651370cd9f16\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/qgis-feedstock/pull/600",
   "id": 3950062065,
   "labels": [],
-  "last_fetched": "2026-09-04T21:28:39.562481",
+  "last_fetched": "2026-09-12T01:02:49.407224",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
