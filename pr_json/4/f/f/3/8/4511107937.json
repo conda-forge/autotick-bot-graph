@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"4915b97e8ff9183cffa2a980241ebb0346b1a5fec12ec2626de20b153612aecb\"",
+  "Last-Modified": "Sat, 12 Sep 2026 02:24:34 GMT",
   "base": {
     "repo": {
       "name": "xcfun-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/xcfun-feedstock/pull/25",
   "id": 4511107937,
   "labels": [],
-  "last_fetched": "2026-09-12T02:22:53.083861",
+  "last_fetched": "2026-09-12T03:32:11.611532",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "unstable",
   "merged": false,
   "merged_at": null,
   "number": 25,
   "state": "open",
-  "updated_at": "2026-09-12T02:22:52Z"
+  "updated_at": "2026-09-12T02:24:34Z"
 }
