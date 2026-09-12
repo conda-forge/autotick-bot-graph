@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"dac363a045f455a79a8d1ec3c3ffe9731dc1d79376969c5da4a6ed92807d9b1a\"",
-  "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
+  "ETag": "W/\"07c88e5ad28807225240a39227d60b2b98d1e2507e6b61c1ceb8315d11853216\"",
+  "Last-Modified": "Fri, 11 Sep 2026 22:18:51 GMT",
   "base": {
     "repo": {
       "name": "google-cloud-billing-budgets-feedstock"
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/google-cloud-billing-budgets-feedstock/pull/41",
   "id": 3798519644,
   "labels": [],
-  "last_fetched": "2026-09-11T01:38:37.752353",
+  "last_fetched": "2026-09-12T04:32:28.648877",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
@@ -24,5 +24,5 @@
   "merged_at": null,
   "number": 41,
   "state": "open",
-  "updated_at": "2026-06-03T20:51:59Z"
+  "updated_at": "2026-09-11T22:18:51Z"
 }
