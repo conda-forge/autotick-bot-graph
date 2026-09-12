@@ -5843,6 +5843,7 @@ linux-64/cuda-bindings-13.2.0-py313h08cd8bf_1.conda
 linux-64/cuda-cccl-12.1.109-ha770c72_0.conda
 linux-64/cuda-cccl-12.6.37-ha770c72_0.conda
 linux-64/cuda-cccl-13.2.75-ha770c72_0.conda
+linux-64/cuda-cccl-13.3.4.2.1-ha770c72_2.conda
 linux-64/cuda-cccl-impl-2.0.1-ha770c72_1.conda
 linux-64/cuda-command-line-tools-12.3.2-ha770c72_0.conda
 linux-64/cuda-compat-12.8.0-h7938cbb_0.conda
@@ -21267,6 +21268,7 @@ linux-64/openmm-8.4.0-py311h38e3cd7_2.conda
 linux-64/openmm-8.5.1-py310hc82e367_0.conda
 linux-64/openmm-8.5.1-py311h6619805_0.conda
 linux-64/openmm-8.5.1-py314hbf7c79f_0.conda
+linux-64/openmm-8.6.1-py312h5a97af1_0.conda
 linux-64/openmm-atmmetaforce-plugin-0.2.4.2-py37h217fe06_0.tar.bz2
 linux-64/openmm-atmmetaforce-plugin-0.3.1-py39h0bd148b_1.conda
 linux-64/openmm-atmmetaforce-plugin-0.3.1-py39hcf40d7a_1.conda
@@ -32285,6 +32287,7 @@ linux-64/river-py-1.0.3-py39h314bbf8_0.conda
 linux-64/river-py-1.0.9-py39hda80f44_0.conda
 linux-64/rivet-4.1.3-py312hbcd4e84_2.conda
 linux-64/rivet-4.1.3-py314h3c5cfff_3.conda
+linux-64/rivet-4.1.4-py312h5808687_0.conda
 linux-64/rjsmin-1.0.12-py35h14c3975_1001.tar.bz2
 linux-64/rloop-0.1.4-py313hdeb11d6_0.conda
 linux-64/rloop-0.1.5-py39hf8c9bd3_0.conda
@@ -34113,6 +34116,8 @@ linux-64/soaplite-1.0.3-py39h4d8b378_5.tar.bz2
 linux-64/soaplite-1.0.3-py39hd1e30aa_6.conda
 linux-64/soapysdr-0.7.2-py36hdb11119_1.tar.bz2
 linux-64/soapysdr-0.8.1-py312h68727a3_5.conda
+linux-64/soapysdr-0.8.1-py312h93a722d_7.conda
+linux-64/soapysdr-0.8.1-py313h33c5841_7.conda
 linux-64/soapysdr-0.8.1-py37h2527ec5_0.tar.bz2
 linux-64/soapysdr-module-lms7-23.11.0-hcc3b71a_3.conda
 linux-64/soapysdr-module-rtlsdr-0.3.3-h44a8f8d_0.conda
@@ -34658,6 +34663,7 @@ linux-64/starlette-full-0.18.0-py39hf3d152e_2.tar.bz2
 linux-64/starlink-ast-9.2.3-h7f98852_1.tar.bz2
 linux-64/starlink-ast-9.3.0-hb03c661_0.conda
 linux-64/starlink-ast-9.3.1-hb03c661_0.conda
+linux-64/starlink-pyast-4.1.0-py315hea8b678_0.conda
 linux-64/starry-0.1.2-py36hf8a1672_1.tar.bz2
 linux-64/starship-1.10.2-h64666c3_0.tar.bz2
 linux-64/starship-1.13.1-hbd0da30_0.conda
@@ -39313,6 +39319,7 @@ linux-aarch64/astropy-6.1.3-py310h3a805a6_0.conda
 linux-aarch64/astropy-6.1.6-py312h681ec18_0.conda
 linux-aarch64/astropy-base-7.0.0-py313h295de2b_2.conda
 linux-aarch64/astropy-base-7.1.1-py311h0ea2783_0.conda
+linux-aarch64/astropy-base-8.0.1-py313hb05b198_1.conda
 linux-aarch64/astropy-healpix-0.6-py37h7b498a0_0.tar.bz2
 linux-aarch64/astropy-healpix-0.7-py39h4555868_1.tar.bz2
 linux-aarch64/astropy-healpix-1.0.3-py312h681ec18_2.conda
@@ -45088,6 +45095,7 @@ linux-aarch64/iminuit-2.21.2-py38h31bd7b8_0.conda
 linux-aarch64/iminuit-2.21.3-py39hdcdd789_0.conda
 linux-aarch64/iminuit-2.25.1-py39h387a81e_0.conda
 linux-aarch64/iminuit-2.25.2-py38hb83fbf6_0.conda
+linux-aarch64/iminuit-2.32.0-py314h8ac86d4_1.conda
 linux-aarch64/iminuit-2.4.0-py36h143fd24_0.tar.bz2
 linux-aarch64/iminuit-2.8.2-py37had24c86_0.tar.bz2
 linux-aarch64/iminuit-2.8.3-py37h5d5c557_1.tar.bz2
@@ -49325,6 +49333,8 @@ linux-aarch64/openmm-8.5.0-py311h25aaf56_1.conda
 linux-aarch64/openmm-8.5.2-py310h5e6a15d_0.conda
 linux-aarch64/openmm-8.5.2-py314hfcc6ca7_0.conda
 linux-aarch64/openmm-8.6.0-py311h2024ef4_0.conda
+linux-aarch64/openmm-8.6.1-py312hdb138ca_0.conda
+linux-aarch64/openmm-8.6.1-py314hc83e1ae_0.conda
 linux-aarch64/openmm-torch-1.4-cpu_py311h39175b8_1.conda
 linux-aarch64/openmm-torch-1.4-cpu_py38hb3da824_0.conda
 linux-aarch64/openmm-torch-1.5.1-cpu_py312h0a0d3e7_4.conda
@@ -52536,6 +52546,7 @@ linux-aarch64/pyvkfft-2025.1.1-py311h14d0986_1.conda
 linux-aarch64/pyvkfft-2025.1.1-py311h5c9415f_1.conda
 linux-aarch64/pywavelets-1.1.1-py38h009e502_4.tar.bz2
 linux-aarch64/pywavelets-1.1.1-py38hab2c0dc_3.tar.bz2
+linux-aarch64/pywavelets-1.10.0-py315h161ad5a_1.conda
 linux-aarch64/pywavelets-1.4.1-py311h4fc6483_0.conda
 linux-aarch64/pywavelets-1.7.0-py312h681ec18_1.conda
 linux-aarch64/pywavelets-1.9.0-py311h1ed8e69_1.conda
@@ -54111,6 +54122,7 @@ linux-aarch64/scs-3.2.4.post1-default_py310he90e25d_4.conda
 linux-aarch64/scs-3.2.7-default_py310h182bbf9_0.conda
 linux-aarch64/scs-3.2.7.post2-default_py311haaf8fed_1.conda
 linux-aarch64/scs-3.2.9-default_py312hd31f492_1.conda
+linux-aarch64/scs-3.3.1-default_py314h54d32c4_1.conda
 linux-aarch64/sdformat-14.8.0-h5012992_4.conda
 linux-aarch64/sdformat-15.3.0-h19e2157_3.conda
 linux-aarch64/sdformat-python-14.8.0-h1c9f429_2.conda
@@ -69936,6 +69948,7 @@ linux-ppc64le/wrapt-2.2.1-py312h4c6bf75_0.conda
 linux-ppc64le/wrapt-2.2.2-py310h20e1137_0.conda
 linux-ppc64le/wrapt-2.4.0-py311hec84972_1.conda
 linux-ppc64le/wrapt-2.4.0-py314h4fe9948_1.conda
+linux-ppc64le/wrapt-2.4.0-py314h4fe9948_2.conda
 linux-ppc64le/wrf-python-1.4.2-py311hc79b634_1.conda
 linux-ppc64le/wsproto-1.0.0-py310hd032262_2.tar.bz2
 linux-ppc64le/wsproto-1.0.0-py37hadc05a3_2.tar.bz2
@@ -74148,6 +74161,7 @@ noarch/dagster-dg-core-1.13.15-pyh742d864_0.conda
 noarch/dagster-dg-core-1.13.17-pyhcf101f3_0.conda
 noarch/dagster-dg-core-1.13.2-pyhb304c90_0.conda
 noarch/dagster-dg-core-1.13.20-pyh742d864_0.conda
+noarch/dagster-dg-core-1.13.22-pyhac95a24_0.conda
 noarch/dagster-dg-core-1.13.6-pyh5ded981_0.conda
 noarch/dagster-dlt-1!0.28.12-pyhcf101f3_0.conda
 noarch/dagster-docker-0.10.6-pyhd8ed1ab_1.tar.bz2
@@ -74311,6 +74325,7 @@ noarch/dagster-graphql-1.13.12-pyhb304c90_0.conda
 noarch/dagster-graphql-1.13.15-pyh5ded981_0.conda
 noarch/dagster-graphql-1.13.16-pyhb304c90_0.conda
 noarch/dagster-graphql-1.13.21-pyhcf101f3_0.conda
+noarch/dagster-graphql-1.13.22-pyhac95a24_0.conda
 noarch/dagster-graphql-1.13.3-pyhac95a24_0.conda
 noarch/dagster-graphql-1.13.4-pyh742d864_0.conda
 noarch/dagster-graphql-1.13.6-pyh742d864_0.conda
@@ -74568,6 +74583,7 @@ noarch/dagster-shared-1.12.4-pyhcf101f3_0.conda
 noarch/dagster-shared-1.13.15-pyhac95a24_0.conda
 noarch/dagster-shared-1.13.19-pyh5ded981_0.conda
 noarch/dagster-shared-1.13.19-pyhac95a24_0.conda
+noarch/dagster-shared-1.13.22-pyhac95a24_0.conda
 noarch/dagster-shared-1.13.3-pyh742d864_0.conda
 noarch/dagster-shell-0.10.4-pyhd8ed1ab_0.tar.bz2
 noarch/dagster-shell-0.11.2-pyhd8ed1ab_0.tar.bz2
@@ -100742,6 +100758,7 @@ osx-64/iminuit-2.27.0-py310he0a0c5d_0.conda
 osx-64/iminuit-2.29.1-py312h5861a67_0.conda
 osx-64/iminuit-2.3.0-py39h219cf5c_0.tar.bz2
 osx-64/iminuit-2.31.3-py313hff8d55d_0.conda
+osx-64/iminuit-2.32.0-py313h543f18f_1.conda
 osx-64/iminuit-2.4.0-py37h9af6487_0.tar.bz2
 osx-64/immutables-0.10-py36h0b31af3_0.tar.bz2
 osx-64/immutables-0.10-py37h0b31af3_0.tar.bz2
@@ -107228,6 +107245,7 @@ osx-64/openmm-8.1.2-py311he14132d_2_apple.conda
 osx-64/openmm-8.2.0-py310h0967a8a_2_khronos.conda
 osx-64/openmm-8.2.0-py313hb1a1277_3_khronos.conda
 osx-64/openmm-8.4.0-py313he365cc7_2_khronos.conda
+osx-64/openmm-8.6.1-py311h36868aa_0_khronos.conda
 osx-64/openmm-atmmetaforce-plugin-0.3.5-py310hc47a12c_1.conda
 osx-64/openmm-dlext-0.2.1-py37hc45a279_0.tar.bz2
 osx-64/openmm-dlext-0.2.1-py37hf9eb13f_3.tar.bz2
@@ -117247,6 +117265,7 @@ osx-64/river-ingester-1.0.4-hfc6e989_1.conda
 osx-64/river-py-1.0.0-py310h719f46a_1.tar.bz2
 osx-64/river-py-1.0.0-py38hfe455da_1.tar.bz2
 osx-64/river-py-1.0.8-py311hd5c4f45_0.conda
+osx-64/rivet-4.1.4-py311h0b0f4e3_0.conda
 osx-64/rjsmin-1.0.12-py36h0b31af3_1001.tar.bz2
 osx-64/rjsmin-1.0.12-py36hae792fc_1003.tar.bz2
 osx-64/rjsmin-1.1.0-py310h90acd4f_2.tar.bz2
@@ -137679,6 +137698,7 @@ osx-arm64/scrypt-0.8.20-py312h694256a_1.conda
 osx-arm64/scs-2.1.3-py38h15f2a14_0.tar.bz2
 osx-arm64/scs-3.1.0-py310hde16d0a_0.tar.bz2
 osx-arm64/scs-3.2.10-default_py314hee60e8d_0.conda
+osx-arm64/scs-3.3.1-default_py312heab8838_1.conda
 osx-arm64/scylla-driver-3.26.6-py310hd125d64_0.conda
 osx-arm64/scylla-driver-3.29.2-py310h078409c_0.conda
 osx-arm64/scylla-driver-3.29.2-py311h917b07b_0.conda
@@ -138029,6 +138049,8 @@ osx-arm64/snyk-ls-20250327.150335-hce30654_0.conda
 osx-arm64/snyk-ls-20250723.154844-hce30654_0.conda
 osx-arm64/snyk-ls-20250822.114228-hce30654_0.conda
 osx-arm64/soapysdr-0.8.1-py310h38f39d4_4.conda
+osx-arm64/soapysdr-0.8.1-py312hc9bba7f_7.conda
+osx-arm64/soapysdr-0.8.1-py313hac17e8e_7.conda
 osx-arm64/soapysdr-module-rtlsdr-0.3.0-h4306ade_1.tar.bz2
 osx-arm64/soapysdr-module-rtlsdr-0.3.3-h695f781_1.conda
 osx-arm64/socat-1.7.3.4-ha7ce1ec_0.tar.bz2
@@ -162954,6 +162976,7 @@ win-64/scs-3.2.7.post2-default_py313ha2cded2_0.conda
 win-64/scs-3.2.7.post2-mkl_py311ha96c2ad_0.conda
 win-64/scs-3.2.9-mkl_py314h75687e2_1.conda
 win-64/scs-3.3.1-default_py313h04535a8_0.conda
+win-64/scs-3.3.1-mkl_py312h75b43d2_1.conda
 win-64/scyjava-0.4.0-py39hcbf5309_1.tar.bz2
 win-64/scylla-driver-3.26.1-py38h91455d4_0.conda
 win-64/scylla-driver-3.26.5-py311ha68e1ae_0.conda
@@ -166518,6 +166541,7 @@ win-arm64/libpython-3.14.7-h9a22c74_101_cp314.conda
 win-arm64/libpython-static-3.14.6-ha087f47_102_cp314.conda
 win-arm64/libpython-static-3.14.7-heb810ce_5_cp314t.conda
 win-arm64/libsolv-0.7.34-hb60dbed_0.conda
+win-arm64/libspatialite-5.1.0-lgpl_he8a58c1_21.conda
 win-arm64/libsqlite-3.53.1-h8de43fd_0.conda
 win-arm64/libtiff-4.7.0-hd82e275_6.conda
 win-arm64/libtree-sitter-0.26.3-hb7845dc_1.conda
