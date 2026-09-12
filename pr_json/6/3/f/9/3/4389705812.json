@@ -1,12 +1,12 @@
 {
-  "ETag": "W/\"d9d702f4517e82c697a981a8e27ced474a23ff9828c2f47ce70eb7314470a71a\"",
-  "Last-Modified": "Sat, 29 Aug 2026 03:19:32 GMT",
+  "ETag": "W/\"eefe2e8f5b149d2e5eac44bc06a51544b2b9eafca5213645f8bd8a23af83dcd1\"",
+  "Last-Modified": "Sat, 12 Sep 2026 02:01:39 GMT",
   "base": {
     "repo": {
       "name": "appstream-feedstock"
     }
   },
-  "closed_at": null,
+  "closed_at": "2026-09-12T02:01:39Z",
   "created_at": "2026-08-29T03:17:57Z",
   "draft": false,
   "e_tag": "\"a8225468b57be235760b701462f10e97338375b3501d355ba65c7b5a76a19629\"",
@@ -15,14 +15,24 @@
   },
   "html_url": "https://github.com/conda-forge/appstream-feedstock/pull/8",
   "id": 4389705812,
-  "labels": [],
-  "last_fetched": "2026-09-05T12:35:33.784251",
+  "labels": [
+    {
+      "color": "191970",
+      "default": false,
+      "description": "Instruct the bot to retry the PR",
+      "id": 10228794001,
+      "name": "bot-rerun",
+      "node_id": "LA_kwDORSXgTM8AAAACYa8CkQ",
+      "url": "https://api.github.com/repos/conda-forge/appstream-feedstock/labels/bot-rerun"
+    }
+  ],
+  "last_fetched": "2026-09-12T02:01:41.894262",
   "last_modified": null,
-  "mergeable": true,
-  "mergeable_state": "unstable",
+  "mergeable": false,
+  "mergeable_state": "dirty",
   "merged": false,
   "merged_at": null,
   "number": 8,
-  "state": "open",
-  "updated_at": "2026-08-29T03:19:32Z"
+  "state": "closed",
+  "updated_at": "2026-09-12T02:01:39Z"
 }
