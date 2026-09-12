@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"3da46ed8a914ec09111ce4c31073647b04968ebd97092a935a0ed2ec69fa4795\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:54:53 GMT",
   "base": {
     "repo": {
       "name": "conda-forge-ci-setup-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/conda-forge-ci-setup-feedstock/pull/435",
   "id": 4510988502,
   "labels": [],
-  "last_fetched": "2026-09-12T01:53:27.115897",
+  "last_fetched": "2026-09-12T03:36:42.999159",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "unstable",
   "merged": false,
   "merged_at": null,
   "number": 435,
   "state": "open",
-  "updated_at": "2026-09-12T01:53:26Z"
+  "updated_at": "2026-09-12T01:54:53Z"
 }
