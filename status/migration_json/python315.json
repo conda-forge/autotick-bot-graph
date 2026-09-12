@@ -11755,6 +11755,7 @@
       "pre_pr_migrator_status": {}
     },
     "levenshtein": {
+      "created_at": "2026-09-12T02:28:28+00:00",
       "immediate_children": [
         "biogeme",
         "doconce",
@@ -11763,7 +11764,10 @@
         "openpnm"
       ],
       "num_descendants": 6,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/levenshtein-feedstock/pull/37",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T02:28:28+00:00"
     },
     "levenshtein-search": {
       "created_at": "2026-09-05T21:49:04+00:00",
@@ -25459,11 +25463,15 @@
       "pre_pr_migrator_status": {}
     },
     "pytng": {
+      "created_at": "2026-09-12T02:31:20+00:00",
       "immediate_children": [
         "mdanalysis"
       ],
       "num_descendants": 11,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/pytng-feedstock/pull/33",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T02:31:20+00:00"
     },
     "pytokens": {
       "immediate_children": [
@@ -36486,7 +36494,6 @@
     "scikit-fmm",
     "s_gd2",
     "river-py",
-    "levenshtein",
     "quickbin",
     "qubovert",
     "quaternion",
@@ -36496,7 +36503,6 @@
     "qpython",
     "pyxdameraulevenshtein",
     "pyworld",
-    "pytng",
     "pytinyrenderer",
     "pytiff",
     "python-vesin",
@@ -37396,6 +37402,8 @@
     "opensees",
     "xcfun",
     "warp-lang",
+    "levenshtein",
+    "pytng",
     "pycifrw",
     "partsegcore-compiled-backend",
     "ml_dtypes",
