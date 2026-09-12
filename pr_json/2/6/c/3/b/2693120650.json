@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"4afd9de6277681f1f281bc78b95900c01f7ff78c60417afb44334060e7b8eac4\"",
+  "ETag": "W/\"ea388fc57a8fdd50a38f070a87cef2e396abec855913f8c08596348efb2d6975\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,10 +16,10 @@
   "html_url": "https://github.com/conda-forge/cma-feedstock/pull/16",
   "id": 2693120650,
   "labels": [],
-  "last_fetched": "2026-09-05T01:01:24.531486",
+  "last_fetched": "2026-09-12T02:36:58.197869",
   "last_modified": null,
   "mergeable": true,
-  "mergeable_state": "unstable",
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 16,
