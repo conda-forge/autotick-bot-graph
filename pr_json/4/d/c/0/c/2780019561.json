@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"f702ef1fc5d2b03116811b0a6ea50e33fbf46507d41af8b25911716ec123ad5a\"",
+  "ETag": "W/\"78e5a16eeaa3a5bc8e524ded9c77a31f4dfb3e349e3c164ac7e14bce36551956\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/pycrlibm-feedstock/pull/13",
   "id": 2780019561,
   "labels": [],
-  "last_fetched": "2026-09-04T21:27:49.229850",
+  "last_fetched": "2026-09-12T02:38:34.304139",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
