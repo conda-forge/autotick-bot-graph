@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"233bfeb59fa81a4d07b55790021320201397ab88ce303abff9dcd66f20253bf5\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:29:49 GMT",
   "base": {
     "repo": {
       "name": "premise-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/premise-feedstock/pull/75",
   "id": 4510885566,
   "labels": [],
-  "last_fetched": "2026-09-12T01:27:57.828808",
+  "last_fetched": "2026-09-12T04:32:03.061466",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 75,
   "state": "open",
-  "updated_at": "2026-09-12T01:27:57Z"
+  "updated_at": "2026-09-12T01:29:49Z"
 }
