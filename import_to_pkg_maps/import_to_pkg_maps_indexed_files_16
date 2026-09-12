@@ -16580,6 +16580,7 @@ linux-64/libomm-1.0.0-mpi_mpich_hd6d8a76_3.conda
 linux-64/libomm-1.0.0-nompi_heef902a_102.tar.bz2
 linux-64/libopenblas-0.3.10-openmp_h709eae2_1.tar.bz2
 linux-64/libopenblas-0.3.10-openmp_h709eae2_2.tar.bz2
+linux-64/libopenblas-0.3.34-openmp_h156ec52_2.conda
 linux-64/libopenblas-0.3.7-h6e990d7_1.tar.bz2
 linux-64/libopenblas-ilp64-0.3.10-openmp_h3cd84c2_5.tar.bz2
 linux-64/libopenblas-ilp64-0.3.10-pthreads_hfb7842e_5.tar.bz2
@@ -20108,6 +20109,7 @@ linux-64/nrtk-jatic-graphics-0.5.0-py39hf3d152e_0.conda
 linux-64/nrtk-jatic-headless-0.3.0-py311h38be061_0.conda
 linux-64/nrtk-jatic-headless-0.4.0-py310hff52083_0.conda
 linux-64/nsight-compute-2024.1.0.13-hf0caefa_0.conda
+linux-64/nsight-compute-2026.3.0.13-h17f214a_2.conda
 linux-64/nsight-systems-2025.1.3.140-h4a2bcd9_0.conda
 linux-64/nsight-systems-cli-2026.3.2.313-hff1b865_1.conda
 linux-64/nslsii-0.10.0-py312h7900ff3_0.conda
@@ -20858,6 +20860,7 @@ linux-64/openblas-0.3.24-openmp_h82c68e4_0.conda
 linux-64/openblas-0.3.25-openmp_h82c68e4_0.conda
 linux-64/openblas-0.3.27-pthreads_h7a3da1a_0.conda
 linux-64/openblas-0.3.28-openmp_hd77311e_1.conda
+linux-64/openblas-0.3.34-openmp_hd0bf9d2_2.conda
 linux-64/openblas-0.3.7-he1df0ab_7.tar.bz2
 linux-64/openblas-ilp64-0.3.21-pthreads_h3d04fff_0.tar.bz2
 linux-64/openblas-ilp64-0.3.30-openmp_hdc3ac8e_2.conda
@@ -28751,6 +28754,8 @@ linux-64/qcs-sdk-python-grpc-web-0.18.0-py310hea249c9_0.conda
 linux-64/qcs-sdk-python-grpc-web-0.21.4-py312h2ec8cdc_0.conda
 linux-64/qcs_api_client_common-0.22.0-py312hc08e2e5_0.conda
 linux-64/qcs_api_client_common-0.22.0-py315h0e6d70c_0.conda
+linux-64/qcs_api_client_common-0.24.0-py312h0c9a5f7_0.conda
+linux-64/qcs_api_client_common-0.24.0-py313haeb30ec_0.conda
 linux-64/qcxms-5.1.3-hb97063f_0.tar.bz2
 linux-64/qdldl-python-0.1.7.post5-np2py310h3d4ba91_3.conda
 linux-64/qdldl-python-0.1.9.post1-np2py310h3d4ba91_0.conda
@@ -34761,6 +34766,7 @@ linux-64/sysstat-12.7.4-hd590300_0.conda
 linux-64/sysv_ipc-1.0.1-py37h6b43d8f_3.tar.bz2
 linux-64/sysv_ipc-1.0.1-py38h497a2fe_2.tar.bz2
 linux-64/sysv_ipc-1.1.0-py310h6acc77f_3.tar.bz2
+linux-64/sysv_ipc-1.1.0-py311h0d48ccd_11.conda
 linux-64/sysv_ipc-1.1.0-py314h5bd0f2a_10.conda
 linux-64/sysv_ipc-1.1.0-py38h0a891b7_5.tar.bz2
 linux-64/sysv_ipc-1.1.0-py39h3d6e266_6.conda
@@ -46939,6 +46945,7 @@ linux-aarch64/libode-0.16.6-h269e260_1.conda
 linux-aarch64/libopenblas-0.3.12-pthreads_h4812303_1.tar.bz2
 linux-aarch64/libopenblas-0.3.18-pthreads_h775ce2d_0.tar.bz2
 linux-aarch64/libopenblas-0.3.34-openmp_h1a8b088_0.conda
+linux-aarch64/libopenblas-ilp64-0.3.34-pthreads_hb3678bf_2.conda
 linux-aarch64/libopencolorio-2.5.2-h65ed8c0_5.conda
 linux-aarch64/libopencolorio-2.5.2-h7926d13_3.conda
 linux-aarch64/libopencv-4.10.0-headless_py310h34e0dea_3.conda
@@ -51260,6 +51267,7 @@ linux-aarch64/pydot-3.0.4-py311hec3470c_0.conda
 linux-aarch64/pyeantic-1.0.3-py37h64c52e2_3.tar.bz2
 linux-aarch64/pyeantic-1.1.1-py38h8214df9_0.tar.bz2
 linux-aarch64/pyearth-0.2.3-np2py312he67e257_1.conda
+linux-aarch64/pyepics-3.5.10-py313h3193a41_2.conda
 linux-aarch64/pyerfa-1.7.1.1-py39h14843e3_2.tar.bz2
 linux-aarch64/pyerfa-2.0.0.1-py310hb3cd4b1_1.tar.bz2
 linux-aarch64/pyerfa-2.0.1.2-py39h1ae4408_0.conda
@@ -51482,6 +51490,7 @@ linux-aarch64/pymomentum-0.1.110-cuda130_py313_pt212_h45ce596_5.conda
 linux-aarch64/pymomentum-0.1.110-cuda130_py314_pt210_hffc7e8b_3.conda
 linux-aarch64/pymomentum-0.1.111-cpu_py313_pt212_h157389a_1.conda
 linux-aarch64/pymomentum-0.1.113-cpu_py314_pt212_h96935b1_0.conda
+linux-aarch64/pymomentum-0.1.114-cpu_py313_pt213_h2a7f250_3.conda
 linux-aarch64/pymomentum-0.1.21-cpu_py311_h7d2a9fa_3.conda
 linux-aarch64/pymomentum-0.1.21-cpu_py312_hec7fccb_2.conda
 linux-aarch64/pymomentum-0.1.30-cpu_py311_h07b9a3f_0.conda
@@ -55934,6 +55943,7 @@ linux-aarch64/zenohd-1.7.2-h5adfe75_0.conda
 linux-aarch64/zenohd-1.9.0-hcf48332_0.conda
 linux-aarch64/zensical-0.0.25-py310h81496b1_0.conda
 linux-aarch64/zensical-0.0.59-py311h9df5446_0.conda
+linux-aarch64/zeroc-ice-3.6.5-py311h0529b41_8.conda
 linux-aarch64/zeromq-4.3.4-h01db608_0.tar.bz2
 linux-aarch64/zeromq-4.3.5-h2f0025b_0.conda
 linux-aarch64/zfp-1.0.1-h2f0025b_0.conda
@@ -69949,6 +69959,7 @@ linux-riscv64/lld-22.1.8-hc55a189_1.conda
 linux-riscv64/llvm-openmp-22.1.8-hc203226_2.conda
 linux-riscv64/llvm-tools-22-22.1.8-hf46ebd3_2.conda
 linux-riscv64/lxml-6.1.3-py315h673025a_0.conda
+linux-riscv64/openblas-ilp64-0.3.34-openmp_he049c42_2.conda
 linux-riscv64/openssl-3.5.8-h736bc4d_0.conda
 linux-riscv64/pkg-config-0.29.2-h48910e8_1013.conda
 linux-riscv64/pycairo-1.29.1-py314hf524665_2.conda
@@ -119615,6 +119626,7 @@ osx-64/tox-3.21.4-py36h5dafb3c_0.tar.bz2
 osx-64/tox-3.21.4-py39h6e9494a_0.tar.bz2
 osx-64/tpot-0.10.1-py27_0.tar.bz2
 osx-64/tqdm-4.14.0-py27_0.tar.bz2
+osx-64/trackastra-0.5.5-py312hb401068_1.conda
 osx-64/trackpy-0.4-py35_0.tar.bz2
 osx-64/tracktable-1.6.0.2-py37h6518d24_0.tar.bz2
 osx-64/tracktable-1.7.1-py39hd83d8d7_12.conda
@@ -131007,6 +131019,7 @@ osx-arm64/momentum-0.1.104-heeb23dc_1.conda
 osx-arm64/momentum-0.1.110-py312hb5de667_4.conda
 osx-arm64/momentum-0.1.110-py313h87f4592_5.conda
 osx-arm64/momentum-0.1.110-py314h61c5eba_2.conda
+osx-arm64/momentum-0.1.114-h832bf54_3.conda
 osx-arm64/momentum-0.1.12-he12e6f3_0.conda
 osx-arm64/momentum-0.1.16-h058dfbe_0.conda
 osx-arm64/momentum-0.1.16-he12e6f3_0.conda
@@ -134196,6 +134209,7 @@ osx-arm64/pymomentum-0.1.86-cpu_py312_h13ef2af_0.conda
 osx-arm64/pymomentum-0.1.94-cpu_py313_h01ccb38_0.conda
 osx-arm64/pymomentum-0.1.98-cpu_py313_h8307886_0.conda
 osx-arm64/pymomentum-0.1.99-cpu_py313_pt29_h8224801_3.conda
+osx-arm64/pymomentum-core-0.1.114-core_py312_hb496d4f_3.conda
 osx-arm64/pymomentum-cpu-0.1.103-cpu_py314_pt210_h5f51521_0.conda
 osx-arm64/pymomentum-cpu-0.1.111-cpu_py313_pt212_hea43d3b_2.conda
 osx-arm64/pymomentum-cpu-0.1.114-cpu_py313_pt213_h2f92a50_2.conda
@@ -134589,6 +134603,8 @@ osx-arm64/pystow-0.5.5-py39h2804cbe_0.conda
 osx-arm64/pysynphot-2.0.0-py38h691f20f_2.tar.bz2
 osx-arm64/pysynphot-2.0.0-py38hb39dbe9_4.tar.bz2
 osx-arm64/pytables-3.10.2-py311hd0690c4_1.conda
+osx-arm64/pytables-3.11.1-py314h952b414_6.conda
+osx-arm64/pytables-3.11.1-py315ha28412b_6.conda
 osx-arm64/pytables-3.6.1-py38h37503a7_4.tar.bz2
 osx-arm64/pytables-3.7.0-py39ha3722b3_1.tar.bz2
 osx-arm64/pytables-3.9.2-py311hce229b4_0.conda
@@ -135900,6 +135916,8 @@ osx-arm64/rapidfuzz-2.15.0-py311ha397e9f_0.conda
 osx-arm64/rapidfuzz-3.11.0-py310h853098b_0.conda
 osx-arm64/rapidfuzz-3.12.1-py39h941272d_0.conda
 osx-arm64/rapidfuzz-3.14.3-py313h0e822ff_1.conda
+osx-arm64/rapidfuzz-3.14.6-py313h10a4758_3.conda
+osx-arm64/rapidfuzz-3.14.6-py315h9d690bc_3.conda
 osx-arm64/rapidfuzz-3.3.0-py312h9f69965_1.conda
 osx-arm64/rapidfuzz-3.6.1-py312h20a0b95_0.conda
 osx-arm64/rapidfuzz-3.8.1-py310h692a8b6_0.conda
@@ -137413,6 +137431,7 @@ osx-arm64/synphot-1.5.0-py311h18599de_0.conda
 osx-arm64/synphot-1.6.0-py313h46657e6_0.conda
 osx-arm64/systemc-dev-3.0.2-h4ddebb9_0.conda
 osx-arm64/sysv_ipc-1.1.0-py310hf8d0d8f_4.tar.bz2
+osx-arm64/sysv_ipc-1.1.0-py314hcd3153d_11.conda
 osx-arm64/ta-lib-0.4.19-py38h58b515d_4.conda
 osx-arm64/ta-lib-0.5.1-py311h917b07b_0.conda
 osx-arm64/ta-lib-0.6.4-py310hb4ce5d2_0.conda
@@ -151886,6 +151905,7 @@ win-64/momentum-cpp-0.1.110-py313h151781b_4.conda
 win-64/momentum-cpp-0.1.110-py314h71b1286_4.conda
 win-64/momentum-cpp-0.1.112-py312h551be3f_0.conda
 win-64/momentum-cpp-0.1.113-py312h551be3f_0.conda
+win-64/momentum-cpp-0.1.114-h09290d0_3.conda
 win-64/momentum-cpp-0.1.17-h9018f11_0.conda
 win-64/momentum-cpp-0.1.38-h11a1cfe_0.conda
 win-64/momentum-cpp-0.1.54-hb90bc38_0.conda
@@ -165397,6 +165417,7 @@ win-arm64/nodejs-22.21.1-hc070d4d_2.conda
 win-arm64/nodejs-24.19.0-h5467842_1.conda
 win-arm64/nodejs-26.2.0-h5467842_0.conda
 win-arm64/openal-soft-1.24.3-h11ae69d_0.conda
+win-arm64/openblas-0.3.34-openmp_hab8ce34_2.conda
 win-arm64/openjph-0.31.0-h3d12237_0.conda
 win-arm64/openssl-3.6.3-h3d85b8a_0.conda
 win-arm64/panache-2.52.0-h3d579fe_0.conda
