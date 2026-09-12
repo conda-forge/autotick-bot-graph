@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"82a520a40015c06a002a85d1dc87204cd0cd646909b921d30759524d6846b4f6\"",
-  "Last-Modified": "Sun, 16 Aug 2026 23:58:16 GMT",
+  "ETag": "W/\"c82fbecc3c1972a2a68d06384287e0873ce48dab567493b048d6bfb396a2177c\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:58:03 GMT",
   "base": {
     "repo": {
       "name": "appstream-feedstock"
@@ -16,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/appstream-feedstock/pull/6",
   "id": 4133704420,
   "labels": [],
-  "last_fetched": "2026-09-07T05:31:02.058185",
+  "last_fetched": "2026-09-12T02:36:49.998314",
   "last_modified": null,
-  "mergeable": true,
-  "mergeable_state": "unstable",
+  "mergeable": null,
+  "mergeable_state": "unknown",
   "merged": false,
   "merged_at": null,
   "number": 6,
   "state": "open",
-  "updated_at": "2026-08-16T23:58:16Z"
+  "updated_at": "2026-09-12T01:58:03Z"
 }
