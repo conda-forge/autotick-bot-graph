@@ -163,13 +163,13 @@
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34113748911"
     },
     "banal": {
-      "attempts": 40,
+      "attempts": 41,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 308, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.1.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/banal-{{ version }}.tar.gz'\n\n"
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.1.2' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/banal-{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34037241297"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34662291480"
     },
     "batman-package": {
       "attempts": 32,
@@ -621,15 +621,6 @@
       ],
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34318449996"
     },
-    "dulwich": {
-      "attempts": 7,
-      "base_branch": "main",
-      "kind": "bot-error",
-      "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 276, in run_migration_local\n    migrator.run_post_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/core.py\", line 661, in run_post_piggyback_migrations\n    mini_migrator.migrate(recipe_dir, attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/dep_updates.py\", line 67, in migrate\n    apply_dep_update(\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 831, in apply_dep_update\n    if (new_recipe := _apply_dep_update_v1(recipe, dep_comparison)) != recipe:\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 805, in _apply_dep_update_v1\n    new_recipe[\"requirements\"][section] = _apply_env_dep_comparison(\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/update_deps.py\", line 784, in _apply_env_dep_comparison\n    new_deps.remove(patch.before)\n  File \"<frozen _collections_abc>\", line 1165, in remove\n  File \"<frozen _collections_abc>\", line 1063, in index\nValueError\n"
-      ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34033576783"
-    },
     "dydx-v4-client-split": {
       "attempts": 32,
       "base_branch": "main",
@@ -712,13 +703,13 @@
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34024663097"
     },
     "expat": {
-      "attempts": 7,
+      "attempts": 8,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 308, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2_8_4' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/libexpat/libexpat/releases/download/R_{{ ver }}/expat-{{ version }}.tar.xz'\n\n"
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2_8_4' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/libexpat/libexpat/releases/download/R_{{ ver }}/expat-{{ version }}.tar.xz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34040956897"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34662291480"
     },
     "fenics-ufl-legacy": {
       "attempts": 40,
@@ -973,13 +964,13 @@
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34449050323"
     },
     "gpaw-data": {
-      "attempts": 6,
+      "attempts": 7,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 308, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.1.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpaw_data-{{ version }}.tar.gz'\n\n"
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '1.1.0' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gpaw_data-{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34023359679"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34662291480"
     },
     "graiax-silkcoder": {
       "attempts": 42,
@@ -1396,13 +1387,13 @@
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34256914689"
     },
     "libbson": {
-      "attempts": 1,
+      "attempts": 2,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
         "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.5.3-1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/mongodb/mongo-c-driver/releases/download/{{ version }}/mongo-c-driver-{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34536513543"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34662291480"
     },
     "libconeangle": {
       "attempts": 42,
@@ -2736,15 +2727,6 @@
       ],
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34499183705"
     },
-    "scine-xtb": {
-      "attempts": 44,
-      "base_branch": "main",
-      "kind": "bot-error",
-      "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 268, in run_migration_local\n    migrator.run_pre_piggyback_migrations(recipe_dir, feedstock_ctx.attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/core.py\", line 642, in run_pre_piggyback_migrations\n    mini_migrator.migrate(recipe_dir, attrs, **kwargs)\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/cstdlib.py\", line 243, in migrate\n    sections = _slice_into_output_sections(lines, attrs)\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/libboost.py\", line 111, in _slice_into_output_sections\n    raise RuntimeError(\nRuntimeError: Could not find all output sections in meta.yaml! Found 3 sections for outputs names = {'scine-xtb'}.\n"
-      ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34175907841"
-    },
     "sdl2_gfx": {
       "attempts": 40,
       "base_branch": "main",
@@ -3041,13 +3023,13 @@
       "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34002523604"
     },
     "tianshou": {
-      "attempts": 42,
+      "attempts": 43,
       "base_branch": "main",
       "kind": "bot-error",
       "messages": [
-        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 308, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.0.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz'\n\n"
+        "Traceback (most recent call last):\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 115, in _run_bot_task\n    data = func(attrs=attrs, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/container_cli.py\", line 230, in _migrate_feedstock\n    data = run_migration_local(\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migration_runner.py\", line 270, in run_migration_local\n    data[\"migrate_return_value\"] = migrator.migrate(\n                                   ^^^^^^^^^^^^^^^^^\n  File \"/opt/conda-forge-bot/conda_forge_tick/migrators/version.py\", line 300, in migrate\n    raise VersionMigrationError(\nconda_forge_tick.migrators.version.VersionMigrationError: The recipe did not change in the version migration, a URL did not hash, or there is jinja2 syntax the bot cannot handle!\n\nPlease check the URLs in your recipe with version '2.0.1' to make sure they exist!\n\nWe also found the following errors:\n\n - could not hash URL template 'https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz'\n\n"
       ],
-      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34007558531"
+      "url": "https://github.com/conda-forge/conda-forge-bot/actions/runs/34662291480"
     },
     "timezonefinder-data": {
       "attempts": 6,
