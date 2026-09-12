@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"fda33cfed80f71ecdd67d6897d78f8fb54ba87bfbf39d872897e74dfc235d53c\"",
+  "ETag": "W/\"7e20d7c96de2f1b53c334f8db1ce745d9dabbca2f8d85d89a30ff7e3cf8d6f31\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,10 +16,10 @@
   "html_url": "https://github.com/conda-forge/remix-feedstock/pull/13",
   "id": 2695831732,
   "labels": [],
-  "last_fetched": "2026-09-04T23:26:52.544197",
+  "last_fetched": "2026-09-12T01:33:15.710958",
   "last_modified": null,
   "mergeable": true,
-  "mergeable_state": "unstable",
+  "mergeable_state": "clean",
   "merged": false,
   "merged_at": null,
   "number": 13,
