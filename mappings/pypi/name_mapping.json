@@ -51790,12 +51790,6 @@
     "pypi_name": "ranger-fm"
   },
   {
-    "conda_name": "rapidfuzz",
-    "import_name": "rapidfuzz",
-    "mapping_source": "regro-bot",
-    "pypi_name": "rapidfuzz"
-  },
-  {
     "conda_name": "rapidfuzz_capi",
     "import_name": "rapidfuzz_capi",
     "mapping_source": "regro-bot",
