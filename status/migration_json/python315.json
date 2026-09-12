@@ -25819,7 +25819,6 @@
       "pre_pr_migrator_status": {}
     },
     "pywavelets": {
-      "created_at": "2026-09-11T21:24:09+00:00",
       "immediate_children": [
         "imagededup",
         "porespy",
@@ -25830,10 +25829,9 @@
         "tomocupy"
       ],
       "num_descendants": 8,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/pywavelets-feedstock/pull/66",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T22:49:59+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/pywavelets-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "pywebp": {
       "immediate_children": [],
