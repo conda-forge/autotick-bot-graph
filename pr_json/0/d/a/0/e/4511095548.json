@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "astropy-healpix-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-12T02:20:03Z",
+  "draft": false,
+  "e_tag": "\"cf77ab6bd2f2b8d20dce9a382a3b1c541a17acec121702c4a17d562805ac33b4\"",
+  "head": {
+    "ref": "rebuild-python315-0-1_hed5a90"
+  },
+  "html_url": "https://github.com/conda-forge/astropy-healpix-feedstock/pull/55",
+  "id": 4511095548,
+  "labels": [],
+  "last_fetched": "2026-09-12T02:20:04.319977",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 55,
+  "state": "open",
+  "updated_at": "2026-09-12T02:20:03Z"
+}
