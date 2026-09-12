@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "babel-cli-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-12T04:15:01Z",
+  "draft": false,
+  "e_tag": "\"f38fda70a3d7ca7dcdb26954821133cd4559188b046c16f1dc6f13533a883e50\"",
+  "head": {
+    "ref": "8.0.5_h5e8bc0"
+  },
+  "html_url": "https://github.com/conda-forge/babel-cli-feedstock/pull/13",
+  "id": 4511479006,
+  "labels": [],
+  "last_fetched": "2026-09-12T04:15:01.839267",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 13,
+  "state": "open",
+  "updated_at": "2026-09-12T04:15:01Z"
+}
