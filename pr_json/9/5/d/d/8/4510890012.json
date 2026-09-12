@@ -1,4 +1,6 @@
 {
+  "ETag": "W/\"9fd7bf8b2f561f961615ea90c657e260aa3bd186173e301c9c7112514f9c6966\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:31:00 GMT",
   "base": {
     "repo": {
       "name": "whisper.cpp-feedstock"
@@ -14,13 +16,13 @@
   "html_url": "https://github.com/conda-forge/whisper.cpp-feedstock/pull/18",
   "id": 4510890012,
   "labels": [],
-  "last_fetched": "2026-09-12T01:29:24.584077",
+  "last_fetched": "2026-09-12T01:35:56.611731",
   "last_modified": null,
-  "mergeable": null,
-  "mergeable_state": "unknown",
+  "mergeable": true,
+  "mergeable_state": "unstable",
   "merged": false,
   "merged_at": null,
   "number": 18,
   "state": "open",
-  "updated_at": "2026-09-12T01:29:23Z"
+  "updated_at": "2026-09-12T01:31:00Z"
 }
