@@ -133,10 +133,6 @@
           },
           {
             "source": "brotli",
-            "target": "dulwich"
-          },
-          {
-            "source": "brotli",
             "target": "libjxl-split"
           },
           {
@@ -1337,10 +1333,6 @@
           },
           {
             "source": "python",
-            "target": "dulwich"
-          },
-          {
-            "source": "python",
             "target": "glib"
           },
           {
@@ -2325,10 +2317,6 @@
           },
           {
             "source": "zstd",
-            "target": "dulwich"
-          },
-          {
-            "source": "zstd",
             "target": "flang"
           },
           {
@@ -2440,12 +2428,6 @@
             "id": "curl",
             "payload": {
               "__lazy_json__": "node_attrs/curl.json"
-            }
-          },
-          {
-            "id": "dulwich",
-            "payload": {
-              "__lazy_json__": "node_attrs/dulwich.json"
             }
           },
           {
