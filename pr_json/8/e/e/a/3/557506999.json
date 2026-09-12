@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"74088599c5c0ba7709c9009f2f2feb84438bfdd5b092b679fbab28f60cf888f8\"",
+  "ETag": "W/\"44596a699034da992aab83701edc13b29bf907ad1bb3886158f4b2bd795ba8fe\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/pythesint-feedstock/pull/16",
   "id": 557506999,
   "labels": [],
-  "last_fetched": "2026-09-04T22:26:28.523150",
+  "last_fetched": "2026-09-12T01:00:44.948024",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
