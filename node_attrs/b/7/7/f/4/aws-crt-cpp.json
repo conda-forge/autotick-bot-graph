@@ -2,6 +2,12 @@
   "archived": false,
   "branch": "main",
   "ci_support_linux_64_.yaml": "aws_c_auth:\n- 0.10.4\naws_c_cal:\n- 0.9.15\naws_c_common:\n- 0.14.3\naws_c_event_stream:\n- 0.7.1\naws_c_http:\n- 0.11.0\naws_c_io:\n- 0.27.5\naws_c_mqtt:\n- 0.16.0\naws_c_s3:\n- 0.13.1\naws_c_sdkutils:\n- 0.2.7\nc_compiler:\n- gcc\nc_compiler_version:\n- '15'\nc_stdlib:\n- sysroot\nc_stdlib_version:\n- '2.17'\nchannel_sources:\n- conda-forge\nchannel_targets:\n- conda-forge main\ncxx_compiler:\n- gxx\ncxx_compiler_version:\n- '15'\ndocker_image:\n- quay.io/condaforge/linux-anvil-x86_64:alma10\ntarget_platform:\n- linux-64\nzip_keys:\n- - c_compiler_version\n  - cxx_compiler_version\n",
+  "ci_support_migrations": {
+    "aws_c_event_stream054": {
+      "migration_number": 1,
+      "migrator_ts": 1738026799
+    }
+  },
   "conda-forge.yml": {
     "bot": {
       "automerge": true
