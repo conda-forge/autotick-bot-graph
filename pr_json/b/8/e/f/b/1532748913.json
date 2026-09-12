@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"25064b68ebf799b7426f16ac1d6160f4cbec56f7576e141fb8ad6fc014eda4dc\"",
+  "ETag": "W/\"0c7e4f997b21251b400d12c422597f235d8ff472f83557bf996d081c8c9b7d9d\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/pysyntect-feedstock/pull/21",
   "id": 1532748913,
   "labels": [],
-  "last_fetched": "2026-09-05T03:32:36.482702",
+  "last_fetched": "2026-09-12T04:35:11.236333",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
