@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"cbf5eda863daf2f857642fd458736805f05f31c76d1fbf0508d1acce4abc5140\"",
+  "ETag": "W/\"0fbefaa3898f6d7cccb6a7a1cd87fbc509f158c8381395ee29bc65e8a6072b2f\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/pymodsecurity-feedstock/pull/16",
   "id": 2196379524,
   "labels": [],
-  "last_fetched": "2026-09-05T01:05:00.789273",
+  "last_fetched": "2026-09-12T03:32:15.588426",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
