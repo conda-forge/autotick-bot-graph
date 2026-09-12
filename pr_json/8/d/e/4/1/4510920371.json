@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "curifactory-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-12T01:39:05Z",
+  "draft": false,
+  "e_tag": "\"02c43001d058747be4e101944bb6bc56e140ef95c9df6f0da67ad602c3637954\"",
+  "head": {
+    "ref": "0.20.5_h8046bc"
+  },
+  "html_url": "https://github.com/conda-forge/curifactory-feedstock/pull/32",
+  "id": 4510920371,
+  "labels": [],
+  "last_fetched": "2026-09-12T01:39:06.341369",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 32,
+  "state": "open",
+  "updated_at": "2026-09-12T01:39:05Z"
+}
