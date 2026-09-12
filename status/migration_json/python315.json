@@ -986,6 +986,7 @@
       "pre_pr_migrator_status": {}
     },
     "astropy-healpix": {
+      "created_at": "2026-09-12T02:20:03+00:00",
       "immediate_children": [
         "bayeswave",
         "gwtc_analysis",
@@ -996,7 +997,10 @@
         "rift"
       ],
       "num_descendants": 9,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/astropy-healpix-feedstock/pull/55",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T02:20:03+00:00"
     },
     "astroscrappy": {
       "immediate_children": [],
@@ -5625,12 +5629,16 @@
       "updated_at": "2026-09-04T22:08:48+00:00"
     },
     "cython-blis": {
+      "created_at": "2026-09-12T02:25:36+00:00",
       "immediate_children": [
         "pyserini",
         "thinc"
       ],
       "num_descendants": 19,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/cython-blis-feedstock/pull/70",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T02:25:36+00:00"
     },
     "cython-fortran-file": {
       "immediate_children": [],
@@ -34061,12 +34069,16 @@
       "pre_pr_migrator_status": {}
     },
     "xcfun": {
+      "created_at": "2026-09-12T02:22:52+00:00",
       "immediate_children": [
         "mrchem",
         "pyscf"
       ],
       "num_descendants": 6,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/xcfun-feedstock/pull/25",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T02:22:52+00:00"
     },
     "xerox": {
       "immediate_children": [],
@@ -36431,7 +36443,6 @@
     "xtensor-python",
     "xsum",
     "xraylib",
-    "xcfun",
     "xbcausalforest",
     "xatlas-python",
     "wildmeshing",
@@ -36712,7 +36723,6 @@
     "daqp",
     "cythonbiogeme",
     "cython-fortran-file",
-    "cython-blis",
     "cysgp4",
     "cybuffer",
     "cyarray",
@@ -36766,7 +36776,6 @@
     "cygrid",
     "casa_formats_io",
     "astroscrappy",
-    "astropy-healpix",
     "astrometry",
     "arraymap",
     "arraykit",
@@ -37385,6 +37394,7 @@
     "tensorboard-data-server",
     "raspalib",
     "opensees",
+    "xcfun",
     "warp-lang",
     "pycifrw",
     "partsegcore-compiled-backend",
@@ -37394,10 +37404,12 @@
     "gemmi",
     "fast-histogram",
     "dm-tree",
+    "cython-blis",
     "contourpy",
     "cassandra-driver",
     "boost",
     "bermuda",
+    "astropy-healpix",
     "su2",
     "mkl-service",
     "fates-emerald",
