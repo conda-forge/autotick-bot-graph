@@ -507,10 +507,10 @@
       "created_at": "2026-09-08T05:19:54+00:00",
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unstable",
+      "pr_status": "dirty",
       "pr_url": "https://github.com/conda-forge/appstream-feedstock/pull/9",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-08T05:21:50+00:00"
+      "updated_at": "2026-09-12T02:02:44+00:00"
     },
     "apriltag": {
       "immediate_children": [],
@@ -36929,6 +36929,7 @@
     "pychooch",
     "numpy",
     "zfpy",
+    "spglib",
     "shapely",
     "rapidfuzz",
     "pywavelets",
@@ -37383,7 +37384,6 @@
     "raspalib",
     "opensees",
     "warp-lang",
-    "spglib",
     "pycifrw",
     "partsegcore-compiled-backend",
     "ml_dtypes",
