@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"6e0616e70af37456fef8a7292ee9336b7205fc0ba99e5ccaba5cc456b64f868e\"",
+  "ETag": "W/\"e991a026c4777e74e7d98c6c355829c4162c29d0f5928884b7da17c526a0fde0\"",
   "Last-Modified": "Fri, 04 Sep 2026 20:48:24 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/cogapp-feedstock/pull/26",
   "id": 4446506949,
   "labels": [],
-  "last_fetched": "2026-09-04T21:28:09.651556",
+  "last_fetched": "2026-09-12T01:35:34.436266",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
