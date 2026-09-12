@@ -66,10 +66,9 @@
       "immediate_children": [
         "conda",
         "conda-forge-ci-setup",
-        "dulwich",
         "libjxl-split"
       ],
-      "num_descendants": 6,
+      "num_descendants": 5,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/brotli-feedstock",
       "pre_pr_migrator_status": {}
@@ -97,7 +96,7 @@
         "python",
         "r-base"
       ],
-      "num_descendants": 106,
+      "num_descendants": 105,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/bzip2-feedstock",
       "pre_pr_migrator_status": {}
@@ -291,13 +290,6 @@
       "pre_pr_migrator_status": {},
       "updated_at": "2026-09-10T06:49:10+00:00"
     },
-    "dulwich": {
-      "immediate_children": [],
-      "num_descendants": 0,
-      "pr_status": "",
-      "pr_url": "https://github.com/conda-forge/dulwich-feedstock",
-      "pre_pr_migrator_status": {}
-    },
     "expat": {
       "immediate_children": [
         "cairo",
@@ -310,7 +302,7 @@
         "pango",
         "python"
       ],
-      "num_descendants": 104,
+      "num_descendants": 103,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/expat-feedstock",
       "pre_pr_migrator_status": {}
@@ -681,7 +673,7 @@
         "gobject-introspection",
         "python"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/libffi-feedstock",
       "pre_pr_migrator_status": {}
@@ -843,7 +835,7 @@
         "r-base",
         "tktable"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pre_pr_migrator_status": {}
     },
     "libuuid": {
@@ -910,7 +902,7 @@
       "immediate_children": [
         "xorg-libx11"
       ],
-      "num_descendants": 101,
+      "num_descendants": 100,
       "pre_pr_migrator_status": {}
     },
     "libxml2": {
@@ -1043,7 +1035,7 @@
       "immediate_children": [
         "python"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/mpdecimal-feedstock",
       "pre_pr_migrator_status": {}
@@ -1215,7 +1207,7 @@
         "sigtool",
         "ttyd"
       ],
-      "num_descendants": 117,
+      "num_descendants": 116,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/openssl-feedstock",
       "pre_pr_migrator_status": {}
@@ -1299,7 +1291,7 @@
         "libxcb",
         "xorg-libx11"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pthread-stubs-feedstock",
       "pre_pr_migrator_status": {}
@@ -1361,7 +1353,6 @@
         "conda",
         "conda-forge-ci-setup",
         "debugpy",
-        "dulwich",
         "glib",
         "gobject-introspection",
         "greenlet",
@@ -1398,7 +1389,7 @@
         "wrapt",
         "zstandard"
       ],
-      "num_descendants": 101,
+      "num_descendants": 100,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/python-feedstock",
       "pre_pr_migrator_status": {}
@@ -1822,7 +1813,7 @@
         "msgvault",
         "python"
       ],
-      "num_descendants": 103,
+      "num_descendants": 102,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/sqlite-feedstock",
       "pre_pr_migrator_status": {}
@@ -2016,7 +2007,7 @@
         "r-base",
         "tktable"
       ],
-      "num_descendants": 101,
+      "num_descendants": 100,
       "pr_status": "dirty",
       "pr_url": "https://github.com/conda-forge/xorg-libx11-feedstock/pull/54",
       "pre_pr_migrator_status": {},
@@ -2026,7 +2017,7 @@
       "immediate_children": [
         "libxcb"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-libxau-feedstock",
       "pre_pr_migrator_status": {}
@@ -2036,7 +2027,7 @@
       "immediate_children": [
         "libxcb"
       ],
-      "num_descendants": 102,
+      "num_descendants": 101,
       "pr_status": "clean",
       "pr_url": "https://github.com/conda-forge/xorg-libxdmcp-feedstock/pull/19",
       "pre_pr_migrator_status": {},
@@ -2059,7 +2050,7 @@
         "xorg-libxau",
         "xorg-libxdmcp"
       ],
-      "num_descendants": 105,
+      "num_descendants": 104,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xorg-util-macros-feedstock",
       "pre_pr_migrator_status": {}
@@ -2086,7 +2077,7 @@
         "r-base",
         "uv"
       ],
-      "num_descendants": 112,
+      "num_descendants": 111,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/xz-feedstock",
       "pre_pr_migrator_status": {}
@@ -2168,7 +2159,7 @@
         "zlib-ng",
         "zstd"
       ],
-      "num_descendants": 129,
+      "num_descendants": 128,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zlib-feedstock",
       "pre_pr_migrator_status": {}
@@ -2197,7 +2188,6 @@
         "cmake",
         "conda-forge-ci-setup",
         "ctng-compilers",
-        "dulwich",
         "flang",
         "flang-rt",
         "libarchive",
@@ -2212,7 +2202,7 @@
         "uv",
         "zstandard"
       ],
-      "num_descendants": 113,
+      "num_descendants": 112,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/zstd-feedstock",
       "pre_pr_migrator_status": {}
@@ -2399,7 +2389,6 @@
     "brotlipy",
     "brotli",
     "libjxl-split",
-    "dulwich",
     "ast-serialize",
     "argon2-cffi-bindings",
     "pcre2",
