@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"9343da8cb31fd32eb41bb28e710e3061089d4fa0f7790f30a652341b8b20107c\"",
+  "ETag": "W/\"c3a84ddc81f5104addfee0c4cc7911a427fd3b683dc92c862459da93f83483ed\"",
   "Last-Modified": "Fri, 04 Sep 2026 17:55:34 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/simsimd-feedstock/pull/53",
   "id": 4445205000,
   "labels": [],
-  "last_fetched": "2026-09-04T18:33:43.476385",
+  "last_fetched": "2026-09-12T02:39:32.188927",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
