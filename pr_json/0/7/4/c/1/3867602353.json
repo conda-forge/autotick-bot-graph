@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"d991bd148485024c93e801be84473d9c4bf1c59091ec43da1063afb1b8e1d3fd\"",
-  "Last-Modified": "Sat, 12 Sep 2026 02:39:21 GMT",
+  "ETag": "W/\"9d58d7c0fdb8721f4871f96507a753f4f43aa67bf64acd5fb97aa65cd902bcbb\"",
+  "Last-Modified": "Sat, 12 Sep 2026 02:39:18 GMT",
   "base": {
     "repo": {
       "name": "py-sr25519-bindings-feedstock"
@@ -15,8 +15,12 @@
   },
   "html_url": "https://github.com/conda-forge/py-sr25519-bindings-feedstock/pull/23",
   "id": 3867602353,
-  "labels": [],
-  "last_fetched": "2026-09-12T02:40:03.287110",
+  "labels": [
+    {
+      "name": "bot-rerun"
+    }
+  ],
+  "last_fetched": "2026-09-12T02:39:22.148574",
   "last_modified": null,
   "mergeable": false,
   "mergeable_state": "dirty",
@@ -24,5 +28,5 @@
   "merged_at": null,
   "number": 23,
   "state": "closed",
-  "updated_at": "2026-09-12T02:39:21Z"
+  "updated_at": "2026-09-12T02:39:18Z"
 }
