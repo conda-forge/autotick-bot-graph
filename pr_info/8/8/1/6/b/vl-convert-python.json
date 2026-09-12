@@ -348,10 +348,16 @@
     },
     {
       "PR": {
-        "__lazy_json__": "pr_json/3337614228.json"
+        "labels": [
+          {
+            "name": "bot-rerun"
+          }
+        ],
+        "number": 55,
+        "state": "closed"
       },
       "data": {
-        "bot_rerun": false,
+        "bot_rerun": 1789163302.4572463,
         "migrator_name": "ArchRebuild",
         "migrator_version": 1,
         "name": "aarch64 and ppc64le addition"
