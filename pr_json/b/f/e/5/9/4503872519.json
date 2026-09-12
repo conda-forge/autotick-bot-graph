@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"11c341595503b7ef7096cf6dceed8b79fdcbfcff27889e8e3cabdea992dc8559\"",
-  "Last-Modified": "Fri, 11 Sep 2026 08:12:18 GMT",
+  "ETag": "W/\"2127a1ea9017e3b0f9c2b49b6f7f646d6448fefb6d826c05a801bb59f975ca19\"",
+  "Last-Modified": "Fri, 11 Sep 2026 18:04:03 GMT",
   "base": {
     "repo": {
       "name": "matplotlib-feedstock"
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/matplotlib-feedstock/pull/448",
   "id": 4503872519,
   "labels": [],
-  "last_fetched": "2026-09-11T08:35:44.632055",
+  "last_fetched": "2026-09-12T01:02:22.425971",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "unstable",
@@ -24,5 +24,5 @@
   "merged_at": null,
   "number": 448,
   "state": "open",
-  "updated_at": "2026-09-11T08:12:18Z"
+  "updated_at": "2026-09-11T18:04:03Z"
 }
