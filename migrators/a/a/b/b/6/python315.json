@@ -223,12 +223,6 @@
             }
           },
           {
-            "id": "numcodecs",
-            "payload": {
-              "__lazy_json__": "node_attrs/numcodecs.json"
-            }
-          },
-          {
             "id": "pandas",
             "payload": {
               "__lazy_json__": "node_attrs/pandas.json"
@@ -3314,10 +3308,6 @@
           {
             "source": "appscript",
             "target": "xlwings"
-          },
-          {
-            "source": "appstream",
-            "target": "conda-forge-pinning"
           },
           {
             "source": "apriltag",
@@ -18718,10 +18708,6 @@
           {
             "source": "go4",
             "target": "conda-forge-pinning"
-          },
-          {
-            "source": "gobject-introspection",
-            "target": "appstream"
           },
           {
             "source": "gobject-introspection",
@@ -91260,12 +91246,6 @@
             "id": "runps",
             "payload": {
               "__lazy_json__": "node_attrs/runps.json"
-            }
-          },
-          {
-            "id": "appstream",
-            "payload": {
-              "__lazy_json__": "node_attrs/appstream.json"
             }
           },
           {
