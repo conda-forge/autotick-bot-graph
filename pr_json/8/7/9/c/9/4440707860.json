@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"30d3b5e0ba923d96c3a3316e449876bbf1d5c82767acc115ae91e5611feff18c\"",
-  "Last-Modified": "Sat, 12 Sep 2026 01:02:25 GMT",
+  "ETag": "W/\"a1c3cc2b4038a46619b72bc4d00add48af88f21d13c6fba85bc8c9f2b429efb2\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:02:23 GMT",
   "base": {
     "repo": {
       "name": "pyroaring-feedstock"
@@ -15,8 +15,12 @@
   },
   "html_url": "https://github.com/conda-forge/pyroaring-feedstock/pull/49",
   "id": 4440707860,
-  "labels": [],
-  "last_fetched": "2026-09-12T01:03:17.634222",
+  "labels": [
+    {
+      "name": "bot-rerun"
+    }
+  ],
+  "last_fetched": "2026-09-12T01:02:26.062117",
   "last_modified": null,
   "mergeable": false,
   "mergeable_state": "dirty",
@@ -24,5 +28,5 @@
   "merged_at": null,
   "number": 49,
   "state": "closed",
-  "updated_at": "2026-09-12T01:02:25Z"
+  "updated_at": "2026-09-12T01:02:23Z"
 }
