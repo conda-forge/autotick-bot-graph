@@ -1567,12 +1567,6 @@
             }
           },
           {
-            "id": "lhapdf",
-            "payload": {
-              "__lazy_json__": "node_attrs/lhapdf.json"
-            }
-          },
-          {
             "id": "pyrmsd",
             "payload": {
               "__lazy_json__": "node_attrs/pyrmsd.json"
