@@ -12568,9 +12568,6 @@
   - import_name: intern
     ranked_conda_names:
       - intern
-  - import_name: interpret_community
-    ranked_conda_names:
-      - interpret-community
   - import_name: interrogate
     ranked_conda_names:
       - interrogate
@@ -12856,9 +12853,6 @@
   - import_name: iris_sample_data
     ranked_conda_names:
       - iris-sample-data
-  - import_name: irispy
-    ranked_conda_names:
-      - irispy-lmsal
   - import_name: irods
     ranked_conda_names:
       - python-irodsclient
