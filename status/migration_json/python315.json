@@ -3822,6 +3822,7 @@
       "pre_pr_migrator_status": {}
     },
     "cf_units": {
+      "created_at": "2026-09-12T04:37:50+00:00",
       "immediate_children": [
         "agg-regrid",
         "cis",
@@ -3831,7 +3832,10 @@
         "python-mint"
       ],
       "num_descendants": 6,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/cf_units-feedstock/pull/67",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T04:37:50+00:00"
     },
     "cfdm": {
       "immediate_children": [
@@ -11799,6 +11803,7 @@
       "updated_at": "2026-09-07T21:43:14+00:00"
     },
     "lhapdf": {
+      "created_at": "2026-09-12T04:32:41+00:00",
       "immediate_children": [
         "mg5amcnlo",
         "pineappl",
@@ -11806,7 +11811,10 @@
         "sherpa"
       ],
       "num_descendants": 18,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/lhapdf-feedstock/pull/37",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T04:32:42+00:00"
     },
     "libadjoint": {
       "immediate_children": [],
@@ -24846,12 +24854,16 @@
       "pre_pr_migrator_status": {}
     },
     "python-eccodes": {
+      "created_at": "2026-09-12T05:13:01+00:00",
       "immediate_children": [
         "pycontrails",
         "raider"
       ],
       "num_descendants": 2,
-      "pre_pr_migrator_status": {}
+      "pr_status": "unknown",
+      "pr_url": "https://github.com/conda-forge/python-eccodes-feedstock/pull/115",
+      "pre_pr_migrator_status": {},
+      "updated_at": "2026-09-12T05:13:01+00:00"
     },
     "python-embree": {
       "immediate_children": [],
@@ -36621,7 +36633,6 @@
     "libsemigroups_pybind11",
     "libconeangle",
     "libadjoint",
-    "lhapdf",
     "leg2cheb",
     "lda",
     "lap",
@@ -36738,7 +36749,6 @@
     "chfem",
     "chemfiles-python",
     "umfive",
-    "cf_units",
     "cell_tree2d",
     "celiagg",
     "celerite2",
@@ -36844,7 +36854,6 @@
     "pyxenon",
     "python-suitesparse-graphblas",
     "python-sounddevice",
-    "python-eccodes",
     "pymeos-cffi",
     "opcua",
     "ncephes",
@@ -37391,12 +37400,14 @@
     "partsegcore-compiled-backend",
     "ml_dtypes",
     "libxc",
+    "lhapdf",
     "indexed_gzip",
     "gemmi",
     "fast-histogram",
     "dm-tree",
     "cython-blis",
     "contourpy",
+    "cf_units",
     "cassandra-driver",
     "boost",
     "bermuda",
@@ -37781,6 +37792,7 @@
     "symbolic",
     "scrypt",
     "pyvips",
+    "python-eccodes",
     "python-augeas",
     "pyroscope-io",
     "pymunk",
