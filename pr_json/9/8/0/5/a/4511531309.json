@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "lhapdf-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-12T04:32:41Z",
+  "draft": false,
+  "e_tag": "\"a3223211da3a6d8a8106aadc637fa6d48dd5dc370499fdb6148ed28176679294\"",
+  "head": {
+    "ref": "rebuild-python315-0-1_h2720cc"
+  },
+  "html_url": "https://github.com/conda-forge/lhapdf-feedstock/pull/37",
+  "id": 4511531309,
+  "labels": [],
+  "last_fetched": "2026-09-12T04:32:42.869173",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 37,
+  "state": "open",
+  "updated_at": "2026-09-12T04:32:42Z"
+}
