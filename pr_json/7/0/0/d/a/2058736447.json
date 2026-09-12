@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"2b15aa615acdf8a26719335c35a8aeadb59d9a94ef62f97eb88d7f823b4e4dee\"",
+  "ETag": "W/\"e5acb81063e43a6d03bcd0c586b43619183532f71a336dc89b2156ea664694bd\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -15,7 +15,7 @@
   "html_url": "https://github.com/conda-forge/single-source-feedstock/pull/15",
   "id": 2058736447,
   "labels": [],
-  "last_fetched": "2026-09-05T02:37:56.187089",
+  "last_fetched": "2026-09-12T03:35:04.577047",
   "mergeable": false,
   "mergeable_state": "dirty",
   "merged": false,
