@@ -25458,10 +25458,10 @@
         "mdanalysis"
       ],
       "num_descendants": 11,
-      "pr_status": "unknown",
+      "pr_status": "unstable",
       "pr_url": "https://github.com/conda-forge/pytng-feedstock/pull/33",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-12T02:31:20+00:00"
+      "updated_at": "2026-09-12T02:33:02+00:00"
     },
     "pytokens": {
       "immediate_children": [
@@ -30289,7 +30289,6 @@
       "pre_pr_migrator_status": {}
     },
     "spglib": {
-      "created_at": "2026-09-11T11:04:25+00:00",
       "immediate_children": [
         "aiida-crystal17",
         "alamode",
@@ -30314,10 +30313,9 @@
         "sovapy"
       ],
       "num_descendants": 29,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/spglib-feedstock/pull/127",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-12T02:00:16+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/spglib-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "spherely": {
       "immediate_children": [],
@@ -33322,10 +33320,10 @@
       "created_at": "2026-09-12T02:15:23+00:00",
       "immediate_children": [],
       "num_descendants": 0,
-      "pr_status": "unknown",
+      "pr_status": "unstable",
       "pr_url": "https://github.com/conda-forge/vim-feedstock/pull/1688",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-12T02:15:23+00:00"
+      "updated_at": "2026-09-12T02:17:01+00:00"
     },
     "vina": {
       "immediate_children": [],
