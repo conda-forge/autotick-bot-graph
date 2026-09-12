@@ -1,6 +1,6 @@
 {
-  "ETag": "W/\"6fba331e8d8535c492932d7d8c084df3b94405ab29209664c8fc9241ccac49a3\"",
-  "Last-Modified": "Sat, 12 Sep 2026 01:00:42 GMT",
+  "ETag": "W/\"bfdd6bc3a488d67e6c8e903d7a85c15eb3ccb20ba95d6080a711f132053ef97b\"",
+  "Last-Modified": "Sat, 12 Sep 2026 01:00:39 GMT",
   "base": {
     "repo": {
       "name": "python-xxhash-feedstock"
@@ -15,8 +15,12 @@
   },
   "html_url": "https://github.com/conda-forge/python-xxhash-feedstock/pull/44",
   "id": 3947311853,
-  "labels": [],
-  "last_fetched": "2026-09-12T01:01:23.540033",
+  "labels": [
+    {
+      "name": "bot-rerun"
+    }
+  ],
+  "last_fetched": "2026-09-12T01:00:42.451776",
   "last_modified": null,
   "mergeable": false,
   "mergeable_state": "dirty",
@@ -24,5 +28,5 @@
   "merged_at": null,
   "number": 44,
   "state": "closed",
-  "updated_at": "2026-09-12T01:00:42Z"
+  "updated_at": "2026-09-12T01:00:39Z"
 }
