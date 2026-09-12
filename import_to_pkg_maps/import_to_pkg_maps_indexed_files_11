@@ -34412,6 +34412,7 @@ linux-64/spglib-2.0.0-py39h3ec6ae7_0.tar.bz2
 linux-64/spglib-2.0.1-py38h71d37f0_0.tar.bz2
 linux-64/spglib-2.1.0-py311hf7cfcf7_0.conda
 linux-64/spglib-2.6.0-py311h9f68a5c_2.conda
+linux-64/spglib-2.7.0-py312h90b849e_2.conda
 linux-64/spglib-2.7.0-py313h37f3353_1.conda
 linux-64/spherematch-0.10.1-py310h1f7b6fc_1.conda
 linux-64/spherematch-0.10.2-py311h0eeffd6_1.conda
@@ -54641,6 +54642,7 @@ linux-aarch64/spglib-2.4.0-py38h6ad641f_1.conda
 linux-aarch64/spglib-2.4.0-py38h6ad641f_2.conda
 linux-aarch64/spglib-2.5.0-py39h518c72b_0.conda
 linux-aarch64/spglib-2.6.0-py311hd8af6ce_2.conda
+linux-aarch64/spglib-2.7.0-py315hbded51d_2.conda
 linux-aarch64/spherematch-0.10.2-py39h776a37c_2.conda
 linux-aarch64/spherematch-0.9.2-py38h316b412_0.tar.bz2
 linux-aarch64/sphericart-1.0.9-py313h6f08a87_4.conda
@@ -69057,6 +69059,7 @@ linux-ppc64le/spglib-2.6.0-py312ha6e6607_2.conda
 linux-ppc64le/spglib-2.6.0-py313h65a88fd_2.conda
 linux-ppc64le/spglib-2.7.0-py314h69375e9_1.conda
 linux-ppc64le/spglib-2.7.0-py314hb9fe6a9_1.conda
+linux-ppc64le/spglib-2.7.0-py315h3e8eda5_2.conda
 linux-ppc64le/sphericart-1.0.1-py313h52bd5cb_2.conda
 linux-ppc64le/sphericart-1.0.2-py311ha0badc3_0.conda
 linux-ppc64le/sphericart-1.0.2-py311ha0badc3_1.conda
@@ -137615,6 +137618,7 @@ osx-arm64/spglib-2.0.1-py39hd8ccc8b_0.tar.bz2
 osx-arm64/spglib-2.4.0-py310h01a41f2_0.conda
 osx-arm64/spglib-2.4.0-py311h7da4401_1.conda
 osx-arm64/spglib-2.5.0-py39h6f9038b_1.conda
+osx-arm64/spglib-2.7.0-py313h880c952_2.conda
 osx-arm64/spherely-0.1.0-py311hd924caf_0.conda
 osx-arm64/spherematch-0.10.0-py39h4d8bf0d_1.tar.bz2
 osx-arm64/spherematch-0.10.1-py311h4add359_0.conda
