@@ -25168,9 +25168,6 @@
   - import_name: ranger
     ranked_conda_names:
       - ranger-fm
-  - import_name: rapidfuzz
-    ranked_conda_names:
-      - rapidfuzz
   - import_name: rapidfuzz_capi
     ranked_conda_names:
       - rapidfuzz_capi
