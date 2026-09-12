@@ -3453,6 +3453,7 @@
     "dingo-gw": "0.10.0",
     "django-allauth": "65.19.3",
     "django-countries": "9.1.0",
+    "django-filer": "3.6.0",
     "docker-buildx": "0.37.1",
     "dtaidistance": "2.5.1",
     "ducklake-sdk": "0.0.18",
