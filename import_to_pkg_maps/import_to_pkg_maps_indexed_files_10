@@ -69269,6 +69269,7 @@ linux-ppc64le/spectrum-0.9.0-py310h20e1137_2.conda
 linux-ppc64le/spectrum-0.9.0-py313h3a39cc4_1.conda
 linux-ppc64le/spglib-2.3.1-py311hab835ef_0.conda
 linux-ppc64le/spglib-2.6.0-py310h931d119_0.conda
+linux-ppc64le/spglib-2.7.0-py311hff86421_2.conda
 linux-ppc64le/sphericart-1.0.1-py312ha894932_2.conda
 linux-ppc64le/sphericart-1.0.2-py311h8ef1771_3.conda
 linux-ppc64le/sphericart-1.0.2-py313h52bd5cb_1.conda
@@ -118680,6 +118681,7 @@ osx-64/spglib-2.0.2-py311hd5badaa_0.tar.bz2
 osx-64/spglib-2.1.0-py39hf6cdd65_0.conda
 osx-64/spglib-2.2.0-py39h5e58df7_1.conda
 osx-64/spglib-2.4.0-py311h523fc99_2.conda
+osx-64/spglib-2.7.0-py313h35b748e_2.conda
 osx-64/spglib-2.7.0-py314h3522a79_1.conda
 osx-64/spglm-1.0.5-py35_0.tar.bz2
 osx-64/spglm-1.0.5-py36_1000.tar.bz2
