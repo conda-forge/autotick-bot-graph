@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"b72f0f39a092c1d588112f0bc06051252edfac75644064a61691b1c6bf2ca26c\"",
+  "ETag": "W/\"cfe9ad1a5a3a7615fdaa2758bc6048ecd5e6645669e1ea477ba6c1b6c8b30fec\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/fates-emerald-feedstock/pull/24",
   "id": 3445587540,
   "labels": [],
-  "last_fetched": "2026-09-04T23:28:20.053104",
+  "last_fetched": "2026-09-12T02:34:53.081475",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
