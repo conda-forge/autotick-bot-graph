@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"5f1b954cad22c18292f139ca9c6d874e56aba352af3132f66a5b41eaaf3e9d28\"",
+  "ETag": "W/\"8359399cce70da50679e6ad93a587758bdc5c440536ee139a14ab43f2b3cc91a\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,7 +16,7 @@
   "html_url": "https://github.com/conda-forge/digitalearth-feedstock/pull/8",
   "id": 3872359216,
   "labels": [],
-  "last_fetched": "2026-09-04T19:24:34.202984",
+  "last_fetched": "2026-09-12T01:34:52.940062",
   "last_modified": null,
   "mergeable": true,
   "mergeable_state": "clean",
