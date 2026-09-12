@@ -3389,6 +3389,7 @@
     "agentsgen": "0.5.1",
     "aiida-chemshell": "0.3.1",
     "alembic": "1.20.0",
+    "appstream": "1.2.0",
     "arelle-release": "2.45.0",
     "arf": "0.5.2",
     "argo-cli": "4.1.3",
