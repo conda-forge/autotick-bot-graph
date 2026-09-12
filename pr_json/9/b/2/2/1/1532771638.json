@@ -1,5 +1,5 @@
 {
-  "ETag": "W/\"8f2344b2cd9dd883f8fe43c78cf6f62e6859d97a274e5dc82c4045eed90fed8f\"",
+  "ETag": "W/\"0dd1de3f1c2e0ca624775d9ae5907cf25da2565be0ebed28972ceebb5dfaca66\"",
   "Last-Modified": "Wed, 22 Jul 2026 11:20:13 GMT",
   "base": {
     "repo": {
@@ -16,6 +16,8 @@
   "id": 1532771638,
   "labels": [
     {
+      "archived_at": null,
+      "archived_by": null,
       "color": "4BC02D",
       "default": false,
       "description": "",
@@ -25,7 +27,7 @@
       "url": "https://api.github.com/repos/conda-forge/pysis-feedstock/labels/py312-abandoned"
     }
   ],
-  "last_fetched": "2026-09-05T03:34:08.169027",
+  "last_fetched": "2026-09-12T04:30:18.472343",
   "mergeable": true,
   "mergeable_state": "clean",
   "merged": false,
