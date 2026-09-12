@@ -24202,10 +24202,10 @@
         "pyiceberg"
       ],
       "num_descendants": 2,
-      "pr_status": "clean",
+      "pr_status": "dirty",
       "pr_url": "https://github.com/conda-forge/pyroaring-feedstock/pull/49",
       "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-04T08:35:56+00:00"
+      "updated_at": "2026-09-12T01:02:25+00:00"
     },
     "pyrobuf": {
       "created_at": "2026-09-07T20:54:30+00:00",
@@ -30002,16 +30002,14 @@
       "pre_pr_migrator_status": {}
     },
     "soapysdr": {
-      "created_at": "2026-09-04T17:56:47+00:00",
       "immediate_children": [
         "gnuradio",
         "gnuradio-osmosdr"
       ],
       "num_descendants": 8,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/soapysdr-feedstock/pull/22",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T23:05:37+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/soapysdr-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "social-analyzer": {
       "immediate_children": [],
