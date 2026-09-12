@@ -878,7 +878,6 @@
       "pre_pr_migrator_status": {}
     },
     "astropy": {
-      "created_at": "2026-09-11T06:57:38+00:00",
       "immediate_children": [
         "21cmfast",
         "aipy",
@@ -982,10 +981,9 @@
         "yggdrasil"
       ],
       "num_descendants": 120,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/astropy-feedstock/pull/171",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T23:15:14+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/astropy-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "astropy-healpix": {
       "immediate_children": [
@@ -10568,7 +10566,6 @@
       "pre_pr_migrator_status": {}
     },
     "iminuit": {
-      "created_at": "2026-09-11T21:21:27+00:00",
       "immediate_children": [
         "cuda_histogram",
         "gammapy",
@@ -10579,10 +10576,9 @@
         "stackvana-core"
       ],
       "num_descendants": 9,
-      "pr_status": "unknown",
-      "pr_url": "https://github.com/conda-forge/iminuit-feedstock/pull/119",
-      "pre_pr_migrator_status": {},
-      "updated_at": "2026-09-11T21:33:26+00:00"
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/iminuit-feedstock",
+      "pre_pr_migrator_status": {}
     },
     "immutables": {
       "immediate_children": [],
