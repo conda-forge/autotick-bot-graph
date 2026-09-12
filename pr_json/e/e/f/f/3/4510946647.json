@@ -1,0 +1,26 @@
+{
+  "base": {
+    "repo": {
+      "name": "boto3-feedstock"
+    }
+  },
+  "closed_at": null,
+  "created_at": "2026-09-12T01:45:21Z",
+  "draft": false,
+  "e_tag": "\"e3b570b4c2b7b3f43acefab56012c3347d5e98320318ac1c7f758c7690c0bf0e\"",
+  "head": {
+    "ref": "1.43.93_h43b2fa"
+  },
+  "html_url": "https://github.com/conda-forge/boto3-feedstock/pull/2122",
+  "id": 4510946647,
+  "labels": [],
+  "last_fetched": "2026-09-12T01:45:22.255786",
+  "last_modified": null,
+  "mergeable": null,
+  "mergeable_state": "unknown",
+  "merged": false,
+  "merged_at": null,
+  "number": 2122,
+  "state": "open",
+  "updated_at": "2026-09-12T01:45:21Z"
+}
