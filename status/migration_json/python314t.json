@@ -275,6 +275,7 @@
         "cocoindex",
         "cog3pio",
         "dclab",
+        "dulwich",
         "fastar",
         "freeze-core",
         "geventhttpclient",
@@ -335,7 +336,7 @@
         "wisdem",
         "wxpython"
       ],
-      "num_descendants": 354,
+      "num_descendants": 355,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/backports.zstd-feedstock",
       "pre_pr_migrator_status": {}
@@ -350,6 +351,7 @@
     "bcrypt": {
       "immediate_children": [
         "autobahn",
+        "dulwich",
         "htgettoken",
         "phasorpy",
         "pyart_mch",
@@ -360,7 +362,7 @@
         "silx",
         "torchaudio"
       ],
-      "num_descendants": 119,
+      "num_descendants": 123,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/bcrypt-feedstock",
       "pre_pr_migrator_status": {}
@@ -501,6 +503,7 @@
         "dftd3-python",
         "dscribe",
         "dtaidistance",
+        "dulwich",
         "fbdfile",
         "fdasrsf",
         "fluidfft",
@@ -590,7 +593,7 @@
         "wxpython",
         "yt"
       ],
-      "num_descendants": 356,
+      "num_descendants": 357,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/brotli-feedstock",
       "pre_pr_migrator_status": {}
@@ -729,6 +732,7 @@
         "cmarkgfm",
         "curl-cffi",
         "dftd3-python",
+        "dulwich",
         "fdasrsf",
         "gevent",
         "htgettoken",
@@ -763,7 +767,7 @@
         "xattr",
         "zstandard"
       ],
-      "num_descendants": 153,
+      "num_descendants": 155,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/cffi-feedstock",
       "pre_pr_migrator_status": {}
@@ -1300,6 +1304,17 @@
       "num_descendants": 0,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/dukpy-feedstock",
+      "pre_pr_migrator_status": {}
+    },
+    "dulwich": {
+      "immediate_children": [
+        "breezy",
+        "opening-hours-py",
+        "python-box"
+      ],
+      "num_descendants": 4,
+      "pr_status": "",
+      "pr_url": "https://github.com/conda-forge/dulwich-feedstock",
       "pre_pr_migrator_status": {}
     },
     "dwave-preprocessing": {
@@ -2003,6 +2018,7 @@
         "astropy-healpix",
         "cvxpy",
         "cylp",
+        "dulwich",
         "gmpy2",
         "jsonschema-rs",
         "libcst",
@@ -2019,7 +2035,7 @@
         "time-machine",
         "torchaudio"
       ],
-      "num_descendants": 310,
+      "num_descendants": 312,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/hypothesis-feedstock",
       "pre_pr_migrator_status": {}
@@ -2673,7 +2689,7 @@
         "watchfiles",
         "zen-engine"
       ],
-      "num_descendants": 379,
+      "num_descendants": 381,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/maturin-feedstock",
       "pre_pr_migrator_status": {}
@@ -3996,7 +4012,7 @@
         "xgrammar",
         "yt"
       ],
-      "num_descendants": 344,
+      "num_descendants": 346,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/psutil-feedstock",
       "pre_pr_migrator_status": {}
@@ -4431,6 +4447,7 @@
     },
     "pynacl": {
       "immediate_children": [
+        "dulwich",
         "htgettoken",
         "phasorpy",
         "pyart_mch",
@@ -4441,7 +4458,7 @@
         "silx",
         "torchaudio"
       ],
-      "num_descendants": 118,
+      "num_descendants": 122,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/pynacl-feedstock",
       "pre_pr_migrator_status": {}
@@ -6286,7 +6303,7 @@
         "uuid-utils",
         "wisdem"
       ],
-      "num_descendants": 339,
+      "num_descendants": 341,
       "pr_status": "",
       "pr_url": "https://github.com/conda-forge/ujson-feedstock",
       "pre_pr_migrator_status": {}
@@ -7027,8 +7044,6 @@
     "rustworkx",
     "robust-laplacian",
     "rapidfuzz",
-    "python-box",
-    "opening-hours-py",
     "randomgen",
     "qdldl-python",
     "pywavelets",
@@ -7120,7 +7135,6 @@
     "wordcloud",
     "tblite-python",
     "scikit-digital-health",
-    "rosettasciio",
     "pyfai",
     "pyafv",
     "pot",
@@ -7201,6 +7215,10 @@
     "lalapps",
     "hf-xet",
     "freeze-core",
+    "dulwich",
+    "python-box",
+    "rosettasciio",
+    "opening-hours-py",
     "cocoindex",
     "clickhouse-connect",
     "ast-serialize",
